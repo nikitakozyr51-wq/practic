@@ -1,0 +1,41 @@
+{
+  "pdf_pages": 29,
+  "toc_page_numbers_verified_in_pdf_and_docx": true,
+  "toc_text_black": true,
+  "photos": [
+    {
+      "number": 1,
+      "page": 7
+    },
+    {
+      "number": 2,
+      "page": 11
+    },
+    {
+      "number": 3,
+      "page": 13
+    },
+    {
+      "number": 4,
+      "page": 14
+    },
+    {
+      "number": 5,
+      "page": 15
+    },
+    {
+      "number": 6,
+      "page": 18
+    },
+    {
+      "number": 7,
+      "page": 20
+    }
+  ],
+  "no_images_outside_pages": true,
+  "section5_pages": [
+    7,
+    18
+  ],
+  "font_substitution": "Liberation Serif for Times New Roman"
+}

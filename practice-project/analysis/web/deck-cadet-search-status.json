@@ -1,0 +1,7 @@
+{
+  "query": "\"палубный кадет\" \"deck cadet\"",
+  "provider": "Google",
+  "http": 200,
+  "search_results_verified": false,
+  "term_basis": "User correction and DECK CADET field"
+}

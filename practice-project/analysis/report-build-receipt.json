@@ -1,0 +1,189 @@
+{
+  "source_template": "Nazar_Otchet_Praktika.docx",
+  "template_styles_theme_numbering_footers_identical": true,
+  "headings": [
+    {
+      "number": 1,
+      "text": "Планирование рейса, навигация и лоция:",
+      "template_paragraph": 46
+    },
+    {
+      "number": 2,
+      "text": "2. Метеорология и океанография.",
+      "template_paragraph": 61
+    },
+    {
+      "number": 3,
+      "text": "3.  Определение и учет поправок курсоуказателей.",
+      "template_paragraph": 72
+    },
+    {
+      "number": 4,
+      "text": "4.  Определение места судна (ОМС) различными способами с оценкой их точности.",
+      "template_paragraph": 110
+    },
+    {
+      "number": 5,
+      "text": "5. Технические средства судовождения и радиооборудование судна (см. Методические указания «Навигационное использование технических средств судовождения» - СПб.: Изд-во ГУМРФ им. адм. С.О. Макарова, 2019. – 32с.)",
+      "template_paragraph": 124
+    },
+    {
+      "number": 6,
+      "text": "6. Организация и процедуры несения вахты:",
+      "template_paragraph": 199
+    },
+    {
+      "number": 7,
+      "text": "7. Правила предотвращения столкновения судов.",
+      "template_paragraph": 220
+    },
+    {
+      "number": 8,
+      "text": "8. Маневрирование и управление судном:",
+      "template_paragraph": 255
+    },
+    {
+      "number": 9,
+      "text": "9. Действие при чрезвычайных ситуациях.",
+      "template_paragraph": 348
+    },
+    {
+      "number": 10,
+      "text": "10.Организация связи на судне (ГМССБ).",
+      "template_paragraph": 354
+    },
+    {
+      "number": 11,
+      "text": "11. Судовая документация.",
+      "template_paragraph": 374
+    },
+    {
+      "number": 12,
+      "text": "12. Система управления безопасностью (СУБ) на судне.",
+      "template_paragraph": 379
+    },
+    {
+      "number": 13,
+      "text": "13. Правила технической эксплуатации корпуса, помещений и устройств судна.",
+      "template_paragraph": 390
+    },
+    {
+      "number": 14,
+      "text": "14. Предотвращение загрязнения моря.",
+      "template_paragraph": 396
+    },
+    {
+      "number": 15,
+      "text": "15. Спасательные средства, устройства и их обслуживание.",
+      "template_paragraph": 406
+    },
+    {
+      "number": 16,
+      "text": "16. Обеспечение остойчивости, прочности и непотопляемости судна.",
+      "template_paragraph": 416
+    },
+    {
+      "number": 17,
+      "text": "17. Составление грузового плана, укладка груза в трюмах и на открытой палубе.",
+      "template_paragraph": 418
+    }
+  ],
+  "photos": [
+    {
+      "number": 1,
+      "source": "image3.jpeg",
+      "caption": "Оптическая система магнитного компаса",
+      "sha256": "7bce7078f9f77b3c1b8c68fa83215876c041351b175452014d4fa6b4ab6c7a87",
+      "width_cm": 10.2,
+      "orientation_exif": 6,
+      "bytes_unchanged": true
+    },
+    {
+      "number": 2,
+      "source": "image4.jpeg",
+      "caption": "Приёмники ГНСС Transas T-701 и JRC; репитеры скорости и глубины",
+      "sha256": "9e94ca83aedac36a6c8697ba7a4952b11f9a9c47bbdc5815348f8697b371c8aa",
+      "width_cm": 10.2,
+      "orientation_exif": 6,
+      "bytes_unchanged": true
+    },
+    {
+      "number": 3,
+      "source": "image2.jpeg",
+      "caption": "Радар Sperry Marine VisionMaster FT",
+      "sha256": "1e89af0dbc9dd5277cd4fa984bd457cb7aee9c27793e3d3a9d538c21b2d99269",
+      "width_cm": 10.2,
+      "orientation_exif": 6,
+      "bytes_unchanged": true
+    },
+    {
+      "number": 4,
+      "source": "image5.jpeg",
+      "caption": "Панель управления авторулевым Yokogawa PT500",
+      "sha256": "186ee12aad925b5964b0a348bdc092d6bdd6f666b338f511bd393829679e0e9d",
+      "width_cm": 16.0,
+      "orientation_exif": 1,
+      "bytes_unchanged": true
+    },
+    {
+      "number": 5,
+      "source": "image1.jpeg",
+      "caption": "Штурвал на рулевой стойке Raytheon Anschütz ComPilot 20",
+      "sha256": "22bf9b54b3010af55f1f5f3dd05195862804bdaf858b91ea0cf49be439c07be5",
+      "width_cm": 10.2,
+      "orientation_exif": 6,
+      "bytes_unchanged": true
+    },
+    {
+      "number": 6,
+      "source": "image6.jpeg",
+      "caption": "Консоль ГМССБ",
+      "sha256": "a19a449370d553989f9b2cf0cd8db1490b706d75f2aa62bc0816762123b44c17",
+      "width_cm": 16.0,
+      "orientation_exif": 1,
+      "bytes_unchanged": true
+    },
+    {
+      "number": 7,
+      "source": "image25.jpeg",
+      "caption": "Рабочее место на ходовом мостике",
+      "sha256": "e4c8b870bed3e2a878425d932232e3a75c7cb2abefb9032430a4a31a650afec6",
+      "width_cm": 16.0,
+      "orientation_exif": 3,
+      "bytes_unchanged": true
+    }
+  ],
+  "assignment_pages": [
+    {
+      "page": 1,
+      "sha256": "024a8d67a3e1a579d6307a5bb64a8cf54cb763c2a732f927132d147bd7dadfd6"
+    },
+    {
+      "page": 2,
+      "sha256": "61ab6edf5189b4943a63c750e6dde79415068168270cc27b72ffd59a8a8210c3"
+    }
+  ],
+  "certificate_pages": [],
+  "page_map": {
+    "1": 3,
+    "2": 4,
+    "3": 5,
+    "4": 6,
+    "5": 7,
+    "6": 19,
+    "7": 21,
+    "8": 22,
+    "9": 23,
+    "10": 24,
+    "11": 24,
+    "12": 25,
+    "13": 25,
+    "14": 25,
+    "15": 26,
+    "16": 26,
+    "17": 27,
+    "bibliography": 27,
+    "assignment": 28
+  },
+  "output_bytes": 13262236
+}

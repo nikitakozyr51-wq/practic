@@ -4,15 +4,17 @@
 
 ## Начать отсюда
 
-- [Текущий рабочий отчёт Word](practice-project/analysis/draft-report.docx).
-- [Текст отчёта](practice-project/analysis/DRAFT_TEXT.md).
+- [Текущий рабочий отчёт Word](practice-project/analysis/report.docx).
+- [Текст отчёта](practice-project/analysis/REPORT_CONTENT.md).
 - [Контекст для продолжения](practice-project/START_HERE.md).
 - [Основной файл проекта](practice-project/analysis/PROJECT.md).
 - [План](practice-project/analysis/PLAN.md).
 - [Журнал ошибок](practice-project/analysis/ERROR_LOG.md).
 - [Что остаётся проверить](practice-project/analysis/DRAFT_REVIEW_NOTES.md).
 
-Черновик содержит 17 разделов. Он ещё требует доработки источников, характеристик корабля, иллюстраций, реквизитов и печатного оформления.
+Повторно переработанная версия содержит 17 разделов и 33 подпункта, семь фотографий Максима, список источников и задание в приложении. Оформление перенесено из файла Назара. [PDF для просмотра](practice-project/analysis/report.pdf). [Полная сверка требований](practice-project/analysis/ASSIGNMENT_CHECK.md).
+
+ФИО и должность заполнены. Для приложения ещё нужны доступные файлы двух снимков справки. Натурные наблюдения и формуляр не предоставлены; полная готовность к сдаче не подтверждена.
 
 ## Перенос на Windows
 
@@ -24,6 +26,6 @@
 
 ## Исходные материалы
 
-Четыре исходных документа находятся в [practice-project/originals](practice-project/originals). Проверка примеров, иллюстрации, методические требования и источники находятся в [practice-project/analysis](practice-project/analysis).
+Четыре первоначальных документа и повторная копия задания находятся в [practice-project/originals](practice-project/originals). Проверка примеров, иллюстрации, методические требования и источники находятся в [practice-project/analysis](practice-project/analysis).
 
-Папка reports содержит дополнительную копию черновика и небольшой ZIP с ним. Основная версия для дальнейшей работы — practice-project/analysis/draft-report.docx.
+Папка reports содержит дополнительную копию черновика и небольшой ZIP с ним. Основная версия для дальнейшей работы — practice-project/analysis/report.docx.
