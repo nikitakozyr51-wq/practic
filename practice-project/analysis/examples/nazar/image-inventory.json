@@ -1,0 +1,91 @@
+[
+  {
+    "file": "image1.png",
+    "width": 92,
+    "height": 53,
+    "anchors": [
+      1,
+      1
+    ]
+  },
+  {
+    "file": "image2.jpeg",
+    "width": 3072,
+    "height": 4096,
+    "anchors": [
+      140
+    ]
+  },
+  {
+    "file": "image3.jpeg",
+    "width": 3072,
+    "height": 4096,
+    "anchors": [
+      142
+    ]
+  },
+  {
+    "file": "image4.jpeg",
+    "width": 1335,
+    "height": 648,
+    "anchors": [
+      150
+    ]
+  },
+  {
+    "file": "image5.jpeg",
+    "width": 1353,
+    "height": 761,
+    "anchors": [
+      157
+    ]
+  },
+  {
+    "file": "image6.jpeg",
+    "width": 1429,
+    "height": 804,
+    "anchors": [
+      161
+    ]
+  },
+  {
+    "file": "image7.jpeg",
+    "width": 1387,
+    "height": 780,
+    "anchors": [
+      188
+    ]
+  },
+  {
+    "file": "image8.jpeg",
+    "width": 1388,
+    "height": 781,
+    "anchors": [
+      191
+    ]
+  },
+  {
+    "file": "image9.jpeg",
+    "width": 1420,
+    "height": 1250,
+    "anchors": [
+      246
+    ]
+  },
+  {
+    "file": "image10.jpeg",
+    "width": 801,
+    "height": 1068,
+    "anchors": [
+      355
+    ]
+  },
+  {
+    "file": "image11.jpeg",
+    "width": 1429,
+    "height": 804,
+    "anchors": [
+      375
+    ]
+  }
+]

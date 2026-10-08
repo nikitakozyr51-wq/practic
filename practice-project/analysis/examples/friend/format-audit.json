@@ -1,0 +1,18 @@
+{
+  "cached_pages": [
+    "73"
+  ],
+  "run_font_character_counts": {
+    "Times New Roman": 80729
+  },
+  "run_size_character_counts": {
+    "14.0": 80729
+  },
+  "paragraph_line_spacing": {
+    "1.5": 410,
+    "None": 30
+  },
+  "direct_underlined_runs": 0,
+  "source_sha256": "726cf2bbb12175cf7f6345c43d21db3bbc8094ebcc44094f74e9b8bc64ac3d79",
+  "limitations": "Font inheritance approximated from run and paragraph styles; no Word rendering. Counts exclude text in tables."
+}

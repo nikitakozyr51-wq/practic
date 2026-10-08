@@ -1,0 +1,253 @@
+International Convention for the Safety of Life at Sea (SOLAS), 1974
+About IMO
+FAQs
+History of IMO
+Careers at IMO
+Procurement
+Membership
+Structure
+Council Candidates
+Strategic Plan
+Annual report
+Conventions
+Documents and Resources
+IMO Events
+Affiliated Bodies and Programmes
+World Maritime University (WMU) and IMO International Maritime Law Institute (IMLI)
+Financial Statements Summary
+IMO and Multilingualism
+Diversity, Equity and Inclusion
+Contact Us
+Media Centre
+Press Briefings
+Meeting Summaries and schedule
+Secretary-General
+​Senior Management Committee (SMC)
+What's New
+Hot Topics
+Attending IMO Meetings
+IMO Events
+Our Work
+Maritime Safety
+Maritime Security and Piracy
+Marine Environment
+Legal Affairs
+Human Element
+Facilitation
+Member State Audit Scheme
+Implementation of Instruments Support
+Technical Cooperation
+Partnerships and Projects
+Conferences
+External Relations
+Circulars
+Publications
+IMO ePublications
+Distributors' Details
+Catalogue ＆ Code Listings
+Just Published
+Future Titles
+Flyers
+Supplements
+Copyright and Permission Requests
+Counterfeit copies
+IMDG Code
+The IMO-Vega Database
+Frequently Asked Questions (FAQ)
+Listing of current IMO publications
+Knowledge Centre
+Search the MKC Online Catalogue
+How and Where to Find IMO Information
+Index of IMO Resolutions
+Current Awareness Bulletin
+Conferences and Meetings
+Maritime Facts and Figures
+Resources for Seafarers
+Contacts
+Contact us
+Careers
+English
+Français
+Español
+Русский
+العربية
+汉语
+IMO WEB ACCOUNTS
+International Convention for the Safety of Life at Sea (SOLAS), 1974
+Home
+About IMO
+Conventions
+International Convention for the Safety of Life at Sea (SOLAS), 1974
+Adoption: 1 November 1974; Entry into force: 25 May 1980
+The SOLAS Convention in its successive forms is generally regarded as the most important of all international treaties concerning the safety of merchant ships. The first version was adopted in 1914, in response to the Titanic disaster, the second in 1929, the third in 1948, and the fourth in 1960. The 1974 version includes the tacit acceptance procedure - which provides that an amendment shall enter into force on a specified date unless, before that date, objections to the amendment are received from an agreed number of Parties.
+As a result the 1974 Convention has been updated and amended on numerous occasions. The Convention in force today is sometimes referred to as SOLAS, 1974, as amended.
+How does IMO's ship safety treaty make a difference?
+Technical provisions
+The main objective of the SOLAS Convention is to specify minimum standards for the construction, equipment and operation of ships, compatible with their safety. Flag States are responsible for ensuring that ships under their flag comply with its requirements, and a number of certificates are prescribed in the Convention as proof that this has been done. Control provisions also allow Contracting Governments to inspect ships of other Contracting States if there are clear grounds for believing that the ship and its equipment do not substantially comply with the requirements of the Convention - this procedure is known as port State control. The current SOLAS Convention includes Articles setting out general obligations, amendment procedure and so on, followed by an Annex divided into 14 Chapters.
+Chapter I - General Provisions
+Includes regulations concerning the survey of the various types of ships and the issuing of documents signifying that the ship meets the requirements of the Convention. The Chapter also includes provisions for the control of ships in ports of other Contracting Governments.
+Chapter II-1 - Construction - Subdivision and stability, machinery and electrical installations
+The subdivision of passenger ships into watertight compartments must be such that after assumed damage to the ship's hull the vessel will remain afloat and stable. Requirements for watertight integrity and bilge pumping arrangements for passenger ships are also laid down as well as stability requirements for both passenger and cargo ships.
+The degree of subdivision - measured by the maximum permissible distance between two adjacent bulkheads - varies with ship's length and the service in which it is engaged. The highest degree of subdivision applies to passenger ships.
+Requirements covering machinery and electrical installations are designed to ensure that services which are essential for the safety of the ship, passengers and crew are maintained under various emergency conditions.
+"Goal-based standards" for oil tankers and bulk carriers were adopted in 2010,  requiring new ships to be designed and constructed for a specified design life and to be safe and environmentally friendly, in intact and specified damage conditions, throughout their life. Under the regulation, ships should have adequate strength, integrity and stability to minimize the risk of loss of the ship or pollution to the marine environment due to structural failure, including collapse, resulting in flooding or loss of watertight integrity.
+Chapter II-2 - Fire protection, fire detection and fire extinction
+Includes detailed fire safety provisions for all ships and specific measures for passenger ships, cargo ships and tankers.
+They include the following principles: division of the ship into main and vertical zones by thermal and structural boundaries; separation of accommodation spaces from the remainder of the ship by thermal and structural boundaries; restricted use of combustible materials; detection of any fire in the zone of origin; containment and extinction of any fire in the space of origin; protection of the means of escape or of access for fire-fighting purposes; ready availability of fire-extinguishing appliances; minimization of the possibility of ignition of flammable cargo vapour.
+Chapter III - Life-saving appliances and arrangements
+The Chapter includes requirements for life-saving appliances and arrangements, including requirements for life boats, rescue boats and life jackets according to type of ship. The International Life-Saving Appliance (LSA) Code gives specific technical requirements for LSAs and is mandatory under Regulation 34, which states that all life-saving appliances and arrangements shall comply with the applicable requirements of the LSA Code.
+Chapter IV - Radiocommunications
+The Chapter incorporates the Global Maritime Distress and Safety System (GMDSS). All passenger ships and all cargo ships of 300 gross tonnage and upwards on international voyages are required to carry equipment designed to improve the chances of rescue following an accident, including satellite emergency position indicating radio beacons (EPIRBs) and search and rescue transponders (SARTs) for the location of the ship or survival craft.
+Regulations in Chapter IV cover undertakings by contracting governments to provide radiocommunication services as well as ship requirements for carriage of radiocommunications equipment. The Chapter is closely linked to the Radio Regulations of the International Telecommunication Union.
+Chapter V - Safety of navigation
+Chapter V identifies certain navigation safety services which should be provided by Contracting Governments and sets forth provisions of an operational nature applicable in general to all ships on all voyages. This is in contrast to the Convention as a whole, which only applies to certain classes of ship engaged on international voyages.
+The subjects covered include the maintenance of meteorological services for ships; the ice patrol service; routeing of ships; and the maintenance of search and rescue services.
+This Chapter also includes a general obligation for masters to proceed to the assistance of those in distress and for Contracting Governments to ensure that all ships shall be sufficiently and efficiently manned from a safety point of view.
+The chapter makes mandatory the carriage of voyage data recorders (VDRs) and automatic ship identification systems (AIS).
+Chapter VI - Carriage of Cargoes
+The Chapter covers all types of cargo (except liquids and gases in bulk) "which, owing to their particular hazards to ships or persons on board, may require special precautions". The regulations include requirements for stowage and securing of cargo or cargo units (such as containers). The Chapter requires cargo ships carrying grain to comply with the International Grain Code.
+Chapter VII - Carriage of dangerous goods
+The regulations are contained in three parts:
+Part A - Carriage of dangerous goods in packaged form - includes provisions for the classification, packing, marking, labelling and placarding, documentation and stowage of dangerous goods. Contracting Governments are required to issue instructions at the national level and the Chapter makes mandatory the International Maritime Dangerous Goods (IMDG) Code, developed by IMO, which is constantly updated to accommodate new dangerous goods and to supplement or revise existing provisions.
+Part A-1 - Carriage of dangerous goods in solid form in bulk - covers the documentation, stowage and segregation requirements for these goods and requires reporting of incidents involving such goods.
+Part B covers Construction and equipment of ships carrying dangerous liquid chemicals in bulk and requires chemical tankers to comply with the International Bulk Chemical Code (IBC Code).
+Part C covers Construction and equipment of ships carrying liquefied gases in bulk and gas carriers to comply with the requirements of the International Gas Carrier Code (IGC Code).
+Part D includes special requirements for the carriage of packaged irradiated nuclear fuel, plutonium and high-level radioactive wastes on board ships and requires ships carrying such products to comply with the International Code for the Safe Carriage of Packaged Irradiated Nuclear Fuel, Plutonium and High-Level Radioactive Wastes on Board Ships (INF Code).
+The chapter requires carriage of dangerous goods to be in compliance with the relevant provisions of the International Maritime Dangerous Goods Code (IMDG Code).
+Chapter VIII - Nuclear ships
+Gives basic requirements for nuclear-powered ships and is particularly concerned with radiation hazards. It refers to detailed and comprehensive Code of Safety for Nuclear Merchant Ships which was adopted by the IMO Assembly in 1981.
+Chapter IX - Management for the Safe Operation of Ships
+The Chapter makes mandatory the International Safety Management (ISM) Code, which requires a safety management system to be established by the shipowner or any person who has assumed responsibility for the ship (the "Company").
+Chapter X - Safety measures for high-speed craft
+The Chapter makes mandatory the International Code of Safety for High-Speed Craft (HSC Code).
+Chapter XI-1 - Special measures to enhance maritime safety
+The Chapter clarifies requirements relating to authorization of recognized organizations (responsible for carrying out surveys and inspections on Administrations' behalves); enhanced surveys; ship identification number scheme; and port State control on operational requirements.
+Chapter XI-2 - Special measures to enhance maritime security
+Regulation XI-2/3 of the  chapter enshrines the International Ship and Port Facilities Security Code (ISPS Code). Part A of the Code is mandatory and part B contains guidance as to how best to comply with the mandatory requirements. Regulation XI-2/8 confirms the role of the Master in exercising his professional judgement over decisions necessary to maintain the security of the ship. It says he shall not be constrained by the Company, the charterer or any other person in this respect.
+Regulation XI-2/5 requires all ships to be provided with a ship security alert system. ,Regulation XI-2/6 covers requirements for port facilities, providing among other things for Contracting Governments to ensure that port facility security assessments are carried out and that port facility security plans are developed, implemented and reviewed in accordance with the ISPS Code. Other regulations in this chapter cover the provision of information to IMO, the control of ships in port, (including measures such as the delay, detention, restriction of operations including movement within the port, or expulsion of a ship from port), and the specific responsibility of Companies.
+Chapter XII - Additional safety measures for bulk carriers
+The Chapter includes structural requirements for bulk carriers over 150 metres in length.
+Chapter XIII - Verification of compliance
+Makes mandatory from 1 January 2016 the IMO Member State Audit Scheme.
+Chapter XIV - Safety measures for ships operating in polar waters
+The chapter makes mandatory, from 1 January 2017, the Introduction and part I-A of the International Code for Ships Operating in Polar Waters (the Polar Code).
+Chapter XV - Safety measures for ships carrying industrial personnel (Entry into force: 1 July 2024)
+The aim is to provide minimum safety standards for ships that carry industrial personnel, as well as for the personnel themselves, and address specific risks of maritime operations within the offshore and energy sectors, such as personnel transfer operations. Such personnel may be engaged in the construction, maintenance, decommissioning, operation or servicing of offshore facilities, such as windfarms, as well as offshore oil and gas installations, aquaculture, ocean mining or similar activities.
+Amendments
+The 1974 Convention has been amended many times to keep it up to date. See
+History of SOLAS
+.
+Amendments adopted by the Maritime Safety Committee  (MSC) are listed in
+MSC Resolutions
+.
+Conventions
+List of Conventions
+Status of Conventions
+Amendments to IMO instruments
+SDGs
+IMO e-Learning
+TC Portal
+PUBLICATIONS
+International Maritime Organization (IMO)
+4 Albert Embankment, London SE1 7SR, United Kingdom
++44 (0) 20 7735 7611
++44 (0) 20 7735 7611
+info@imo.org
+IMO in the UN
+Member States
+Affiliated Bodies and Programs
+Circulars
+Conventions
+IMO FAQ
+Careers at IMO
+Internships
+Externships
+Procurement
+Casualties
+National Contacts
+Publications Online Ordering
+Certificate Verification
+LRIT
+MKC Online Catalogue
+IMO Web Accounts
+Documents and Resources
+Fraud Alert
+Site Index
+Contact Us
+Copyright International Maritime Organization (IMO).
+Terms of use
+Privacy Policy
+The official languages of IMO are Arabic, Chinese, English, French, Russian and Spanish. The working languages are English, French and Spanish. Some content on this site is available in all official languages. The majority is presented in the working languages.
+About IMO
+ABOUT IMO
+FAQs
+History of IMO
+Careers at IMO
+Procurement
+Membership
+Structure
+Council Candidates
+Strategic Plan
+Annual report
+Conventions
+Documents and Resources
+IMO Events
+Affiliated Bodies and Programmes
+World Maritime University (WMU) and IMO International Maritime Law Institute (IMLI)
+Financial Statements Summary
+IMO and Multilingualism
+Diversity, Equity and Inclusion
+Contact Us
+Media Centre
+MEDIA CENTRE
+Press Briefings
+Meeting Summaries and schedule
+Secretary-General
+​Senior Management Committee (SMC)
+What's New
+Hot Topics
+Attending IMO Meetings
+IMO Events
+Our Work
+OUR WORK
+Maritime Safety
+Maritime Security and Piracy
+Marine Environment
+Legal Affairs
+Human Element
+Facilitation
+Member State Audit Scheme
+Implementation of Instruments Support
+Technical Cooperation
+Partnerships and Projects
+Conferences
+External Relations
+Circulars
+Publications
+PUBLICATIONS
+IMO ePublications
+Distributors' Details
+Catalogue ＆ Code Listings
+Just Published
+Future Titles
+Flyers
+Supplements
+Copyright and Permission Requests
+Counterfeit copies
+IMDG Code
+The IMO-Vega Database
+Frequently Asked Questions (FAQ)
+Listing of current IMO publications
+Knowledge Centre
+KNOWLEDGE CENTRE
+Search the MKC Online Catalogue
+How and Where to Find IMO Information
+Index of IMO Resolutions
+Current Awareness Bulletin
+Conferences and Meetings
+Maritime Facts and Figures
+Resources for Seafarers
+Contacts
+Contact us
+Careers
+IMO Web Accounts

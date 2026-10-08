@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "/workspace/attachments/c903acfa-9782-4f3e-bc59-fd21f6623b30/KhimichPGSigidaVIKhomenkoDB_MuNaPraktiku_2019.pdf",
+  "sha256": "8bee0c3f20c6fc3622a4aba75b7e03f6434165d440abfd5caae6ced8eeaa50f8",
+  "declared_page_count": 33,
+  "enumerated_page_count": 33,
+  "reader_page_count": 33,
+  "warnings": [],
+  "generated_at": "2026-10-08T16:51:13.136943+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

@@ -1,0 +1,1171 @@
+{
+  "TotalHits": 651,
+  "TotalHitsExact": true,
+  "SearchTime": 0.335515289,
+  "PageNumber": 1,
+  "PageSize": 10,
+  "resumptionToken": null,
+  "SearchFacetResult": [
+    {
+      "label": "collection",
+      "labelLastComponent": "collection",
+      "value": 649,
+      "delimiter": "/",
+      "numSubResults": 4,
+      "subresult": [
+        {
+          "label": "collection/nocol",
+          "labelLastComponent": "nocol",
+          "value": 361,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "collection/dllocal",
+          "labelLastComponent": "dllocal",
+          "value": 191,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "collection/disser",
+          "labelLastComponent": "disser",
+          "value": 58,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "collection/dlopen",
+          "labelLastComponent": "dlopen",
+          "value": 40,
+          "delimiter": "/",
+          "numSubResults": 0
+        }
+      ]
+    },
+    {
+      "label": "cat",
+      "labelLastComponent": "cat",
+      "value": 651,
+      "delimiter": "/",
+      "numSubResults": 2,
+      "subresult": [
+        {
+          "label": "cat/rsl01",
+          "labelLastComponent": "rsl01",
+          "value": 613,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "cat/rsl07",
+          "labelLastComponent": "rsl07",
+          "value": 38,
+          "delimiter": "/",
+          "numSubResults": 0
+        }
+      ]
+    },
+    {
+      "label": "has_file",
+      "labelLastComponent": "has_file",
+      "value": 651,
+      "delimiter": "/",
+      "numSubResults": 2,
+      "subresult": [
+        {
+          "label": "has_file/1",
+          "labelLastComponent": "1",
+          "value": 649,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "has_file/0",
+          "labelLastComponent": "0",
+          "value": 2,
+          "delimiter": "/",
+          "numSubResults": 0
+        }
+      ]
+    },
+    {
+      "label": "perm_w_file",
+      "labelLastComponent": "perm_w_file",
+      "value": 649,
+      "delimiter": "/",
+      "numSubResults": 3,
+      "subresult": [
+        {
+          "label": "perm_w_file/3",
+          "labelLastComponent": "3",
+          "value": 351,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "perm_w_file/4",
+          "labelLastComponent": "4",
+          "value": 248,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "perm_w_file/2",
+          "labelLastComponent": "2",
+          "value": 50,
+          "delimiter": "/",
+          "numSubResults": 0
+        }
+      ]
+    },
+    {
+      "label": "access",
+      "labelLastComponent": "access",
+      "value": 651,
+      "delimiter": "/",
+      "numSubResults": 8,
+      "subresult": [
+        {
+          "label": "access/strict",
+          "labelLastComponent": "strict",
+          "value": 246,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "access/local",
+          "labelLastComponent": "local",
+          "value": 191,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "access/limit",
+          "labelLastComponent": "limit",
+          "value": 103,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "access/diss",
+          "labelLastComponent": "diss",
+          "value": 57,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "access/open",
+          "labelLastComponent": "open",
+          "value": 47,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "access/stop",
+          "labelLastComponent": "stop",
+          "value": 4,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "access/view",
+          "labelLastComponent": "view",
+          "value": 2,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "access/viewrate",
+          "labelLastComponent": "viewrate",
+          "value": 1,
+          "delimiter": "/",
+          "numSubResults": 0
+        }
+      ]
+    },
+    {
+      "label": "access_code_type",
+      "labelLastComponent": "access_code_type",
+      "value": 0,
+      "delimiter": "/",
+      "numSubResults": 0
+    },
+    {
+      "label": "lang",
+      "labelLastComponent": "lang",
+      "value": 530,
+      "delimiter": "/",
+      "numSubResults": 6,
+      "subresult": [
+        {
+          "label": "lang/570",
+          "labelLastComponent": "570",
+          "value": 529,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "lang/045",
+          "labelLastComponent": "045",
+          "value": 8,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "lang/315",
+          "labelLastComponent": "315",
+          "value": 1,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "lang/445",
+          "labelLastComponent": "445",
+          "value": 1,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "lang/463",
+          "labelLastComponent": "463",
+          "value": 1,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "lang/612",
+          "labelLastComponent": "612",
+          "value": 1,
+          "delimiter": "/",
+          "numSubResults": 0
+        }
+      ]
+    },
+    {
+      "label": "pubyear",
+      "labelLastComponent": "pubyear",
+      "value": 651,
+      "delimiter": "/",
+      "numSubResults": 10,
+      "subresult": [
+        {
+          "label": "pubyear/2000/20/5",
+          "labelLastComponent": "5",
+          "value": 37,
+          "delimiter": "/",
+          "numSubResults": 0,
+          "caption": "2025"
+        },
+        {
+          "label": "pubyear/2000/20/3",
+          "labelLastComponent": "3",
+          "value": 24,
+          "delimiter": "/",
+          "numSubResults": 0,
+          "caption": "2023"
+        },
+        {
+          "label": "pubyear/2000/20/2",
+          "labelLastComponent": "2",
+          "value": 40,
+          "delimiter": "/",
+          "numSubResults": 0,
+          "caption": "2022"
+        },
+        {
+          "label": "pubyear/2000/20/1",
+          "labelLastComponent": "1",
+          "value": 41,
+          "delimiter": "/",
+          "numSubResults": 0,
+          "caption": "2021"
+        },
+        {
+          "label": "pubyear/2000/20/0",
+          "labelLastComponent": "0",
+          "value": 26,
+          "delimiter": "/",
+          "numSubResults": 0,
+          "caption": "2020"
+        },
+        {
+          "label": "pubyear/2000/10/9",
+          "labelLastComponent": "9",
+          "value": 31,
+          "delimiter": "/",
+          "numSubResults": 0,
+          "caption": "2019"
+        },
+        {
+          "label": "pubyear/2000/10/8",
+          "labelLastComponent": "8",
+          "value": 29,
+          "delimiter": "/",
+          "numSubResults": 0,
+          "caption": "2018"
+        },
+        {
+          "label": "pubyear/2000/10/1",
+          "labelLastComponent": "1",
+          "value": 25,
+          "delimiter": "/",
+          "numSubResults": 0,
+          "caption": "2011"
+        },
+        {
+          "label": "pubyear/2000/0/7",
+          "labelLastComponent": "7",
+          "value": 23,
+          "delimiter": "/",
+          "numSubResults": 0,
+          "caption": "2007"
+        },
+        {
+          "label": "pubyear/2000/0/6",
+          "labelLastComponent": "6",
+          "value": 43,
+          "delimiter": "/",
+          "numSubResults": 0,
+          "caption": "2006"
+        }
+      ]
+    },
+    {
+      "label": "col",
+      "labelLastComponent": "col",
+      "value": 651,
+      "delimiter": "/",
+      "numSubResults": 6,
+      "subresult": [
+        {
+          "label": "col/nocoll",
+          "labelLastComponent": "nocoll",
+          "value": 412,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "col/gaz",
+          "labelLastComponent": "gaz",
+          "value": 96,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "col/peri",
+          "labelLastComponent": "peri",
+          "value": 68,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "col/disser",
+          "labelLastComponent": "disser",
+          "value": 58,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "col/obl",
+          "labelLastComponent": "obl",
+          "value": 16,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "col/izo",
+          "labelLastComponent": "izo",
+          "value": 6,
+          "delimiter": "/",
+          "numSubResults": 0
+        }
+      ]
+    },
+    {
+      "label": "db",
+      "labelLastComponent": "db",
+      "value": 651,
+      "delimiter": "/",
+      "numSubResults": 4,
+      "subresult": [
+        {
+          "label": "db/xbk",
+          "labelLastComponent": "xbk",
+          "value": 585,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "db/xdis",
+          "labelLastComponent": "xdis",
+          "value": 58,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "db/xizo",
+          "labelLastComponent": "xizo",
+          "value": 6,
+          "delimiter": "/",
+          "numSubResults": 0
+        },
+        {
+          "label": "db/xmf",
+          "labelLastComponent": "xmf",
+          "value": 2,
+          "delimiter": "/",
+          "numSubResults": 0
+        }
+      ]
+    },
+    {
+      "label": "vak_code",
+      "labelLastComponent": "vak_code",
+      "value": 58,
+      "delimiter": "/",
+      "numSubResults": 8,
+      "subresult": [
+        {
+          "label": "vak_code/07",
+          "labelLastComponent": "07",
+          "value": 26,
+          "delimiter": "/",
+          "numSubResults": 2,
+          "formattedCode": "07.00.00",
+          "caption": "История и археология"
+        },
+        {
+          "label": "vak_code/10",
+          "labelLastComponent": "10",
+          "value": 16,
+          "delimiter": "/",
+          "numSubResults": 2,
+          "formattedCode": "10.00.00",
+          "caption": "Филология"
+        },
+        {
+          "label": "vak_code/19",
+          "labelLastComponent": "19",
+          "value": 5,
+          "delimiter": "/",
+          "numSubResults": 4,
+          "formattedCode": "19.00.00",
+          "caption": "Психология"
+        },
+        {
+          "label": "vak_code/5",
+          "labelLastComponent": "5",
+          "value": 5,
+          "delimiter": "/",
+          "numSubResults": 2,
+          "formattedCode": "5.",
+          "caption": "Социальные и гуманитарные науки"
+        },
+        {
+          "label": "vak_code/13",
+          "labelLastComponent": "13",
+          "value": 3,
+          "delimiter": "/",
+          "numSubResults": 1,
+          "formattedCode": "13.00.00",
+          "caption": "Педагогика"
+        },
+        {
+          "label": "vak_code/05",
+          "labelLastComponent": "05",
+          "value": 1,
+          "delimiter": "/",
+          "numSubResults": 1,
+          "formattedCode": "05.00.00",
+          "caption": "Техника"
+        },
+        {
+          "label": "vak_code/03",
+          "labelLastComponent": "03",
+          "value": 1,
+          "delimiter": "/",
+          "numSubResults": 1,
+          "formattedCode": "03.00.00",
+          "caption": "Биология"
+        },
+        {
+          "label": "vak_code/20",
+          "labelLastComponent": "20",
+          "value": 1,
+          "delimiter": "/",
+          "numSubResults": 1,
+          "formattedCode": "20.00.00",
+          "caption": "20.00.00"
+        }
+      ]
+    },
+    {
+      "label": "gsk",
+      "labelLastComponent": "gsk",
+      "nameLastComponent": "ГСК",
+      "value": 363,
+      "delimiter": "|",
+      "numSubResults": 58,
+      "subresult": [
+        {
+          "label": "gsk|Т|Т3",
+          "labelLastComponent": "Т3",
+          "nameLastComponent": "История",
+          "value": 110,
+          "lastValue": 10,
+          "delimiter": "|",
+          "numSubResults": 3,
+          "formattedValue": "Т|Т3",
+          "caption": "<b>Т3</b> История"
+        },
+        {
+          "label": "gsk|Ш|Ш4/5",
+          "labelLastComponent": "Ш4/5",
+          "nameLastComponent": "Художественная литература. Литературоведение",
+          "value": 60,
+          "delimiter": "|",
+          "numSubResults": 2,
+          "formattedValue": "Ш|Ш4/5",
+          "caption": "<b>Ш4/5</b> Художественная литература. Литературоведение"
+        },
+        {
+          "label": "gsk|Ш|Ш1",
+          "labelLastComponent": "Ш1",
+          "nameLastComponent": "Языкознание",
+          "value": 52,
+          "delimiter": "|",
+          "numSubResults": 2,
+          "formattedValue": "Ш|Ш1",
+          "caption": "<b>Ш1</b> Языкознание"
+        },
+        {
+          "label": "gsk|Ц|Ц3",
+          "labelLastComponent": "Ц3",
+          "nameLastComponent": "Военно-историческая наука",
+          "value": 47,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Ц|Ц3",
+          "caption": "<b>Ц3</b> Военно-историческая наука"
+        },
+        {
+          "label": "gsk|Я|Я2",
+          "labelLastComponent": "Я2",
+          "nameLastComponent": "Справочные издания",
+          "value": 23,
+          "delimiter": "|",
+          "numSubResults": 2,
+          "formattedValue": "Я|Я2",
+          "caption": "<b>Я2</b> Справочные издания"
+        },
+        {
+          "label": "gsk|Д|Д9",
+          "labelLastComponent": "Д9",
+          "nameLastComponent": "Региональный раздел наук о Земле",
+          "value": 15,
+          "lastValue": 4,
+          "delimiter": "|",
+          "numSubResults": 2,
+          "formattedValue": "Д|Д9",
+          "caption": "<b>Д9</b> Региональный раздел наук о Земле"
+        },
+        {
+          "label": "gsk|Х|Х6",
+          "labelLastComponent": "Х6",
+          "nameLastComponent": "Государство и право социалистических и бывших социалистических стран",
+          "value": 10,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Х|Х6",
+          "caption": "<b>Х6</b> Государство и право социалистических и бывших социалистических стран"
+        },
+        {
+          "label": "gsk|Ш|Ш8/9",
+          "labelLastComponent": "Ш8/9",
+          "nameLastComponent": "Детская литература",
+          "value": 9,
+          "delimiter": "|",
+          "numSubResults": 2,
+          "formattedValue": "Ш|Ш8/9",
+          "caption": "<b>Ш8/9</b> Детская литература"
+        },
+        {
+          "label": "gsk|Ю|Ю9",
+          "labelLastComponent": "Ю9",
+          "nameLastComponent": "Психология",
+          "value": 8,
+          "delimiter": "|",
+          "numSubResults": 4,
+          "formattedValue": "Ю|Ю9",
+          "caption": "<b>Ю9</b> Психология"
+        },
+        {
+          "label": "gsk|Ч|Ч61",
+          "labelLastComponent": "Ч61",
+          "nameLastComponent": "Печать",
+          "value": 6,
+          "delimiter": "|",
+          "numSubResults": 3,
+          "formattedValue": "Ч|Ч61",
+          "caption": "<b>Ч61</b> Печать"
+        },
+        {
+          "label": "gsk|Ц|Ц.а/я",
+          "labelLastComponent": "Ц.а/я",
+          "nameLastComponent": "Общий раздел",
+          "value": 6,
+          "lastValue": 6,
+          "delimiter": "|",
+          "numSubResults": 0,
+          "formattedValue": "Ц|Ц.а/я",
+          "caption": "<b>Ц.а/я</b> Общий раздел"
+        },
+        {
+          "label": "gsk|Е|Е0",
+          "labelLastComponent": "Е0",
+          "nameLastComponent": "Общая биология",
+          "value": 5,
+          "delimiter": "|",
+          "numSubResults": 2,
+          "formattedValue": "Е|Е0",
+          "caption": "<b>Е0</b> Общая биология"
+        },
+        {
+          "label": "gsk|Д|Д8",
+          "labelLastComponent": "Д8",
+          "nameLastComponent": "Географические науки",
+          "value": 5,
+          "delimiter": "|",
+          "numSubResults": 2,
+          "formattedValue": "Д|Д8",
+          "caption": "<b>Д8</b> Географические науки"
+        },
+        {
+          "label": "gsk|Т|Т2",
+          "labelLastComponent": "Т2",
+          "nameLastComponent": "Источниковедение. Вспомогательные исторические дисциплины",
+          "value": 5,
+          "delimiter": "|",
+          "numSubResults": 2,
+          "formattedValue": "Т|Т2",
+          "caption": "<b>Т2</b> Источниковедение. Вспомогательные исторические дисциплины"
+        },
+        {
+          "label": "gsk|С|С5",
+          "labelLastComponent": "С5",
+          "nameLastComponent": "Социология",
+          "value": 4,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "С|С5",
+          "caption": "<b>С5</b> Социология"
+        },
+        {
+          "label": "gsk|Э|Э2/9",
+          "labelLastComponent": "Э2/9",
+          "nameLastComponent": "Религия",
+          "value": 4,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Э|Э2/9",
+          "caption": "<b>Э2/9</b> Религия"
+        },
+        {
+          "label": "gsk|Ч|Ч30/49",
+          "labelLastComponent": "Ч30/49",
+          "nameLastComponent": "Народное образование. Педагогические науки",
+          "value": 4,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Ч|Ч30/49",
+          "caption": "<b>Ч30/49</b> Народное образование. Педагогические науки"
+        },
+        {
+          "label": "gsk|Х|Х91",
+          "labelLastComponent": "Х91",
+          "nameLastComponent": "Международное право (международное публичное право)",
+          "value": 4,
+          "delimiter": "|",
+          "numSubResults": 3,
+          "formattedValue": "Х|Х91",
+          "caption": "<b>Х91</b> Международное право (международное публичное право)"
+        },
+        {
+          "label": "gsk|Т|Т.а/я",
+          "labelLastComponent": "Т.а/я",
+          "nameLastComponent": "Общий раздел",
+          "value": 4,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Т|Т.а/я",
+          "caption": "<b>Т.а/я</b> Общий раздел"
+        },
+        {
+          "label": "gsk|У|У03",
+          "labelLastComponent": "У03",
+          "nameLastComponent": "Экономическая история (история народного хозяйства)",
+          "value": 3,
+          "lastValue": 1,
+          "delimiter": "|",
+          "numSubResults": 2,
+          "formattedValue": "У|У03",
+          "caption": "<b>У03</b> Экономическая история (история народного хозяйства)"
+        },
+        {
+          "label": "gsk|Ф6/7|Ф6",
+          "labelLastComponent": "Ф6",
+          "nameLastComponent": "Политические партии",
+          "value": 2,
+          "delimiter": "|",
+          "numSubResults": 2,
+          "formattedValue": "Ф6/7|Ф6",
+          "caption": "<b>Ф6</b> Политические партии"
+        },
+        {
+          "label": "gsk|З|З1/7",
+          "labelLastComponent": "З1/7",
+          "nameLastComponent": "Энергетика",
+          "value": 2,
+          "delimiter": "|",
+          "numSubResults": 2,
+          "formattedValue": "З|З1/7",
+          "caption": "<b>З1/7</b> Энергетика"
+        },
+        {
+          "label": "gsk|Р|Р12",
+          "labelLastComponent": "Р12",
+          "nameLastComponent": "Гигиена",
+          "value": 2,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Р|Р12",
+          "caption": "<b>Р12</b> Гигиена"
+        },
+        {
+          "label": "gsk|Ж|Ж.а/я",
+          "labelLastComponent": "Ж.а/я",
+          "nameLastComponent": "Общий раздел",
+          "value": 2,
+          "delimiter": "|",
+          "numSubResults": 2,
+          "formattedValue": "Ж|Ж.а/я",
+          "caption": "<b>Ж.а/я</b> Общий раздел"
+        },
+        {
+          "label": "gsk|Ж|Ж8",
+          "labelLastComponent": "Ж8",
+          "nameLastComponent": "Монтаж, эксплуатация, ремонт",
+          "value": 2,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Ж|Ж8",
+          "caption": "<b>Ж8</b> Монтаж, эксплуатация, ремонт"
+        },
+        {
+          "label": "gsk|О|О4",
+          "labelLastComponent": "О4",
+          "nameLastComponent": "Водный транспорт",
+          "value": 2,
+          "lastValue": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "О|О4",
+          "caption": "<b>О4</b> Водный транспорт"
+        },
+        {
+          "label": "gsk|Щ|Щ10",
+          "labelLastComponent": "Щ10",
+          "nameLastComponent": "Изобразительное искусство",
+          "value": 2,
+          "delimiter": "|",
+          "numSubResults": 2,
+          "formattedValue": "Щ|Щ10",
+          "caption": "<b>Щ10</b> Изобразительное искусство"
+        },
+        {
+          "label": "gsk|Щ|Щ13",
+          "labelLastComponent": "Щ13",
+          "nameLastComponent": "Скульптура",
+          "value": 2,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Щ|Щ13",
+          "caption": "<b>Щ13</b> Скульптура"
+        },
+        {
+          "label": "gsk|Х|Х2",
+          "labelLastComponent": "Х2",
+          "nameLastComponent": "История государства и права",
+          "value": 2,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Х|Х2",
+          "caption": "<b>Х2</b> История государства и права"
+        },
+        {
+          "label": "gsk|Д|Д2",
+          "labelLastComponent": "Д2",
+          "nameLastComponent": "Геофизические науки",
+          "value": 2,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Д|Д2",
+          "caption": "<b>Д2</b> Геофизические науки"
+        },
+        {
+          "label": "gsk|Ц|Ц9",
+          "labelLastComponent": "Ц9",
+          "nameLastComponent": "Военная техника. Военно-технические и военно-специальные науки",
+          "value": 2,
+          "delimiter": "|",
+          "numSubResults": 2,
+          "formattedValue": "Ц|Ц9",
+          "caption": "<b>Ц9</b> Военная техника. Военно-технические и военно-специальные науки"
+        },
+        {
+          "label": "gsk|Т|Т4",
+          "labelLastComponent": "Т4",
+          "nameLastComponent": "Археология",
+          "value": 2,
+          "delimiter": "|",
+          "numSubResults": 2,
+          "formattedValue": "Т|Т4",
+          "caption": "<b>Т4</b> Археология"
+        },
+        {
+          "label": "gsk|Ш|Ш2/3",
+          "labelLastComponent": "Ш2/3",
+          "nameLastComponent": "Фольклор (народнопоэтическое творчество). Фольклористика",
+          "value": 2,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Ш|Ш2/3",
+          "caption": "<b>Ш2/3</b> Фольклор (народнопоэтическое творчество). Фольклористика"
+        },
+        {
+          "label": "gsk|К|К4/8",
+          "labelLastComponent": "К4/8",
+          "nameLastComponent": "Машиностроение",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "К|К4/8",
+          "caption": "<b>К4/8</b> Машиностроение"
+        },
+        {
+          "label": "gsk|В|В3",
+          "labelLastComponent": "В3",
+          "nameLastComponent": "Физика",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "В|В3",
+          "caption": "<b>В3</b> Физика"
+        },
+        {
+          "label": "gsk|Б|Б.а/я",
+          "labelLastComponent": "Б.а/я",
+          "nameLastComponent": "Общий раздел",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Б|Б.а/я",
+          "caption": "<b>Б.а/я</b> Общий раздел"
+        },
+        {
+          "label": "gsk|Б|Б1",
+          "labelLastComponent": "Б1",
+          "nameLastComponent": "Охрана окружающей среды",
+          "value": 1,
+          "lastValue": 1,
+          "delimiter": "|",
+          "numSubResults": 0,
+          "formattedValue": "Б|Б1",
+          "caption": "<b>Б1</b> Охрана окружающей среды"
+        },
+        {
+          "label": "gsk|Р|Р11",
+          "labelLastComponent": "Р11",
+          "nameLastComponent": "Организация здравоохранения",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Р|Р11",
+          "caption": "<b>Р11</b> Организация здравоохранения"
+        },
+        {
+          "label": "gsk|У|У9",
+          "labelLastComponent": "У9",
+          "nameLastComponent": "Экономика отдельных стран",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "У|У9",
+          "caption": "<b>У9</b> Экономика отдельных стран"
+        },
+        {
+          "label": "gsk|О|О6",
+          "labelLastComponent": "О6",
+          "nameLastComponent": "Межпланетные сообщения",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "О|О6",
+          "caption": "<b>О6</b> Межпланетные сообщения"
+        },
+        {
+          "label": "gsk|О|О.а/я",
+          "labelLastComponent": "О.а/я",
+          "nameLastComponent": "Общий раздел",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "О|О.а/я",
+          "caption": "<b>О.а/я</b> Общий раздел"
+        },
+        {
+          "label": "gsk|Е|Е6",
+          "labelLastComponent": "Е6",
+          "nameLastComponent": "Зоология",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Е|Е6",
+          "caption": "<b>Е6</b> Зоология"
+        },
+        {
+          "label": "gsk|Е|Е.а/я",
+          "labelLastComponent": "Е.а/я",
+          "nameLastComponent": "Общий раздел",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Е|Е.а/я",
+          "caption": "<b>Е.а/я</b> Общий раздел"
+        },
+        {
+          "label": "gsk|Щ|Щ14",
+          "labelLastComponent": "Щ14",
+          "nameLastComponent": "Живопись",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Щ|Щ14",
+          "caption": "<b>Щ14</b> Живопись"
+        },
+        {
+          "label": "gsk|Щ|Щ15",
+          "labelLastComponent": "Щ15",
+          "nameLastComponent": "Графика",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Щ|Щ15",
+          "caption": "<b>Щ15</b> Графика"
+        },
+        {
+          "label": "gsk|Щ|Щ36",
+          "labelLastComponent": "Щ36",
+          "nameLastComponent": "Эстрада",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Щ|Щ36",
+          "caption": "<b>Щ36</b> Эстрада"
+        },
+        {
+          "label": "gsk|Щ|Щ7",
+          "labelLastComponent": "Щ7",
+          "nameLastComponent": "Художественная самодеятельность",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Щ|Щ7",
+          "caption": "<b>Щ7</b> Художественная самодеятельность"
+        },
+        {
+          "label": "gsk|Ч|Ч81",
+          "labelLastComponent": "Ч81",
+          "nameLastComponent": "Архивное дело. Архивоведение",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Ч|Ч81",
+          "caption": "<b>Ч81</b> Архивное дело. Архивоведение"
+        },
+        {
+          "label": "gsk|Ч|Ч21",
+          "labelLastComponent": "Ч21",
+          "nameLastComponent": "Наука. Научно-исследовательская работа",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Ч|Ч21",
+          "caption": "<b>Ч21</b> Наука. Научно-исследовательская работа"
+        },
+        {
+          "label": "gsk|Ч|Ч73",
+          "labelLastComponent": "Ч73",
+          "nameLastComponent": "Библиотечное дело. Библиотековедение",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Ч|Ч73",
+          "caption": "<b>Ч73</b> Библиотечное дело. Библиотековедение"
+        },
+        {
+          "label": "gsk|Ч|Ч632",
+          "labelLastComponent": "Ч632",
+          "nameLastComponent": "Телевидение. Тележурналистика",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Ч|Ч632",
+          "caption": "<b>Ч632</b> Телевидение. Тележурналистика"
+        },
+        {
+          "label": "gsk|Х|Х8",
+          "labelLastComponent": "Х8",
+          "nameLastComponent": "Государство и право капиталистических стран",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Х|Х8",
+          "caption": "<b>Х8</b> Государство и право капиталистических стран"
+        },
+        {
+          "label": "gsk|Д|Д.а/я",
+          "labelLastComponent": "Д.а/я",
+          "nameLastComponent": "Общий раздел",
+          "value": 1,
+          "lastValue": 1,
+          "delimiter": "|",
+          "numSubResults": 0,
+          "formattedValue": "Д|Д.а/я",
+          "caption": "<b>Д.а/я</b> Общий раздел"
+        },
+        {
+          "label": "gsk|Д|Д,0",
+          "labelLastComponent": "Д,0",
+          "nameLastComponent": "Общие работы",
+          "value": 1,
+          "lastValue": 1,
+          "delimiter": "|",
+          "numSubResults": 0,
+          "formattedValue": "Д|Д,0",
+          "caption": "<b>Д,0</b> Общие работы"
+        },
+        {
+          "label": "gsk|Я|Я1",
+          "labelLastComponent": "Я1",
+          "nameLastComponent": "Библиографические указатели",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Я|Я1",
+          "caption": "<b>Я1</b> Библиографические указатели"
+        },
+        {
+          "label": "gsk|Ц|Ц.д",
+          "labelLastComponent": "Ц.д",
+          "nameLastComponent": "Персоналии государственных деятелей",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Ц|Ц.д",
+          "caption": "<b>Ц.д</b> Персоналии государственных деятелей"
+        },
+        {
+          "label": "gsk|Т|Т0",
+          "labelLastComponent": "Т0",
+          "nameLastComponent": "Теоретические основы и методология исторической науки",
+          "value": 1,
+          "delimiter": "|",
+          "numSubResults": 1,
+          "formattedValue": "Т|Т0",
+          "caption": "<b>Т0</b> Теоретические основы и методология исторической науки"
+        },
+        {
+          "label": "gsk|Л",
+          "labelLastComponent": "Л",
+          "nameLastComponent": "Техника. Технические науки -- Химическая технология. Химические и пищевые производства",
+          "value": 1,
+          "lastValue": 1,
+          "delimiter": "|",
+          "numSubResults": 0,
+          "formattedValue": "Л",
+          "caption": "<b>Л</b> Техника. Технические науки -- Химическая технология. Химические и пищевые производства"
+        }
+      ]
+    }
+  ],
+  "MaxPage": 66,
+  "MaxDisplayPage": 66,
+  "filterAmounts": {
+    "accessFree": 50,
+    "accessLimited": 599,
+    "inRsl": 246,
+    "inReadingRoom": 351,
+    "throughGosuslugi": 0,
+    "inDodRoom": 0,
+    "nrrTypeAll": 0,
+    "nrrTypeRemote": 0,
+    "nrrTypeRslOnly": 0,
+    "digitized": 649
+  },
+  "updatedFilters": {
+    "languages": "<table class=\"filter-table rsl-filter-checkbox-table\">\n            <tr>\n        <td class=\"caption-cell\">\n            <input type=\"checkbox\" id=\"languages_0\" class=\"language-checkbox\" name=\"SearchFilterForm[languages][]\" value=\"570\">            <label for=\"languages_0\"><span></span>Русский</label>\n        </td>\n        <td class=\"badge-cell\"><span class=\"badge langnum\" id=\"langnum-570\">529</span></td>\n    </tr>\n        <tr>\n        <td class=\"caption-cell\">\n            <input type=\"checkbox\" id=\"languages_1\" class=\"language-checkbox\" name=\"SearchFilterForm[languages][]\" value=\"045\">            <label for=\"languages_1\"><span></span>Английский</label>\n        </td>\n        <td class=\"badge-cell\"><span class=\"badge langnum\" id=\"langnum-045\">8</span></td>\n    </tr>\n        <tr>\n        <td class=\"caption-cell\">\n            <input type=\"checkbox\" id=\"languages_2\" class=\"language-checkbox\" name=\"SearchFilterForm[languages][]\" value=\"315\">            <label for=\"languages_2\"><span></span>Китайский</label>\n        </td>\n        <td class=\"badge-cell\"><span class=\"badge langnum\" id=\"langnum-315\">1</span></td>\n    </tr>\n        <tr>\n        <td class=\"caption-cell\">\n            <input type=\"checkbox\" id=\"languages_3\" class=\"language-checkbox\" name=\"SearchFilterForm[languages][]\" value=\"445\">            <label for=\"languages_3\"><span></span>Марийский (Черемисский)</label>\n        </td>\n        <td class=\"badge-cell\"><span class=\"badge langnum\" id=\"langnum-445\">1</span></td>\n    </tr>\n        <tr>\n        <td class=\"caption-cell\">\n            <input type=\"checkbox\" id=\"languages_4\" class=\"language-checkbox\" name=\"SearchFilterForm[languages][]\" value=\"463\">            <label for=\"languages_4\"><span></span>Монгольский</label>\n        </td>\n        <td class=\"badge-cell\"><span class=\"badge langnum\" id=\"langnum-463\">1</span></td>\n    </tr>\n        <tr>\n        <td class=\"caption-cell\">\n            <input type=\"checkbox\" id=\"languages_5\" class=\"language-checkbox\" name=\"SearchFilterForm[languages][]\" value=\"612\">            <label for=\"languages_5\"><span></span>Смешанные (другие)</label>\n        </td>\n        <td class=\"badge-cell\"><span class=\"badge langnum\" id=\"langnum-612\">1</span></td>\n    </tr>\n    </table>\n",
+    "vakcodes": "<table class=\"filter-table rsl-filter-checkbox-table\">\n            <tr>\n        <td class=\"caption-cell\">\n            <input type=\"checkbox\" id=\"vakcode_0\" class=\"vakcode-checkbox\" name=\"SearchFilterForm[vakcodes][]\" value=\"07.00.00\">            <label for=\"vakcode_0\"><span></span>История и археология</label>\n        </td>\n        <td class=\"badge-cell\"><span class=\"badge vcnum\" data-id=\"07.00.00\">26</span></td>\n    </tr>\n        <tr>\n        <td class=\"caption-cell\">\n            <input type=\"checkbox\" id=\"vakcode_1\" class=\"vakcode-checkbox\" name=\"SearchFilterForm[vakcodes][]\" value=\"10.00.00\">            <label for=\"vakcode_1\"><span></span>Филология</label>\n        </td>\n        <td class=\"badge-cell\"><span class=\"badge vcnum\" data-id=\"10.00.00\">16</span></td>\n    </tr>\n        <tr>\n        <td class=\"caption-cell\">\n            <input type=\"checkbox\" id=\"vakcode_2\" class=\"vakcode-checkbox\" name=\"SearchFilterForm[vakcodes][]\" value=\"19.00.00\">            <label for=\"vakcode_2\"><span></span>Психология</label>\n        </td>\n        <td class=\"badge-cell\"><span class=\"badge vcnum\" data-id=\"19.00.00\">5</span></td>\n    </tr>\n        <tr>\n        <td class=\"caption-cell\">\n            <input type=\"checkbox\" id=\"vakcode_3\" class=\"vakcode-checkbox\" name=\"SearchFilterForm[vakcodes][]\" value=\"5.\">            <label for=\"vakcode_3\"><span></span>Социальные и гуманитарные науки</label>\n        </td>\n        <td class=\"badge-cell\"><span class=\"badge vcnum\" data-id=\"5.\">5</span></td>\n    </tr>\n        <tr>\n        <td class=\"caption-cell\">\n            <input type=\"checkbox\" id=\"vakcode_4\" class=\"vakcode-checkbox\" name=\"SearchFilterForm[vakcodes][]\" value=\"13.00.00\">            <label for=\"vakcode_4\"><span></span>Педагогика</label>\n        </td>\n        <td class=\"badge-cell\"><span class=\"badge vcnum\" data-id=\"13.00.00\">3</span></td>\n    </tr>\n        <tr>\n        <td class=\"caption-cell\">\n            <input type=\"checkbox\" id=\"vakcode_5\" class=\"vakcode-checkbox\" name=\"SearchFilterForm[vakcodes][]\" value=\"05.00.00\">            <label for=\"vakcode_5\"><span></span>Техника</label>\n        </td>\n        <td class=\"badge-cell\"><span class=\"badge vcnum\" data-id=\"05.00.00\">1</span></td>\n    </tr>\n        <tr>\n        <td class=\"caption-cell\">\n            <input type=\"checkbox\" id=\"vakcode_6\" class=\"vakcode-checkbox\" name=\"SearchFilterForm[vakcodes][]\" value=\"03.00.00\">            <label for=\"vakcode_6\"><span></span>Биология</label>\n        </td>\n        <td class=\"badge-cell\"><span class=\"badge vcnum\" data-id=\"03.00.00\">1</span></td>\n    </tr>\n        <tr>\n        <td class=\"caption-cell\">\n            <input type=\"checkbox\" id=\"vakcode_7\" class=\"vakcode-checkbox\" name=\"SearchFilterForm[vakcodes][]\" value=\"20.00.00\">            <label for=\"vakcode_7\"><span></span>20.00.00</label>\n        </td>\n        <td class=\"badge-cell\"><span class=\"badge vcnum\" data-id=\"20.00.00\">1</span></td>\n    </tr>\n    </table>\n",
+    "gscThemes": "<table class=\"filter-table rsl-filter-checkbox-table\">\n            <tr>\n            <td class=\"caption-cell\">\n                <input type=\"checkbox\" id=\"gsc_0\" class=\"gsc-checkbox\" name=\"SearchFilterForm[gscThemes][]\" value=\"Т|Т3\">                <label for=\"gsc_0\"><span></span><b>Т3</b> История</label>\n            </td>\n            <td class=\"badge-cell\"><span class=\"badge gsc-count\" data-id=\"Т|Т3\">110</span></td>\n        </tr>\n                    <tr>\n            <td class=\"caption-cell\">\n                <input type=\"checkbox\" id=\"gsc_1\" class=\"gsc-checkbox\" name=\"SearchFilterForm[gscThemes][]\" value=\"Ш|Ш4/5\">                <label for=\"gsc_1\"><span></span><b>Ш4/5</b> Художественная литература. Литературоведение</label>\n            </td>\n            <td class=\"badge-cell\"><span class=\"badge gsc-count\" data-id=\"Ш|Ш4/5\">60</span></td>\n        </tr>\n                    <tr>\n            <td class=\"caption-cell\">\n                <input type=\"checkbox\" id=\"gsc_2\" class=\"gsc-checkbox\" name=\"SearchFilterForm[gscThemes][]\" value=\"Ш|Ш1\">                <label for=\"gsc_2\"><span></span><b>Ш1</b> Языкознание</label>\n            </td>\n            <td class=\"badge-cell\"><span class=\"badge gsc-count\" data-id=\"Ш|Ш1\">52</span></td>\n        </tr>\n                    <tr>\n            <td class=\"caption-cell\">\n                <input type=\"checkbox\" id=\"gsc_3\" class=\"gsc-checkbox\" name=\"SearchFilterForm[gscThemes][]\" value=\"Ц|Ц3\">                <label for=\"gsc_3\"><span></span><b>Ц3</b> Военно-историческая наука</label>\n            </td>\n            <td class=\"badge-cell\"><span class=\"badge gsc-count\" data-id=\"Ц|Ц3\">47</span></td>\n        </tr>\n                    <tr>\n            <td class=\"caption-cell\">\n                <input type=\"checkbox\" id=\"gsc_4\" class=\"gsc-checkbox\" name=\"SearchFilterForm[gscThemes][]\" value=\"Я|Я2\">                <label for=\"gsc_4\"><span></span><b>Я2</b> Справочные издания</label>\n            </td>\n            <td class=\"badge-cell\"><span class=\"badge gsc-count\" data-id=\"Я|Я2\">23</span></td>\n        </tr>\n                    <tr>\n            <td class=\"caption-cell\">\n                <input type=\"checkbox\" id=\"gsc_5\" class=\"gsc-checkbox\" name=\"SearchFilterForm[gscThemes][]\" value=\"Д|Д9\">                <label for=\"gsc_5\"><span></span><b>Д9</b> Региональный раздел наук о Земле</label>\n            </td>\n            <td class=\"badge-cell\"><span class=\"badge gsc-count\" data-id=\"Д|Д9\">15</span></td>\n        </tr>\n                    <tr>\n            <td class=\"caption-cell\">\n                <input type=\"checkbox\" id=\"gsc_6\" class=\"gsc-checkbox\" name=\"SearchFilterForm[gscThemes][]\" value=\"Х|Х6\">                <label for=\"gsc_6\"><span></span><b>Х6</b> Государство и право социалистических и бывших социалистических стран</label>\n            </td>\n            <td class=\"badge-cell\"><span class=\"badge gsc-count\" data-id=\"Х|Х6\">10</span></td>\n        </tr>\n                    <tr>\n            <td class=\"caption-cell\">\n                <input type=\"checkbox\" id=\"gsc_7\" class=\"gsc-checkbox\" name=\"SearchFilterForm[gscThemes][]\" value=\"Ш|Ш8/9\">                <label for=\"gsc_7\"><span></span><b>Ш8/9</b> Детская литература</label>\n            </td>\n            <td class=\"badge-cell\"><span class=\"badge gsc-count\" data-id=\"Ш|Ш8/9\">9</span></td>\n        </tr>\n                    <tr>\n            <td class=\"caption-cell\">\n                <input type=\"checkbox\" id=\"gsc_8\" class=\"gsc-checkbox\" name=\"SearchFilterForm[gscThemes][]\" value=\"Ю|Ю9\">                <label for=\"gsc_8\"><span></span><b>Ю9</b> Психология</label>\n            </td>\n            <td class=\"badge-cell\"><span class=\"badge gsc-count\" data-id=\"Ю|Ю9\">8</span></td>\n        </tr>\n                    <tr>\n            <td class=\"caption-cell\">\n                <input type=\"checkbox\" id=\"gsc_9\" class=\"gsc-checkbox\" name=\"SearchFilterForm[gscThemes][]\" value=\"Ч|Ч61\">                <label for=\"gsc_9\"><span></span><b>Ч61</b> Печать</label>\n            </td>\n            <td class=\"badge-cell\"><span class=\"badge gsc-count\" data-id=\"Ч|Ч61\">6</span></td>\n        </tr>\n            </table>\n"
+  },
+  "QueryParser": {
+    "sourceData": [
+      {
+        "field": "",
+        "value": "Гордеев",
+        "modificators": [],
+        "operator": null
+      },
+      {
+        "field": "",
+        "value": "Вахтенный",
+        "modificators": [],
+        "operator": ""
+      },
+      {
+        "field": "",
+        "value": "матрос",
+        "modificators": [],
+        "operator": ""
+      }
+    ],
+    "parseData": [
+      {
+        "field": "",
+        "value": "Гордеев",
+        "modificators": [],
+        "operator": null
+      },
+      {
+        "field": "",
+        "value": "Вахтенный",
+        "modificators": [],
+        "operator": ""
+      },
+      {
+        "field": "",
+        "value": "матрос",
+        "modificators": [],
+        "operator": ""
+      }
+    ],
+    "searchType": "default",
+    "formattedQuery": "Гордеев Вахтенный матрос",
+    "advancedSearch": null,
+    "synonyms": [],
+    "isSimple": true
+  },
+  "AutoSpell": null,
+  "content": "\n<div class=\"row\">\n    <div class=\"col-xs-12 col-md-11 rsl-descr\">\n        <div id=\"spell-container\" class=\"rsl-spell-container\">\n            <div id=\"customspell-wr\">\n                <i>Возможно, вы имели в виду <b><a href=\"/ru/search#q=\" id=\"spell-link\"></a></b>?</i>\n            </div>\n            <div id=\"autospell-wr\">\n                <i>Запрос <b><span id=\"autospell-replaced\"></span></b> не дал результатов. Произведён поиск по запросу <b><span id=\"autospell-new\"></span></b>.</i>\n            </div>\n        </div>\n    </div>\n</div>\n\n\n<div class=\"rsl-search-info e-filter-page\">\n    <b>Результатов: 651, страница 1 / 66</b> (0.553 сек.)\n</div>\n\n\n<div id=\"resultModal\" class=\"fade modal\" role=\"dialog\" tabindex=\"-1\">\n    <div class=\"modal-dialog\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>\n                <h4>Загрузка...</h4>\n            </div>\n            <div class=\"modal-body\">Загрузка...</div>\n            <div class=\"modal-footer\"></div>\n        </div>\n    </div>\n</div>\n\n<div id=\"eorderPlanfixModal\" class=\"fade modal\" role=\"dialog\" tabindex=\"-1\">\n    <div class=\"modal-dialog\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>\n                <h4>Электронный заказ документа в читальный зал</h4>\n            </div>\n            <div class=\"modal-body\">Загрузка...</div>\n            <div class=\"modal-footer\"></div>\n        </div>\n    </div>\n</div>\n\n<div id=\"documentFragmentRequestModal\" class=\"fade modal\" role=\"dialog\" tabindex=\"-1\">\n    <div class=\"modal-dialog\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>\n                <h4>Заказ на оцифровку фрагмента документа</h4>\n            </div>\n            <div class=\"modal-body\">Загрузка...</div>\n            <div class=\"modal-footer\"></div>\n        </div>\n    </div>\n</div>\n\n<div id=\"eorderModal\" class=\"fade modal\" role=\"dialog\" tabindex=\"-1\">\n    <div class=\"modal-dialog\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>\n                <h4>Загрузка...</h4>\n            </div>\n            <div class=\"modal-body\">Загрузка...</div>\n            <div class=\"modal-footer\"></div>\n        </div>\n    </div>\n</div>\n\n<div id=\"newEorderModal\" class=\"fade modal\" role=\"dialog\" tabindex=\"-1\">\n    <div class=\"modal-dialog modal-lg\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>\n                <h4>Загрузка...</h4>\n            </div>\n            <div class=\"modal-body\">Загрузка...</div>\n            <div class=\"modal-footer\"></div>\n        </div>\n    </div>\n</div>\n\n<div id=\"freeAccessAlert\" class=\"fade modal\" role=\"dialog\" tabindex=\"-1\">\n    <div class=\"modal-dialog modal-sm\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>\n                <h4><b>Этот документ в открытом доступе</b></h4>\n            </div>\n            <div class=\"modal-body\">\n                <p>\n                    Документ находится в открытом доступе в полном объёме.                    Вы можете ознакомиться и работать с ним бесплатно в нашем Просмотрщике.                </p>\n                <p class=\"mt20 text-right\">\n                    <a id=\"freeAccessAlertReadLink\" class=\"rsl-link\" href=\"#\" target=\"_blank\">Читать онлайн</a>                    &nbsp;&nbsp;&nbsp;\n                    <a id=\"freeAccessAlertEorderLink\" class=\"rsl-record-eorder-btn\" href=\"#\" target=\"_blank\">Заказ копии фрагмента</a>                </p>\n            </div>\n        </div>\n    </div>\n</div>\n\n\n<script>\n    $(document).ready(function () {\n        $('#resultModal, #eorderModal, #documentFragmentRequestModal, #eorderPlanfixModal, #newEorderModal').on('hidden.bs.modal', function () {\n            $(this).find('.modal-header h4').text(\"Загрузка...\");\n            $(this).find('.modal-body').text(\"Загрузка...\");\n            $(this).find('.modal-footer').text('');\n            $(this).removeData('bs.modal');\n        });\n    });\n</script>\n\n<div id=\"content-items\">\n    <div id=\"result-page-1\" class=\"result-item\" data-page=\"1\">\n\n\n<div id=\"page-separator-1\" class=\"row page-separator hidden\">\n    <div class=\"col-xs-4 col-sm-5\"><hr></div>\n    <div class=\"col-xs-4 col-sm-2 text-center page-separator-col\"><span class=\"page-separator-label\">страница 1</span></div>\n    <div class=\"col-xs-4 col-sm-5\"><hr></div>\n</div>\n\n\n\n\n<div class=\"row search-container pt10\" data-id=\"01002405330\">\n\n    <div class=\"hidden-xs col-sm-1 rsl-position-col\">\n        <div class=\"text-center\">\n                        <h4 class=\"search-item-position\">1</h4>\n        </div>\n    </div>\n\n    <div class=\"col-xs-12 col-sm-11 rsl-search-item-col\">\n        <div class=\"search-item p10\">\n                                                <div class=\"rsl-search-itemcover-col\">\n                                <div class=\"doc-cover book-cover text-center cover-container js-cover-container no-cover\" data-id=\"01002405330\" data-cat=\"rsl01\">\n                    <div class=\"rsl-item-nocover rsl-item-nocover-title\"><b>Гордеев</b>, Игорь Иванович</div>\n                    <div class=\"rsl-item-nocover rsl-item-nocover-descr\"><b>Вахтенный</b> <b>матрос</b> : [Учеб. пособие]</div>\n                                    </div>\n                            </div>\n\n            <div class=\"rsl-search-itemdescr-col\">\n\n                <div>\n                                        <b class=\"js-item-authorinfo\" data-id=\"01002405330\"><b>Гордеев</b>, Игорь Иванович.</b><br/>\n                                        <span class=\"search-descr\">\n                        <span class=\"js-item-maininfo\" data-id=\"01002405330\"><b>Вахтенный</b> <b>матрос</b> : [Учеб. пособие] / И.И. <b>Гордеев</b>. - Москва : РКонсульт, 2003 (ОАО Можайский полигр. комб.). - 251 [2] c., [17] л. цв. ил. : ил., табл.; 21 см.; ISBN 5-94976-009-3</span>\n                                                <span class=\"otherinfo js-expand-block\" style=\"display: none;\">\n                            \n<div class=\"rsl-item-otherinfo\">\n\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tШифр хранения\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB 3 04-2/252</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t</div>\n    \t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tРезюме/аннотация\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n\t\t    \t\t        <span>Дан экскурс в океанографию, лоцию, навигацию и метеорологию. Для подготовки студентов учебных заведений морского и речного флота, а также для самостоятельной подготовки рядового состава экипажей судов.</span>\n\t\t        <br />\n\t\t    \t\t\t</div>\n\t\t</div>\n\t</div>\n                        </span>\n                        <a href=\"javascript://\" onclick=\"moreLink($(this));\" class=\"rsl-modal rsl-link-more-separate\">больше</a>\n                                            </span>\n                                    </div>\n\n                \n                <div class=\"rsl-item-footer-links js-item-subdata-links\">\n                    \n                    \n                    \n                                        <span>&nbsp;</span>\n                </div>\n\n                \n                <div id=\"periodicReleaseList01002405330\"></div>\n\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            <div class=\"rsl-item-action-links row\">\n                <div class=\"col-sm-6 rsl-item-action-read-panel\">\n                    \n                    \n                    <div class=\"rsl-itemaction-link rsl-itemaction-description-link\">\n                        <a class=\"rsl-modal\" href=\"/ru/record/01002405330\" target=\"_blank\" data-toggle=\"modal\" data-target=\"#resultModal\" data-rid=\"01002405330\">Описание</a>                    </div>\n                </div>\n                <div class=\"col-sm-6 rsl-item-action-order-panel\">\n                                        \n                    <a href=\"#\" class=\"js-favorite-link favorite-link-search\" data-id=\"01002405330\" data-doctype=\"0\" data-permission=\"0\" data-url=\"\">\n                        <span class=\"rsl-favorite-add\"></span>\n                        <span class=\"rsl-favorite-text-add\">В избранное</span>\n                        <span class=\"rsl-favorite-text-in\" style=\"display: none;\">В избранном</span>\n                    </a>\n\n                                            <div class=\"rsl-eorder-dropdown-menu js-eorder-dropdown-menu\" data-id=\"01002405330\">\n                            <a class=\"rsl-eorder-dropdown-btn\" href=\"#\">Заказать</a>                            <div class=\"rsl-eorder-dropdown-content\">\n                                                                    <a class=\"js-eorder-request-link rsl-modal\" href=\"/ru/eorder/request?id=01002405330\" data-toggle=\"modal\" data-target=\"#newEorderModal\" data-rid=\"01002405330\">В читальный зал</a>                                                                                                                                            <a class=\"rsl-payment-copy-link js-payment-copy-link\" href=\"/ru/fragment-eorder/rsl01002405330\" target=\"_blank\" data-id=\"01002405330\">Копию фрагмента<br/><span class=\"rsl-payment-copy-long-time-text\">1-5 рабочих дней</span><span class=\"rsl-payment-copy-medium-time-text\">1 рабочий день</span><span class=\"rsl-payment-copy-short-time-text\">2 минуты</span></a>                                                                                                </div>\n                        </div>\n                                    </div>\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            \n        </div>\n    </div>\n\n</div>\n\n\n\n<div class=\"row search-container pt10\" data-id=\"01005284447\">\n\n    <div class=\"hidden-xs col-sm-1 rsl-position-col\">\n        <div class=\"text-center\">\n                        <h4 class=\"search-item-position\">2</h4>\n        </div>\n    </div>\n\n    <div class=\"col-xs-12 col-sm-11 rsl-search-item-col\">\n        <div class=\"search-item p10\">\n                                        <div class=\"rsl-item-eorder-fragment-label\" data-id=\"01005284447\">\n                    Экспресс-заказ фрагмента                </div>\n                                    <div class=\"rsl-search-itemcover-col\">\n                <a class=\"rsl-itemcover-cardurl\" href=\"/ru/view/01005284447?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01005000000%2Frsl01005284000%2Frsl01005284447%2Frsl01005284447.pdf\" target=\"_blank\">                <div class=\"doc-cover book-cover text-center cover-container js-cover-container no-cover\" data-id=\"01005284447\" data-cat=\"rsl01\">\n                    <div class=\"rsl-item-nocover rsl-item-nocover-title\">Миронов, Александр Евгеньевич</div>\n                    <div class=\"rsl-item-nocover rsl-item-nocover-descr\">Поход &quot;Челюскина&quot; [Текст]</div>\n                                            <img class=\"js-cover-image\" src=\"/ru/image/cthumb/rsl01/005284447\" alt=\"Миронов, Александр Евгеньевич. - Поход &amp;quot;Челюскина&amp;quot; [Текст] / Александр Миронов. - 2-е изд., испр. - Архангельск : Севкрайгиз, 1935. - Переплет, 180, [2] с., 1 вкл. л. карт. : ил.; 23х16 см.\" onload=\"jQuery(this).parent().removeClass(&#039;no-cover&#039;)\">                                    </div>\n                </a>            </div>\n\n            <div class=\"rsl-search-itemdescr-col\">\n\n                <div>\n                                        <b class=\"js-item-authorinfo\" data-id=\"01005284447\">Миронов, Александр Евгеньевич.</b><br/>\n                                        <span class=\"search-descr\">\n                        <span class=\"js-item-maininfo\" data-id=\"01005284447\">Поход &quot;Челюскина&quot; [Текст] / Александр Миронов. - 2-е изд., испр. - Архангельск : Севкрайгиз, 1935. - Переплет, 180, [2] с., 1 вкл. л. карт. : ил.; 23х16 см.</span>\n                                                <span class=\"otherinfo js-expand-block\" style=\"display: none;\">\n                            \n<div class=\"rsl-item-otherinfo\">\n\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tШифр хранения\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB U 216/263</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB U 216/264</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t</div>\n    \t</div>\n\t\t\t\t\t\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tОбщие примечания\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n\t\t    \t\t        <span>Напеч. в Вологде</span>\n\t\t        <br />\n\t\t    \t\t        <span>RuMoRGB</span>\n\t\t        <br />\n\t\t    \t\t\t</div>\n\t\t</div>\n\t\t\t\t</div>\n                        </span>\n                        <a href=\"javascript://\" onclick=\"moreLink($(this));\" class=\"rsl-modal rsl-link-more-separate\">больше</a>\n                                            </span>\n                                    </div>\n\n                                <div class=\"rsl-search-item-snippets\">\n                <a href=\"#\" class=\"rsl-modal\" data-toggle=\"modal\" data-target=\"#resultModal\" data-type=\"snippets\" data-id=\"01005284447\">Цитаты из текста:</a>\n                <ul class=\"snippets-list\">\n                                                                    <li data-page=\"56\" data-cat=\"rsl01\" data-id=\"005284447\"><div class=\"snippet-page-label\">стр. 56</div><div class=\"snippet-content\"> Безжизненно замерло судно. Сіруйкой вился из трубы сизый дымок, <b>вахтенный</b> <b>матрос</b>-гигант Гриша Дурасов вы52\rСамолет Ш -2 Бабуш кина\rтравил лот и одиноко бродил</div></li>\n                                                                    <li data-page=\"60\" data-cat=\"rsl01\" data-id=\"005284447\"><div class=\"snippet-page-label\">стр. 60</div><div class=\"snippet-content\"> Второй <b>вахтенный</b> <b>матрос</b> Лесков часто промерял воду в леялах, бегал в первый трюм, наблюдая за течью: от сжатия трещины в корпусе немного раздались, и вода в</div></li>\n                                                                    <li data-page=\"68\" data-cat=\"rsl01\" data-id=\"005284447\"><div class=\"snippet-page-label\">стр. 68</div><div class=\"snippet-content\"> дался собачий лай.\r* Т а г а м — идти. ♦ * Лед уйдет в море. Уйна — нет. • * * Ии — да.\r— Едут,— крикнул с палубы <b>вахтенный</b> <b>матрос</b> Геша Баранов. Мы на минуту</div></li>\n                                    </ul>\n                </div>\n                \n                <div class=\"rsl-item-footer-links js-item-subdata-links with-snippets\">\n                    \n                    \n                    \n                                        <span>&nbsp;</span>\n                </div>\n\n                \n                <div id=\"periodicReleaseList01005284447\"></div>\n\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            <div class=\"rsl-item-action-links row\">\n                <div class=\"col-sm-6 rsl-item-action-read-panel\">\n                                            <div class=\"rsl-itemaction-link rsl-itemaction-read-link\">\n\n                        <a class=\"rsl-clear-link\" href=\"/ru/view/01005284447?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01005000000%2Frsl01005284000%2Frsl01005284447%2Frsl01005284447.pdf\" target=\"_blank\"><img class=\"rsl-read-link-access-icon\" src=\"https://search.rsl.ru/img/access-lock.svg\" alt=\"Документ охраняется авторским правом. Полный текст доступен в РГБ и виртуальных читальных залах.\" title=\"Документ охраняется авторским правом. Полный текст доступен в РГБ и виртуальных читальных залах.\">&nbsp;<span class=\"rsl-link\">Читать</span></a>\n                        </div>\n                    \n                    \n                    <div class=\"rsl-itemaction-link rsl-itemaction-description-link\">\n                        <a class=\"rsl-modal\" href=\"/ru/record/01005284447\" target=\"_blank\" data-toggle=\"modal\" data-target=\"#resultModal\" data-rid=\"01005284447\">Описание</a>                    </div>\n                </div>\n                <div class=\"col-sm-6 rsl-item-action-order-panel\">\n                                        \n                    <a href=\"#\" class=\"js-favorite-link favorite-link-search\" data-id=\"01005284447\" data-doctype=\"0\" data-permission=\"4\" data-url=\"http://dlib.rsl.ru/rsl01005000000/rsl01005284000/rsl01005284447/rsl01005284447.pdf\">\n                        <span class=\"rsl-favorite-add\"></span>\n                        <span class=\"rsl-favorite-text-add\">В избранное</span>\n                        <span class=\"rsl-favorite-text-in\" style=\"display: none;\">В избранном</span>\n                    </a>\n\n                                            <div class=\"rsl-eorder-dropdown-menu js-eorder-dropdown-menu\" data-id=\"01005284447\">\n                            <a class=\"rsl-eorder-dropdown-btn\" href=\"#\">Заказать</a>                            <div class=\"rsl-eorder-dropdown-content\">\n                                                                    <a class=\"js-eorder-request-link rsl-modal\" href=\"/ru/eorder/request?id=01005284447\" data-toggle=\"modal\" data-target=\"#newEorderModal\" data-rid=\"01005284447\">В читальный зал</a>                                                                                                                                            <a class=\"rsl-payment-copy-link js-payment-copy-link\" href=\"/ru/fragment-eorder/rsl01005284447\" target=\"_blank\" data-id=\"01005284447\">Копию фрагмента<br/><span class=\"rsl-payment-copy-long-time-text\">1-5 рабочих дней</span><span class=\"rsl-payment-copy-medium-time-text\">1 рабочий день</span><span class=\"rsl-payment-copy-short-time-text\">2 минуты</span></a>                                                                                                </div>\n                        </div>\n                                    </div>\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            \n        </div>\n    </div>\n\n</div>\n\n\n\n<div class=\"row search-container pt10\" data-id=\"01005276689\">\n\n    <div class=\"hidden-xs col-sm-1 rsl-position-col\">\n        <div class=\"text-center\">\n                        <h4 class=\"search-item-position\">3</h4>\n        </div>\n    </div>\n\n    <div class=\"col-xs-12 col-sm-11 rsl-search-item-col\">\n        <div class=\"search-item p10\">\n                                        <div class=\"rsl-item-eorder-fragment-label\" data-id=\"01005276689\">\n                    Экспресс-заказ фрагмента                </div>\n                                    <div class=\"rsl-search-itemcover-col\">\n                <a class=\"rsl-itemcover-cardurl\" href=\"/ru/view/01005276689?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01005000000%2Frsl01005276000%2Frsl01005276689%2Frsl01005276689.pdf\" target=\"_blank\">                <div class=\"doc-cover book-cover text-center cover-container js-cover-container no-cover\" data-id=\"01005276689\" data-cat=\"rsl01\">\n                    <div class=\"rsl-item-nocover rsl-item-nocover-title\">Громов, Борис Васильевич</div>\n                    <div class=\"rsl-item-nocover rsl-item-nocover-descr\">Гибель Челюскина [Текст]</div>\n                                            <img class=\"js-cover-image\" src=\"/ru/image/cthumb/rsl01/005276689\" alt=\"Громов, Борис Васильевич. - Гибель Челюскина [Текст] / Бор. Громов. - [Москва] : Гослитиздат, 1936 (тип. &amp;quot;Искра революции&amp;quot;). - Суп.-обл., переплет, 377, [2] с., 3 вкл. л. портр., карт. : ил.; 23х18 см.\" onload=\"jQuery(this).parent().removeClass(&#039;no-cover&#039;)\">                                    </div>\n                </a>            </div>\n\n            <div class=\"rsl-search-itemdescr-col\">\n\n                <div>\n                                        <b class=\"js-item-authorinfo\" data-id=\"01005276689\">Громов, Борис Васильевич.</b><br/>\n                                        <span class=\"search-descr\">\n                        <span class=\"js-item-maininfo\" data-id=\"01005276689\">Гибель Челюскина [Текст] / Бор. Громов. - [Москва] : Гослитиздат, 1936 (тип. &quot;Искра революции&quot;). - Суп.-обл., переплет, 377, [2] с., 3 вкл. л. портр., карт. : ил.; 23х18 см.</span>\n                                                <span class=\"otherinfo js-expand-block\" style=\"display: none;\">\n                            \n<div class=\"rsl-item-otherinfo\">\n\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tШифр хранения\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB Z 36/211</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB P 43/342</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB U 404/176</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB Рб 4/620</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t</div>\n    \t</div>\n\t\t\t\t\t\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tОбщие примечания\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n\t\t    \t\t        <span>Суп.-обл., переплет, титул, форзац и заставки: Э. Гутнов и Г. Гладышева, ил.: Ф. Решетников</span>\n\t\t        <br />\n\t\t    \t\t        <span>RuMoRGB</span>\n\t\t        <br />\n\t\t    \t\t\t</div>\n\t\t</div>\n\t\t\t\t</div>\n                        </span>\n                        <a href=\"javascript://\" onclick=\"moreLink($(this));\" class=\"rsl-modal rsl-link-more-separate\">больше</a>\n                                            </span>\n                                    </div>\n\n                                <div class=\"rsl-search-item-snippets\">\n                <a href=\"#\" class=\"rsl-modal\" data-toggle=\"modal\" data-target=\"#resultModal\" data-type=\"snippets\" data-id=\"01005276689\">Цитаты из текста:</a>\n                <ul class=\"snippets-list\">\n                                                                    <li data-page=\"104\" data-cat=\"rsl01\" data-id=\"005276689\"><div class=\"snippet-page-label\">стр. 104</div><div class=\"snippet-content\"> ослепительного солнца на лед невозможно смотреть — глаза режет. Весь экипаж от капитана до <b>вахтенного</b> <b>матроса</b> в темно-синих, как слепцы, очках. Привязав себя</div></li>\n                                                                    <li data-page=\"115\" data-cat=\"rsl01\" data-id=\"005276689\"><div class=\"snippet-page-label\">стр. 115</div><div class=\"snippet-content\"> «Челюскине». Не слышно обычного четкого ритма работающих машин. По палубе без дела бродили <b>вахтенные</b> <b>матросы</b>, не зная, чем себя занять на четыре часа, от нечего</div></li>\n                                                                    <li data-page=\"192\" data-cat=\"rsl01\" data-id=\"005276689\"><div class=\"snippet-page-label\">стр. 192</div><div class=\"snippet-content\"> крепко уснуть. <b>Вахтенным</b> <b>матросам</b> нечего делать. Но по строго заведенному морскому трафарету они дежурят, расхаживают по палубам и ску­ чают. По традиции</div></li>\n                                    </ul>\n                </div>\n                \n                <div class=\"rsl-item-footer-links js-item-subdata-links with-snippets\">\n                    \n                    \n                    \n                                        <span>&nbsp;</span>\n                </div>\n\n                \n                <div id=\"periodicReleaseList01005276689\"></div>\n\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            <div class=\"rsl-item-action-links row\">\n                <div class=\"col-sm-6 rsl-item-action-read-panel\">\n                                            <div class=\"rsl-itemaction-link rsl-itemaction-read-link\">\n\n                        <a class=\"rsl-clear-link\" href=\"/ru/view/01005276689?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01005000000%2Frsl01005276000%2Frsl01005276689%2Frsl01005276689.pdf\" target=\"_blank\"><img class=\"rsl-read-link-access-icon\" src=\"https://search.rsl.ru/img/access-lock.svg\" alt=\"Документ охраняется авторским правом. Полный текст доступен в РГБ и виртуальных читальных залах.\" title=\"Документ охраняется авторским правом. Полный текст доступен в РГБ и виртуальных читальных залах.\">&nbsp;<span class=\"rsl-link\">Читать</span></a>\n                        </div>\n                    \n                    \n                    <div class=\"rsl-itemaction-link rsl-itemaction-description-link\">\n                        <a class=\"rsl-modal\" href=\"/ru/record/01005276689\" target=\"_blank\" data-toggle=\"modal\" data-target=\"#resultModal\" data-rid=\"01005276689\">Описание</a>                    </div>\n                </div>\n                <div class=\"col-sm-6 rsl-item-action-order-panel\">\n                                        \n                    <a href=\"#\" class=\"js-favorite-link favorite-link-search\" data-id=\"01005276689\" data-doctype=\"0\" data-permission=\"4\" data-url=\"http://dlib.rsl.ru/rsl01005000000/rsl01005276000/rsl01005276689/rsl01005276689.pdf\">\n                        <span class=\"rsl-favorite-add\"></span>\n                        <span class=\"rsl-favorite-text-add\">В избранное</span>\n                        <span class=\"rsl-favorite-text-in\" style=\"display: none;\">В избранном</span>\n                    </a>\n\n                                            <div class=\"rsl-eorder-dropdown-menu js-eorder-dropdown-menu\" data-id=\"01005276689\">\n                            <a class=\"rsl-eorder-dropdown-btn\" href=\"#\">Заказать</a>                            <div class=\"rsl-eorder-dropdown-content\">\n                                                                    <a class=\"js-eorder-request-link rsl-modal\" href=\"/ru/eorder/request?id=01005276689\" data-toggle=\"modal\" data-target=\"#newEorderModal\" data-rid=\"01005276689\">В читальный зал</a>                                                                                                                                            <a class=\"rsl-payment-copy-link js-payment-copy-link\" href=\"/ru/fragment-eorder/rsl01005276689\" target=\"_blank\" data-id=\"01005276689\">Копию фрагмента<br/><span class=\"rsl-payment-copy-long-time-text\">1-5 рабочих дней</span><span class=\"rsl-payment-copy-medium-time-text\">1 рабочий день</span><span class=\"rsl-payment-copy-short-time-text\">2 минуты</span></a>                                                                                                </div>\n                        </div>\n                                    </div>\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            \n        </div>\n    </div>\n\n</div>\n\n\n\n<div class=\"row search-container pt10\" data-id=\"01005429217\">\n\n    <div class=\"hidden-xs col-sm-1 rsl-position-col\">\n        <div class=\"text-center\">\n                        <h4 class=\"search-item-position\">4</h4>\n        </div>\n    </div>\n\n    <div class=\"col-xs-12 col-sm-11 rsl-search-item-col\">\n        <div class=\"search-item p10\">\n                                        <div class=\"rsl-item-eorder-fragment-label\" data-id=\"01005429217\">\n                    Экспресс-заказ фрагмента                </div>\n                                    <div class=\"rsl-search-itemcover-col\">\n                <a class=\"rsl-itemcover-cardurl\" href=\"/ru/view/01005429217?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01005000000%2Frsl01005429000%2Frsl01005429217%2Frsl01005429217.pdf\" target=\"_blank\">                <div class=\"doc-cover book-cover text-center cover-container js-cover-container no-cover\" data-id=\"01005429217\" data-cat=\"rsl01\">\n                    <div class=\"rsl-item-nocover rsl-item-nocover-title\">Станюкович, Константин Михайлович</div>\n                    <div class=\"rsl-item-nocover rsl-item-nocover-descr\">[Сочинения]. Т. 1. Василий Иванович</div>\n                                            <img class=\"js-cover-image\" src=\"/ru/image/cthumb/rsl01/005429217\" alt=\"Станюкович, Константин Михайлович (1843-1903). - [Сочинения]. Т. 1. Василий Иванович. - 731, [1] с.\" onload=\"jQuery(this).parent().removeClass(&#039;no-cover&#039;)\">                                    </div>\n                </a>            </div>\n\n            <div class=\"rsl-search-itemdescr-col\">\n\n                <div>\n                                        <b class=\"js-item-authorinfo\" data-id=\"01005429217\">Станюкович, Константин Михайлович (1843-1903).</b><br/>\n                                        <span class=\"search-descr\">\n                        <span class=\"js-item-maininfo\" data-id=\"01005429217\">[Сочинения]. Т. 1. Василий Иванович. - 731, [1] с.</span>\n                                            </span>\n                                    </div>\n\n                                <div class=\"rsl-search-item-snippets\">\n                <a href=\"#\" class=\"rsl-modal\" data-toggle=\"modal\" data-target=\"#resultModal\" data-type=\"snippets\" data-id=\"01005429217\">Цитаты из текста:</a>\n                <ul class=\"snippets-list\">\n                                                                    <li data-page=\"118\" data-cat=\"rsl01\" data-id=\"005429217\"><div class=\"snippet-page-label\"><a class=\"rsl-link\" href=\"https://dlib.rsl.ru/viewer/01005429217#?page=118\" target=\"_blank\">стр. 118</a></div><div class=\"snippet-content\"> пустые чашки боцману, <b>вахтенный</b> приказал свистать к водке. Два <b>матроса</b> с баталером сзади уже несли ендову с ромом, от которого распространялся на палубе</div></li>\n                                                                    <li data-page=\"125\" data-cat=\"rsl01\" data-id=\"005429217\"><div class=\"snippet-page-label\"><a class=\"rsl-link\" href=\"https://dlib.rsl.ru/viewer/01005429217#?page=125\" target=\"_blank\">стр. 125</a></div><div class=\"snippet-content\"> Первая вахта становись во фрунт! — прокричал <b>вахтенный</b> унтер­офицер. <b>Матросы</b> пошли строиться. После поверки скоман­ довали садиться на шлюпки, и через несколько</div></li>\n                                                                    <li data-page=\"128\" data-cat=\"rsl01\" data-id=\"005429217\"><div class=\"snippet-page-label\"><a class=\"rsl-link\" href=\"https://dlib.rsl.ru/viewer/01005429217#?page=128\" target=\"_blank\">стр. 128</a></div><div class=\"snippet-content\"> боцманов... Рази теперь боц­ мана?! Шушера какая­то, а не боцмана! — продолжал, оживляясь, Щукин. — Один срам... Чуть что — сичас фискалить на <b>матроса</b>, если <b>матрос</b> не даст ему рупь­ целковый... Тьфу! Или теперя <b>матрос</b>... Какой он <b>мат­ рос</b>?.. Ему только и мысли, как бы под суд не по­ пасть... Напился —под</div></li>\n                                    </ul>\n                </div>\n                \n                <div class=\"rsl-item-footer-links js-item-subdata-links with-snippets\">\n                    \n                    \n                    \n                                        <span>&nbsp;</span>\n                </div>\n\n                \n                <div id=\"periodicReleaseList01005429217\"></div>\n\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            <div class=\"rsl-item-action-links row\">\n                <div class=\"col-sm-6 rsl-item-action-read-panel\">\n                                            <div class=\"rsl-itemaction-link rsl-itemaction-read-link\">\n\n                        <a class=\"rsl-clear-link\" href=\"/ru/view/01005429217?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01005000000%2Frsl01005429000%2Frsl01005429217%2Frsl01005429217.pdf\" target=\"_blank\"><img class=\"rsl-read-link-access-icon\" src=\"https://search.rsl.ru/img/access-free.svg\" alt=\"Документ в свободном доступе.\" title=\"Документ в свободном доступе.\">&nbsp;<span class=\"rsl-link\">Читать</span></a>\n                        </div>\n                    \n                    \n                    <div class=\"rsl-itemaction-link rsl-itemaction-description-link\">\n                        <a class=\"rsl-modal\" href=\"/ru/record/01005429217\" target=\"_blank\" data-toggle=\"modal\" data-target=\"#resultModal\" data-rid=\"01005429217\">Описание</a>                    </div>\n                </div>\n                <div class=\"col-sm-6 rsl-item-action-order-panel\">\n                                        \n                    <a href=\"#\" class=\"js-favorite-link favorite-link-search\" data-id=\"01005429217\" data-doctype=\"0\" data-permission=\"2\" data-url=\"http://dlib.rsl.ru/rsl01005000000/rsl01005429000/rsl01005429217/rsl01005429217.pdf\">\n                        <span class=\"rsl-favorite-add\"></span>\n                        <span class=\"rsl-favorite-text-add\">В избранное</span>\n                        <span class=\"rsl-favorite-text-in\" style=\"display: none;\">В избранном</span>\n                    </a>\n\n                                            <div class=\"rsl-eorder-dropdown-menu js-eorder-dropdown-menu\" data-id=\"01005429217\">\n                            <a class=\"rsl-eorder-dropdown-btn\" href=\"#\">Заказать</a>                            <div class=\"rsl-eorder-dropdown-content rsl-eorder-dropdown-content-one-child-fragment\">\n                                                                                                                                            <a class=\"rsl-payment-copy-link js-payment-copy-link js-free-access-alert\" href=\"#\" data-toggle=\"modal\" data-target=\"#freeAccessAlert\" data-read-url=\"/ru/view/01005429217?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01005000000%2Frsl01005429000%2Frsl01005429217%2Frsl01005429217.pdf\" data-eorder-url=\"/ru/fragment-eorder/rsl01005429217\" data-id=\"01005429217\">\n                                            Копию фрагмента                                            <br/><span class=\"rsl-payment-copy-long-time-text\">1-5 рабочих дней</span>\n                                            <span class=\"rsl-payment-copy-medium-time-text\">1 рабочий день</span>\n                                            <span class=\"rsl-payment-copy-short-time-text\">2 минуты</span>\n                                        </a>\n                                                                                                </div>\n                        </div>\n                                    </div>\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            \n        </div>\n    </div>\n\n</div>\n\n\n\n<div class=\"row search-container pt10\" data-id=\"01013828917\">\n\n    <div class=\"hidden-xs col-sm-1 rsl-position-col\">\n        <div class=\"text-center\">\n                        <h4 class=\"search-item-position\">5</h4>\n        </div>\n    </div>\n\n    <div class=\"col-xs-12 col-sm-11 rsl-search-item-col\">\n        <div class=\"search-item p10\">\n                                        <div class=\"rsl-item-eorder-fragment-label\" data-id=\"01013828917\">\n                    Экспресс-заказ фрагмента                </div>\n                                    <div class=\"rsl-search-itemcover-col\">\n                <a class=\"rsl-itemcover-cardurl\" href=\"/ru/view/01013828917?redirect=https%3A%2F%2Fwww.rsl.ru%2Fru%2F4readers%2Frooms%2F\" target=\"_blank\">                <div class=\"doc-cover book-cover text-center cover-container js-cover-container no-cover\" data-id=\"01013828917\" data-cat=\"rsl01\">\n                    <div class=\"rsl-item-nocover rsl-item-nocover-title\">Плетнев, Александр Владимирович</div>\n                    <div class=\"rsl-item-nocover rsl-item-nocover-descr\">&quot;Бис&quot;-исход : роман : [16+]</div>\n                                            <img class=\"js-cover-image\" src=\"/ru/image/cthumb/rsl01/013828917\" alt=\"Плетнев, Александр Владимирович. - &amp;quot;Бис&amp;quot;-исход : роман : [16+] / Александр Плетнев. - Москва : АСТ ; Санкт-Петербург : Ленинград, 2025 (Тверь). - 380, [2] с.; 21 см. - (Цикл Александра Плетнева Проект &amp;quot;Орлан&amp;quot;) (Военная фантастика; вып. 283).; ISBN 978-5-17-178276-4 : 1000 экз.\" onload=\"jQuery(this).parent().removeClass(&#039;no-cover&#039;)\">                                    </div>\n                </a>            </div>\n\n            <div class=\"rsl-search-itemdescr-col\">\n\n                <div>\n                                        <b class=\"js-item-authorinfo\" data-id=\"01013828917\">Плетнев, Александр Владимирович.</b><br/>\n                                        <span class=\"search-descr\">\n                        <span class=\"js-item-maininfo\" data-id=\"01013828917\">&quot;Бис&quot;-исход : роман : [16+] / Александр Плетнев. - Москва : АСТ ; Санкт-Петербург : Ленинград, 2025 (Тверь). - 380, [2] с.; 21 см. - (Цикл Александра Плетнева Проект &quot;Орлан&quot;) (Военная фантастика; вып. 283).; ISBN 978-5-17-178276-4 : 1000 экз.</span>\n                                                <span class=\"otherinfo js-expand-block\" style=\"display: none;\">\n                            \n<div class=\"rsl-item-otherinfo\">\n\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tШифр хранения\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FBKHM 10 25-50/22</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FBKHM 10 25-48/131</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t</div>\n    \t</div>\n\t\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tТема\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n            \t\t    \t\t        <span>Филологические науки. Художественная литература -- Художественная литература. Литературоведение -- Мировая литература. Литература народов отдельных стран -- Литература России до 1917 г., СССР, Российской Федерации -- Русская литература -- Русская литература с 1991 г. -- Произведения художественной литературы -- Художественная проза -- Романы. Повести. Рассказы -- Фантастические и мистические романы, повести, рассказы. Романы ужасов</span>\n\t\t        <br />\n\t\t    \t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n                        </span>\n                        <a href=\"javascript://\" onclick=\"moreLink($(this));\" class=\"rsl-modal rsl-link-more-separate\">больше</a>\n                                            </span>\n                                    </div>\n\n                \n                <div class=\"rsl-item-footer-links js-item-subdata-links\">\n                    \n                    \n                    \n                                        <span>&nbsp;</span>\n                </div>\n\n                \n                <div id=\"periodicReleaseList01013828917\"></div>\n\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            <div class=\"rsl-item-action-links row\">\n                <div class=\"col-sm-6 rsl-item-action-read-panel\">\n                                            <div class=\"rsl-itemaction-link rsl-itemaction-read-link\">\n\n                        <a class=\"rsl-clear-link\" href=\"/ru/view/01013828917?redirect=https%3A%2F%2Fwww.rsl.ru%2Fru%2F4readers%2Frooms%2F\" target=\"_blank\"><span class=\"rsl-link\">Доступно только в РГБ</span></a>\n                        </div>\n                    \n                    \n                    <div class=\"rsl-itemaction-link rsl-itemaction-description-link\">\n                        <a class=\"rsl-modal\" href=\"/ru/record/01013828917\" target=\"_blank\" data-toggle=\"modal\" data-target=\"#resultModal\" data-rid=\"01013828917\">Описание</a>                    </div>\n                </div>\n                <div class=\"col-sm-6 rsl-item-action-order-panel\">\n                                        \n                    <a href=\"#\" class=\"js-favorite-link favorite-link-search\" data-id=\"01013828917\" data-doctype=\"0\" data-permission=\"3\" data-url=\"http://dlib.rsl.ru/rsl01013000000/rsl01013828000/rsl01013828917/rsl01013828917.pdf\">\n                        <span class=\"rsl-favorite-add\"></span>\n                        <span class=\"rsl-favorite-text-add\">В избранное</span>\n                        <span class=\"rsl-favorite-text-in\" style=\"display: none;\">В избранном</span>\n                    </a>\n\n                                            <div class=\"rsl-eorder-dropdown-menu js-eorder-dropdown-menu\" data-id=\"01013828917\">\n                            <a class=\"rsl-eorder-dropdown-btn\" href=\"#\">Заказать</a>                            <div class=\"rsl-eorder-dropdown-content\">\n                                                                    <a class=\"js-eorder-request-link rsl-modal\" href=\"/ru/eorder/request?id=01013828917\" data-toggle=\"modal\" data-target=\"#newEorderModal\" data-rid=\"01013828917\">В читальный зал</a>                                                                                                                                            <a class=\"rsl-payment-copy-link js-payment-copy-link\" href=\"/ru/fragment-eorder/rsl01013828917\" target=\"_blank\" data-id=\"01013828917\">Копию фрагмента<br/><span class=\"rsl-payment-copy-long-time-text\">1-5 рабочих дней</span><span class=\"rsl-payment-copy-medium-time-text\">1 рабочий день</span><span class=\"rsl-payment-copy-short-time-text\">2 минуты</span></a>                                                                                                </div>\n                        </div>\n                                    </div>\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            \n        </div>\n    </div>\n\n</div>\n\n\n\n<div class=\"row search-container pt10\" data-id=\"01005316364\">\n\n    <div class=\"hidden-xs col-sm-1 rsl-position-col\">\n        <div class=\"text-center\">\n                        <h4 class=\"search-item-position\">6</h4>\n        </div>\n    </div>\n\n    <div class=\"col-xs-12 col-sm-11 rsl-search-item-col\">\n        <div class=\"search-item p10\">\n                                        <div class=\"rsl-item-eorder-fragment-label\" data-id=\"01005316364\">\n                    Экспресс-заказ фрагмента                </div>\n                                    <div class=\"rsl-search-itemcover-col\">\n                <a class=\"rsl-itemcover-cardurl\" href=\"/ru/view/01005316364?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01005000000%2Frsl01005316000%2Frsl01005316364%2Frsl01005316364.pdf\" target=\"_blank\">                <div class=\"doc-cover book-cover text-center cover-container js-cover-container no-cover\" data-id=\"01005316364\" data-cat=\"rsl01\">\n                    <div class=\"rsl-item-nocover rsl-item-nocover-title\">Хмызников, Павел Константинович</div>\n                    <div class=\"rsl-item-nocover rsl-item-nocover-descr\">На &quot;Челюскине&quot; [Текст]</div>\n                                            <img class=\"js-cover-image\" src=\"/ru/image/cthumb/rsl01/005316364\" alt=\"Хмызников, Павел Константинович. - На &amp;quot;Челюскине&amp;quot; [Текст] / П. Хмызников, П. Ширшов. - Ленинград : Изд-во Главсевморпути, 1936 (ЛОЦТ им. К. Ворошилова и тип. &amp;quot;Коминтерн&amp;quot;). - Суп.-обл., переплет, 252 с., 1 вкл. л. карт. : ил.; 22х15 см. - (Полярная библиотека).\" onload=\"jQuery(this).parent().removeClass(&#039;no-cover&#039;)\">                                    </div>\n                </a>            </div>\n\n            <div class=\"rsl-search-itemdescr-col\">\n\n                <div>\n                                        <b class=\"js-item-authorinfo\" data-id=\"01005316364\">Хмызников, Павел Константинович.</b><br/>\n                                        <span class=\"search-descr\">\n                        <span class=\"js-item-maininfo\" data-id=\"01005316364\">На &quot;Челюскине&quot; [Текст] / П. Хмызников, П. Ширшов. - Ленинград : Изд-во Главсевморпути, 1936 (ЛОЦТ им. К. Ворошилова и тип. &quot;Коминтерн&quot;). - Суп.-обл., переплет, 252 с., 1 вкл. л. карт. : ил.; 22х15 см. - (Полярная библиотека).</span>\n                                                <span class=\"otherinfo js-expand-block\" style=\"display: none;\">\n                            \n<div class=\"rsl-item-otherinfo\">\n\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tШифр хранения\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB M 188/547</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB M 188/706</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t</div>\n    \t</div>\n\t\t\t\t\t\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tОбщие примечания\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n\t\t    \t\t        <span>Суп.-обл., переплет и форзац: С. Верховский</span>\n\t\t        <br />\n\t\t    \t\t        <span>RuMoRGB</span>\n\t\t        <br />\n\t\t    \t\t        <span>На суп.-обл. 1-й автор: П. Ширшов</span>\n\t\t        <br />\n\t\t    \t\t        <span>RuMoRGB</span>\n\t\t        <br />\n\t\t    \t\t\t</div>\n\t\t</div>\n\t\t\t\t</div>\n                        </span>\n                        <a href=\"javascript://\" onclick=\"moreLink($(this));\" class=\"rsl-modal rsl-link-more-separate\">больше</a>\n                                            </span>\n                                    </div>\n\n                                <div class=\"rsl-search-item-snippets\">\n                <a href=\"#\" class=\"rsl-modal\" data-toggle=\"modal\" data-target=\"#resultModal\" data-type=\"snippets\" data-id=\"01005316364\">Цитаты из текста:</a>\n                <ul class=\"snippets-list\">\n                                                                    <li data-page=\"15\" data-cat=\"rsl01\" data-id=\"005316364\"><div class=\"snippet-page-label\"><a class=\"rsl-link\" href=\"https://dlib.rsl.ru/viewer/01005316364#?page=15\" target=\"_blank\">стр. 15</a></div><div class=\"snippet-content\">\r—\rбросала\rлюбопытные взгляды. Это\rеще что за\rкикиморы? Никогда не видал таких!—\rудивленно\rспрашивает молоденький <b>матрос</b> Геша\rБаранов.\rГеша долго\rЯ\r—\rобъясняю</div></li>\n                                                                    <li data-page=\"51\" data-cat=\"rsl01\" data-id=\"005316364\"><div class=\"snippet-page-label\"><a class=\"rsl-link\" href=\"https://dlib.rsl.ru/viewer/01005316364#?page=51\" target=\"_blank\">стр. 51</a></div><div class=\"snippet-content\">\rотблесков электричества з камт. На палубе остаются, кроме нас, научных и работников, <b>вахтенный</b> <b>матрос</b>, который уныло бродит по спардеку или\rсогнувшись сидит</div></li>\n                                                                    <li data-page=\"206\" data-cat=\"rsl01\" data-id=\"005316364\"><div class=\"snippet-page-label\"><a class=\"rsl-link\" href=\"https://dlib.rsl.ru/viewer/01005316364#?page=206\" target=\"_blank\">стр. 206</a></div><div class=\"snippet-content\"> два\rбагра\rи\rконец от шлюпки, —\rпотребовал\rглядя\rВася <b>Гордеев</b>.\r—\rПровалишься,\r<b>Гордей</b>,\r— с\rопаской в&apos; голосе сказал Бармин,\rна его приготовления.\r—\rНичего</div></li>\n                                    </ul>\n                </div>\n                \n                <div class=\"rsl-item-footer-links js-item-subdata-links with-snippets\">\n                    \n                    \n                    \n                                        <span>&nbsp;</span>\n                </div>\n\n                \n                <div id=\"periodicReleaseList01005316364\"></div>\n\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            <div class=\"rsl-item-action-links row\">\n                <div class=\"col-sm-6 rsl-item-action-read-panel\">\n                                            <div class=\"rsl-itemaction-link rsl-itemaction-read-link\">\n\n                        <a class=\"rsl-clear-link\" href=\"/ru/view/01005316364?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01005000000%2Frsl01005316000%2Frsl01005316364%2Frsl01005316364.pdf\" target=\"_blank\"><img class=\"rsl-read-link-access-icon\" src=\"https://search.rsl.ru/img/access-free.svg\" alt=\"Документ в свободном доступе.\" title=\"Документ в свободном доступе.\">&nbsp;<span class=\"rsl-link\">Читать</span></a>\n                        </div>\n                    \n                    \n                    <div class=\"rsl-itemaction-link rsl-itemaction-description-link\">\n                        <a class=\"rsl-modal\" href=\"/ru/record/01005316364\" target=\"_blank\" data-toggle=\"modal\" data-target=\"#resultModal\" data-rid=\"01005316364\">Описание</a>                    </div>\n                </div>\n                <div class=\"col-sm-6 rsl-item-action-order-panel\">\n                                        \n                    <a href=\"#\" class=\"js-favorite-link favorite-link-search\" data-id=\"01005316364\" data-doctype=\"0\" data-permission=\"2\" data-url=\"http://dlib.rsl.ru/rsl01005000000/rsl01005316000/rsl01005316364/rsl01005316364.pdf\">\n                        <span class=\"rsl-favorite-add\"></span>\n                        <span class=\"rsl-favorite-text-add\">В избранное</span>\n                        <span class=\"rsl-favorite-text-in\" style=\"display: none;\">В избранном</span>\n                    </a>\n\n                                            <div class=\"rsl-eorder-dropdown-menu js-eorder-dropdown-menu\" data-id=\"01005316364\">\n                            <a class=\"rsl-eorder-dropdown-btn\" href=\"#\">Заказать</a>                            <div class=\"rsl-eorder-dropdown-content\">\n                                                                    <a class=\"js-eorder-request-link rsl-modal\" href=\"/ru/eorder/request?id=01005316364\" data-toggle=\"modal\" data-target=\"#newEorderModal\" data-rid=\"01005316364\">В читальный зал</a>                                                                                                                                            <a class=\"rsl-payment-copy-link js-payment-copy-link js-free-access-alert\" href=\"#\" data-toggle=\"modal\" data-target=\"#freeAccessAlert\" data-read-url=\"/ru/view/01005316364?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01005000000%2Frsl01005316000%2Frsl01005316364%2Frsl01005316364.pdf\" data-eorder-url=\"/ru/fragment-eorder/rsl01005316364\" data-id=\"01005316364\">\n                                            Копию фрагмента                                            <br/><span class=\"rsl-payment-copy-long-time-text\">1-5 рабочих дней</span>\n                                            <span class=\"rsl-payment-copy-medium-time-text\">1 рабочий день</span>\n                                            <span class=\"rsl-payment-copy-short-time-text\">2 минуты</span>\n                                        </a>\n                                                                                                </div>\n                        </div>\n                                    </div>\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            \n        </div>\n    </div>\n\n</div>\n\n\n\n<div class=\"row search-container pt10\" data-id=\"01008897052\">\n\n    <div class=\"hidden-xs col-sm-1 rsl-position-col\">\n        <div class=\"text-center\">\n                        <h4 class=\"search-item-position\">7</h4>\n        </div>\n    </div>\n\n    <div class=\"col-xs-12 col-sm-11 rsl-search-item-col\">\n        <div class=\"search-item p10\">\n                                        <div class=\"rsl-item-eorder-fragment-label\" data-id=\"01008897052\">\n                    Экспресс-заказ фрагмента                </div>\n                                    <div class=\"rsl-search-itemcover-col\">\n                <a class=\"rsl-itemcover-cardurl\" href=\"/ru/view/01008897052?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01008000000%2Frsl01008897000%2Frsl01008897052%2Frsl01008897052.pdf\" target=\"_blank\">                <div class=\"doc-cover book-cover text-center cover-container js-cover-container no-cover\" data-id=\"01008897052\" data-cat=\"rsl01\">\n                    <div class=\"rsl-item-nocover rsl-item-nocover-title\">Шигин, Владимир Виленович</div>\n                    <div class=\"rsl-item-nocover rsl-item-nocover-descr\">Тайна гибели &quot;Императрицы Марии&quot; [Текст] : [12+]</div>\n                                            <img class=\"js-cover-image\" src=\"/ru/image/cthumb/rsl01/008897052\" alt=\"Шигин, Владимир Виленович (1958-). - Тайна гибели &amp;quot;Императрицы Марии&amp;quot; [Текст] : [12+] / В. В. Шигин. - Москва : Вече, cop. 2017. - 365, [18] с. : ил.; 21 см. - (Морская историческая библиотека).; ISBN 978-5-4444-5241-7 : 700 экз.\" onload=\"jQuery(this).parent().removeClass(&#039;no-cover&#039;)\">                                    </div>\n                </a>            </div>\n\n            <div class=\"rsl-search-itemdescr-col\">\n\n                <div>\n                                        <b class=\"js-item-authorinfo\" data-id=\"01008897052\">Шигин, Владимир Виленович (1958-).</b><br/>\n                                        <span class=\"search-descr\">\n                        <span class=\"js-item-maininfo\" data-id=\"01008897052\">Тайна гибели &quot;Императрицы Марии&quot; [Текст] : [12+] / В. В. Шигин. - Москва : Вече, cop. 2017. - 365, [18] с. : ил.; 21 см. - (Морская историческая библиотека).; ISBN 978-5-4444-5241-7 : 700 экз.</span>\n                                                <span class=\"otherinfo js-expand-block\" style=\"display: none;\">\n                            \n<div class=\"rsl-item-otherinfo\">\n\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tШифр хранения\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB 2 17-35/328</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB 2 17-35/177</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t</div>\n    \t</div>\n\t\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tТема\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n            \t\t    \t\t        <span>Военная наука. Военное дело -- Военно-морской флот. Военно-морская наука -- Россия -- Военно-морской флот в целом -- История</span>\n\t\t        <br />\n\t\t    \t\t        <span>Военная наука. Военное дело -- Военно-морской флот. Военно-морская наука -- СССР -- Военно-морской флот в целом -- История</span>\n\t\t        <br />\n\t\t    \t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n                        </span>\n                        <a href=\"javascript://\" onclick=\"moreLink($(this));\" class=\"rsl-modal rsl-link-more-separate\">больше</a>\n                                            </span>\n                                    </div>\n\n                                <div class=\"rsl-search-item-snippets\">\n                <a href=\"#\" class=\"rsl-modal\" data-toggle=\"modal\" data-target=\"#resultModal\" data-type=\"snippets\" data-id=\"01008897052\">Цитаты из текста:</a>\n                <ul class=\"snippets-list\">\n                                                                    <li data-page=\"7\" data-cat=\"rsl01\" data-id=\"008897052\"><div class=\"snippet-page-label\">стр. 7</div><div class=\"snippet-content\"> скопившихся в ней паров бензина. Вентиляция продолжалась всю ночь, а утром следующего дня в лодку спустился один из <b>вахтенных</b> <b>матросов</b> «Дельфина» со своим</div></li>\n                                                                    <li data-page=\"62\" data-cat=\"rsl01\" data-id=\"008897052\"><div class=\"snippet-page-label\">стр. 62</div><div class=\"snippet-content\"> первая тревога, <b>матросы</b> не придали этому никакого значения. <b>Матрос</b> Ступак, мой лучший друг, рассказывал об этом моменте так: — К началу аварии я был уже совершенно</div></li>\n                                                                    <li data-page=\"316\" data-cat=\"rsl01\" data-id=\"008897052\"><div class=\"snippet-page-label\">стр. 316</div><div class=\"snippet-content\"> команда находились на корабле. После ужина и вечерней молитвы стали расходиться спать. Около 3 часов утра <b>вахтенный</b> <b>матрос</b> В.И. Ливийский, стоя под кормовой</div></li>\n                                    </ul>\n                </div>\n                \n                <div class=\"rsl-item-footer-links js-item-subdata-links with-snippets\">\n                    \n                    \n                    \n                                        <span>&nbsp;</span>\n                </div>\n\n                \n                <div id=\"periodicReleaseList01008897052\"></div>\n\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            <div class=\"rsl-item-action-links row\">\n                <div class=\"col-sm-6 rsl-item-action-read-panel\">\n                                            <div class=\"rsl-itemaction-link rsl-itemaction-read-link\">\n\n                        <a class=\"rsl-clear-link\" href=\"/ru/view/01008897052?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01008000000%2Frsl01008897000%2Frsl01008897052%2Frsl01008897052.pdf\" target=\"_blank\"><img class=\"rsl-read-link-access-icon\" src=\"https://search.rsl.ru/img/access-lock.svg\" alt=\"Документ охраняется авторским правом. Полный текст доступен в РГБ и виртуальных читальных залах.\" title=\"Документ охраняется авторским правом. Полный текст доступен в РГБ и виртуальных читальных залах.\">&nbsp;<span class=\"rsl-link\">Читать</span></a>\n                        </div>\n                    \n                    \n                    <div class=\"rsl-itemaction-link rsl-itemaction-description-link\">\n                        <a class=\"rsl-modal\" href=\"/ru/record/01008897052\" target=\"_blank\" data-toggle=\"modal\" data-target=\"#resultModal\" data-rid=\"01008897052\">Описание</a>                    </div>\n                </div>\n                <div class=\"col-sm-6 rsl-item-action-order-panel\">\n                                        \n                    <a href=\"#\" class=\"js-favorite-link favorite-link-search\" data-id=\"01008897052\" data-doctype=\"0\" data-permission=\"3\" data-url=\"http://dlib.rsl.ru/rsl01008000000/rsl01008897000/rsl01008897052/rsl01008897052.pdf\">\n                        <span class=\"rsl-favorite-add\"></span>\n                        <span class=\"rsl-favorite-text-add\">В избранное</span>\n                        <span class=\"rsl-favorite-text-in\" style=\"display: none;\">В избранном</span>\n                    </a>\n\n                                            <div class=\"rsl-eorder-dropdown-menu js-eorder-dropdown-menu\" data-id=\"01008897052\">\n                            <a class=\"rsl-eorder-dropdown-btn\" href=\"#\">Заказать</a>                            <div class=\"rsl-eorder-dropdown-content\">\n                                                                    <a class=\"js-eorder-request-link rsl-modal\" href=\"/ru/eorder/request?id=01008897052\" data-toggle=\"modal\" data-target=\"#newEorderModal\" data-rid=\"01008897052\">В читальный зал</a>                                                                                                                                            <a class=\"rsl-payment-copy-link js-payment-copy-link\" href=\"/ru/fragment-eorder/rsl01008897052\" target=\"_blank\" data-id=\"01008897052\">Копию фрагмента<br/><span class=\"rsl-payment-copy-long-time-text\">1-5 рабочих дней</span><span class=\"rsl-payment-copy-medium-time-text\">1 рабочий день</span><span class=\"rsl-payment-copy-short-time-text\">2 минуты</span></a>                                                                                                </div>\n                        </div>\n                                    </div>\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            \n        </div>\n    </div>\n\n</div>\n\n\n\n<div class=\"row search-container pt10\" data-id=\"01006527495\">\n\n    <div class=\"hidden-xs col-sm-1 rsl-position-col\">\n        <div class=\"text-center\">\n                        <h4 class=\"search-item-position\">8</h4>\n        </div>\n    </div>\n\n    <div class=\"col-xs-12 col-sm-11 rsl-search-item-col\">\n        <div class=\"search-item p10\">\n                                        <div class=\"rsl-item-eorder-fragment-label\" data-id=\"01006527495\">\n                    Экспресс-заказ фрагмента                </div>\n                                    <div class=\"rsl-search-itemcover-col\">\n                <a class=\"rsl-itemcover-cardurl\" href=\"/ru/view/01006527495?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01006000000%2Frsl01006527000%2Frsl01006527495%2Frsl01006527495.pdf\" target=\"_blank\">                <div class=\"doc-cover book-cover text-center cover-container js-cover-container no-cover\" data-id=\"01006527495\" data-cat=\"rsl01\">\n                    <div class=\"rsl-item-nocover rsl-item-nocover-title\">Виленов, Влад</div>\n                    <div class=\"rsl-item-nocover rsl-item-nocover-descr\">Неизвестные страницы истории российского флота [Текст]</div>\n                                            <img class=\"js-cover-image\" src=\"/ru/image/cthumb/rsl01/006527495\" alt=\"Виленов, Влад. - Неизвестные страницы истории российского флота [Текст] / Влад Виленов. - Москва : Вече, печ. 2012. - 333, [2] с., [8] л. ил.; 21 см. - (Военные тайны XX века).; ISBN 978-5-4444-0563-5\" onload=\"jQuery(this).parent().removeClass(&#039;no-cover&#039;)\">                                    </div>\n                </a>            </div>\n\n            <div class=\"rsl-search-itemdescr-col\">\n\n                <div>\n                                        <b class=\"js-item-authorinfo\" data-id=\"01006527495\">Виленов, Влад.</b><br/>\n                                        <span class=\"search-descr\">\n                        <span class=\"js-item-maininfo\" data-id=\"01006527495\">Неизвестные страницы истории российского флота [Текст] / Влад Виленов. - Москва : Вече, печ. 2012. - 333, [2] с., [8] л. ил.; 21 см. - (Военные тайны XX века).; ISBN 978-5-4444-0563-5</span>\n                                                <span class=\"otherinfo js-expand-block\" style=\"display: none;\">\n                            \n<div class=\"rsl-item-otherinfo\">\n\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tШифр хранения\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>OVL ВО 926/151</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB 2 12-99/297</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t</div>\n    \t</div>\n\t\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tТема\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n            \t\t    \t\t        <span>История. Исторические науки -- Россия -- Период капитализма (1861-1917) -- Период империализма (2 пол. 90-х гг. 19 в.-1917 г.) -- Политический строй -- Армия и флот</span>\n\t\t        <br />\n\t\t    \t\t\t</div>\n\t\t</div>\n\t\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tТермины-указатели\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n\t\t    \t\t        <span>флот</span>\n\t\t        <br />\n\t\t    \t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t\t</div>\n                        </span>\n                        <a href=\"javascript://\" onclick=\"moreLink($(this));\" class=\"rsl-modal rsl-link-more-separate\">больше</a>\n                                            </span>\n                                    </div>\n\n                \n                <div class=\"rsl-item-footer-links js-item-subdata-links\">\n                    \n                    \n                    \n                                        <span>&nbsp;</span>\n                </div>\n\n                \n                <div id=\"periodicReleaseList01006527495\"></div>\n\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            <div class=\"rsl-item-action-links row\">\n                <div class=\"col-sm-6 rsl-item-action-read-panel\">\n                                            <div class=\"rsl-itemaction-link rsl-itemaction-read-link\">\n\n                        <a class=\"rsl-clear-link\" href=\"/ru/view/01006527495?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01006000000%2Frsl01006527000%2Frsl01006527495%2Frsl01006527495.pdf\" target=\"_blank\"><img class=\"rsl-read-link-access-icon\" src=\"https://search.rsl.ru/img/access-lock.svg\" alt=\"Документ охраняется авторским правом. Полный текст доступен в РГБ и виртуальных читальных залах.\" title=\"Документ охраняется авторским правом. Полный текст доступен в РГБ и виртуальных читальных залах.\">&nbsp;<span class=\"rsl-link\">Читать</span></a>\n                        </div>\n                    \n                    \n                    <div class=\"rsl-itemaction-link rsl-itemaction-description-link\">\n                        <a class=\"rsl-modal\" href=\"/ru/record/01006527495\" target=\"_blank\" data-toggle=\"modal\" data-target=\"#resultModal\" data-rid=\"01006527495\">Описание</a>                    </div>\n                </div>\n                <div class=\"col-sm-6 rsl-item-action-order-panel\">\n                                        \n                    <a href=\"#\" class=\"js-favorite-link favorite-link-search\" data-id=\"01006527495\" data-doctype=\"0\" data-permission=\"4\" data-url=\"http://dlib.rsl.ru/rsl01006000000/rsl01006527000/rsl01006527495/rsl01006527495.pdf\">\n                        <span class=\"rsl-favorite-add\"></span>\n                        <span class=\"rsl-favorite-text-add\">В избранное</span>\n                        <span class=\"rsl-favorite-text-in\" style=\"display: none;\">В избранном</span>\n                    </a>\n\n                                            <div class=\"rsl-eorder-dropdown-menu js-eorder-dropdown-menu\" data-id=\"01006527495\">\n                            <a class=\"rsl-eorder-dropdown-btn\" href=\"#\">Заказать</a>                            <div class=\"rsl-eorder-dropdown-content\">\n                                                                    <a class=\"js-eorder-request-link rsl-modal\" href=\"/ru/eorder/request?id=01006527495\" data-toggle=\"modal\" data-target=\"#newEorderModal\" data-rid=\"01006527495\">В читальный зал</a>                                                                                                                                            <a class=\"rsl-payment-copy-link js-payment-copy-link\" href=\"/ru/fragment-eorder/rsl01006527495\" target=\"_blank\" data-id=\"01006527495\">Копию фрагмента<br/><span class=\"rsl-payment-copy-long-time-text\">1-5 рабочих дней</span><span class=\"rsl-payment-copy-medium-time-text\">1 рабочий день</span><span class=\"rsl-payment-copy-short-time-text\">2 минуты</span></a>                                                                                                </div>\n                        </div>\n                                    </div>\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            \n        </div>\n    </div>\n\n</div>\n\n\n\n<div class=\"row search-container pt10\" data-id=\"01006598192\">\n\n    <div class=\"hidden-xs col-sm-1 rsl-position-col\">\n        <div class=\"text-center\">\n                        <h4 class=\"search-item-position\">9</h4>\n        </div>\n    </div>\n\n    <div class=\"col-xs-12 col-sm-11 rsl-search-item-col\">\n        <div class=\"search-item p10\">\n                                        <div class=\"rsl-item-eorder-fragment-label\" data-id=\"01006598192\">\n                    Экспресс-заказ фрагмента                </div>\n                                    <div class=\"rsl-search-itemcover-col\">\n                <a class=\"rsl-itemcover-cardurl\" href=\"/ru/view/01006598192?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01006000000%2Frsl01006598000%2Frsl01006598192%2Frsl01006598192.pdf\" target=\"_blank\">                <div class=\"doc-cover book-cover text-center cover-container js-cover-container no-cover\" data-id=\"01006598192\" data-cat=\"rsl01\">\n                    <div class=\"rsl-item-nocover rsl-item-nocover-title\">Буйко Петр</div>\n                    <div class=\"rsl-item-nocover rsl-item-nocover-descr\">Записки челюскинца</div>\n                                            <img class=\"js-cover-image\" src=\"/ru/image/cthumb/rsl01/006598192\" alt=\"Буйко Петр. - Записки челюскинца / Петр Буйко. - [Ленинград] : Мол. гвардия. Ленингр. отд-ние, 1934 (тип. &amp;quot;Печатный двор&amp;quot; и тип. им. Котлякова). - 124, [3] с., 1 с. объявл. : ил.; 20х14 см.\" onload=\"jQuery(this).parent().removeClass(&#039;no-cover&#039;)\">                                    </div>\n                </a>            </div>\n\n            <div class=\"rsl-search-itemdescr-col\">\n\n                <div>\n                                        <b class=\"js-item-authorinfo\" data-id=\"01006598192\">Буйко Петр.</b><br/>\n                                        <span class=\"search-descr\">\n                        <span class=\"js-item-maininfo\" data-id=\"01006598192\">Записки челюскинца / Петр Буйко. - [Ленинград] : Мол. гвардия. Ленингр. отд-ние, 1934 (тип. &quot;Печатный двор&quot; и тип. им. Котлякова). - 124, [3] с., 1 с. объявл. : ил.; 20х14 см.</span>\n                                                <span class=\"otherinfo js-expand-block\" style=\"display: none;\">\n                            \n<div class=\"rsl-item-otherinfo\">\n\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tШифр хранения\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB Я 206/218</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB Я 206/219</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB Рб 4/596</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t</div>\n    \t</div>\n\t\t\t\t\t\t\t\t\t</div>\n                        </span>\n                        <a href=\"javascript://\" onclick=\"moreLink($(this));\" class=\"rsl-modal rsl-link-more-separate\">больше</a>\n                                            </span>\n                                    </div>\n\n                                <div class=\"rsl-search-item-snippets\">\n                <a href=\"#\" class=\"rsl-modal\" data-toggle=\"modal\" data-target=\"#resultModal\" data-type=\"snippets\" data-id=\"01006598192\">Цитаты из текста:</a>\n                <ul class=\"snippets-list\">\n                                                                    <li data-page=\"18\" data-cat=\"rsl01\" data-id=\"006598192\"><div class=\"snippet-page-label\"><a class=\"rsl-link\" href=\"https://dlib.rsl.ru/viewer/01006598192#?page=18\" target=\"_blank\">стр. 18</a></div><div class=\"snippet-content\"> бывш й беспризорник. Команда: комсостав корабля, <b>матросы</b>, машинисты, кочегары. Капитан Ворошш — коренастый мужчина, чуткий, но деловой и серьезный человек.</div></li>\n                                                                    <li data-page=\"20\" data-cat=\"rsl01\" data-id=\"006598192\"><div class=\"snippet-page-label\"><a class=\"rsl-link\" href=\"https://dlib.rsl.ru/viewer/01006598192#?page=20\" target=\"_blank\">стр. 20</a></div><div class=\"snippet-content\"> иллюминаторы падал свет из кают, мы увидели катер с красным фонарем на носу. С пего сошел на висячий трап высокий сгорбленный мгряк. <b>Вахтенный</b> <b>матрос</b> светил</div></li>\n                                                                    <li data-page=\"34\" data-cat=\"rsl01\" data-id=\"006598192\"><div class=\"snippet-page-label\"><a class=\"rsl-link\" href=\"https://dlib.rsl.ru/viewer/01006598192#?page=34\" target=\"_blank\">стр. 34</a></div><div class=\"snippet-content\"> Интерес к новым понятиям велик. — Почему ропак, почему стомуха?—спрашиваем <b>матроса</b>, <b>Матрос</b> кидает: — Ропак поменьше, стомуха побольше, она стоймя стоит. Все</div></li>\n                                    </ul>\n                </div>\n                \n                <div class=\"rsl-item-footer-links js-item-subdata-links with-snippets\">\n                    \n                    \n                    \n                                        <span>&nbsp;</span>\n                </div>\n\n                \n                <div id=\"periodicReleaseList01006598192\"></div>\n\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            <div class=\"rsl-item-action-links row\">\n                <div class=\"col-sm-6 rsl-item-action-read-panel\">\n                                            <div class=\"rsl-itemaction-link rsl-itemaction-read-link\">\n\n                        <a class=\"rsl-clear-link\" href=\"/ru/view/01006598192?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01006000000%2Frsl01006598000%2Frsl01006598192%2Frsl01006598192.pdf\" target=\"_blank\"><img class=\"rsl-read-link-access-icon\" src=\"https://search.rsl.ru/img/access-free.svg\" alt=\"Документ в свободном доступе.\" title=\"Документ в свободном доступе.\">&nbsp;<span class=\"rsl-link\">Читать</span></a>\n                        </div>\n                    \n                    \n                    <div class=\"rsl-itemaction-link rsl-itemaction-description-link\">\n                        <a class=\"rsl-modal\" href=\"/ru/record/01006598192\" target=\"_blank\" data-toggle=\"modal\" data-target=\"#resultModal\" data-rid=\"01006598192\">Описание</a>                    </div>\n                </div>\n                <div class=\"col-sm-6 rsl-item-action-order-panel\">\n                                        \n                    <a href=\"#\" class=\"js-favorite-link favorite-link-search\" data-id=\"01006598192\" data-doctype=\"0\" data-permission=\"2\" data-url=\"http://dlib.rsl.ru/rsl01006000000/rsl01006598000/rsl01006598192/rsl01006598192.pdf\">\n                        <span class=\"rsl-favorite-add\"></span>\n                        <span class=\"rsl-favorite-text-add\">В избранное</span>\n                        <span class=\"rsl-favorite-text-in\" style=\"display: none;\">В избранном</span>\n                    </a>\n\n                                            <div class=\"rsl-eorder-dropdown-menu js-eorder-dropdown-menu\" data-id=\"01006598192\">\n                            <a class=\"rsl-eorder-dropdown-btn\" href=\"#\">Заказать</a>                            <div class=\"rsl-eorder-dropdown-content\">\n                                                                    <a class=\"js-eorder-request-link rsl-modal\" href=\"/ru/eorder/request?id=01006598192\" data-toggle=\"modal\" data-target=\"#newEorderModal\" data-rid=\"01006598192\">В читальный зал</a>                                                                                                                                            <a class=\"rsl-payment-copy-link js-payment-copy-link js-free-access-alert\" href=\"#\" data-toggle=\"modal\" data-target=\"#freeAccessAlert\" data-read-url=\"/ru/view/01006598192?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01006000000%2Frsl01006598000%2Frsl01006598192%2Frsl01006598192.pdf\" data-eorder-url=\"/ru/fragment-eorder/rsl01006598192\" data-id=\"01006598192\">\n                                            Копию фрагмента                                            <br/><span class=\"rsl-payment-copy-long-time-text\">1-5 рабочих дней</span>\n                                            <span class=\"rsl-payment-copy-medium-time-text\">1 рабочий день</span>\n                                            <span class=\"rsl-payment-copy-short-time-text\">2 минуты</span>\n                                        </a>\n                                                                                                </div>\n                        </div>\n                                    </div>\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            \n        </div>\n    </div>\n\n</div>\n\n\n    <div class=\"row search-container pt10\" data-id=\"01004107111\">\n        <div class=\"hidden-xs col-sm-1 rsl-position-col\">\n            <div class=\"text-center\">&nbsp;</div>\n        </div>\n        <div class=\"col-xs-12 col-sm-11 rsl-search-item-col\">\n            <div class=\"search-item p10\">\n                <div class=\"rsl-search-banner-eorder\">\n                    <div class=\"rsl-search-banner-eorder-image-block\">\n                        <img class=\"rsl-search-banner-eorder-image\" src=\"/img/banner-custom-eorder.jpg\" />\n                    </div>\n                    <div class=\"rsl-search-banner-eorder-text-block\">\n                        <strong>Не нашли что искали?</strong>\n                        <br />\n                        <div class=\"rsl-search-banner-eorder-additional-text\">\n                            Заполните форму произвольного заказа и мы поможем с поиском!                        </div>\n                        <a href=\"/site/request-eorder\" class=\"btn rsl-btn\" target=\"_blank\">Заполните форму</a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n<div class=\"row search-container pt10\" data-id=\"01004107111\">\n\n    <div class=\"hidden-xs col-sm-1 rsl-position-col\">\n        <div class=\"text-center\">\n                        <h4 class=\"search-item-position\">10</h4>\n        </div>\n    </div>\n\n    <div class=\"col-xs-12 col-sm-11 rsl-search-item-col\">\n        <div class=\"search-item p10\">\n                                        <div class=\"rsl-item-eorder-fragment-label\" data-id=\"01004107111\">\n                    Экспресс-заказ фрагмента                </div>\n                                    <div class=\"rsl-search-itemcover-col\">\n                <a class=\"rsl-itemcover-cardurl\" href=\"/ru/view/01004107111?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01004000000%2Frsl01004107000%2Frsl01004107111%2Frsl01004107111.pdf\" target=\"_blank\">                <div class=\"doc-cover book-cover text-center cover-container js-cover-container no-cover\" data-id=\"01004107111\" data-cat=\"rsl01\">\n                    <div class=\"rsl-item-nocover rsl-item-nocover-title\">Евгенова, Наталья Николаевна</div>\n                    <div class=\"rsl-item-nocover rsl-item-nocover-descr\">Студеные вахты : (воспоминания об исследователе Арктики)</div>\n                                            <img class=\"js-cover-image\" src=\"/ru/image/cthumb/rsl01/004107111\" alt=\"Евгенова, Наталья Николаевна. - Студеные вахты : (воспоминания об исследователе Арктики) / Н. Н. Евгенова. - Санкт-Петербург : Нестор- История, 2006. - 188 с., [17] л. ил., карт., портр.; 21 см.\" onload=\"jQuery(this).parent().removeClass(&#039;no-cover&#039;)\">                                    </div>\n                </a>            </div>\n\n            <div class=\"rsl-search-itemdescr-col\">\n\n                <div>\n                                        <b class=\"js-item-authorinfo\" data-id=\"01004107111\">Евгенова, Наталья Николаевна.</b><br/>\n                                        <span class=\"search-descr\">\n                        <span class=\"js-item-maininfo\" data-id=\"01004107111\">Студеные вахты : (воспоминания об исследователе Арктики) / Н. Н. Евгенова. - Санкт-Петербург : Нестор- История, 2006. - 188 с., [17] л. ил., карт., портр.; 21 см.</span>\n                                                <span class=\"otherinfo js-expand-block\" style=\"display: none;\">\n                            \n<div class=\"rsl-item-otherinfo\">\n\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tШифр хранения\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n\t\t\t    \t\t\t        <div>\n\t\t\t            <span>FB 2 08-62/114</span>\n\t\t\t            \t\t\t        </div>\n\t\t\t    \t\t\t</div>\n    \t</div>\n\t\t\t\t<div class=\"rsl-item-otherinfo-item\">\n\t\t\t<div class=\"rsl-item-otherinfo-item-name\">\n\t\t\t\tТема\t\t\t</div>\n\t\t\t<div class=\"rsl-item-otherinfo-item-value\">\n            \t\t    \t\t        <span>Науки о Земле (геодезические, геофизические, геологические и географические науки) -- Географические науки -- Евгенов Николай Иванович (1888-1964) - географ</span>\n\t\t        <br />\n\t\t    \t\t\t</div>\n\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n                        </span>\n                        <a href=\"javascript://\" onclick=\"moreLink($(this));\" class=\"rsl-modal rsl-link-more-separate\">больше</a>\n                                            </span>\n                                    </div>\n\n                                <div class=\"rsl-search-item-snippets\">\n                <a href=\"#\" class=\"rsl-modal\" data-toggle=\"modal\" data-target=\"#resultModal\" data-type=\"snippets\" data-id=\"01004107111\">Цитаты из текста:</a>\n                <ul class=\"snippets-list\">\n                                                                    <li data-page=\"14\" data-cat=\"rsl01\" data-id=\"004107111\"><div class=\"snippet-page-label\">стр. 14</div><div class=\"snippet-content\"> мне, — писал Николай Иванович, — одна запись: &quot;лейтенант... (фамилию не помню) бросился на ходу с корабля для спасения упавшего в море <b>матроса</b>, спас утопавшего,</div></li>\n                                                                    <li data-page=\"16\" data-cat=\"rsl01\" data-id=\"004107111\"><div class=\"snippet-page-label\">стр. 16</div><div class=\"snippet-content\"> Атлантику и Средиземное море. В отряде гардемарины исполняли обязанности помощников <b>вахтенного</b> офицера и несли вахту как ходовую, так и якорную. Один из товарищей</div></li>\n                                                                    <li data-page=\"218\" data-cat=\"rsl01\" data-id=\"004107111\"><div class=\"snippet-page-label\">стр. 218</div><div class=\"snippet-content\"> (M.: Морской транспорт, 1963. С. 150-152): «Вот уже бьет судовая рында. Станция! <b>Вахтенный</b> <b>матрос</b> мчится по каютам, заглядывает в салон, в красный уголок.</div></li>\n                                    </ul>\n                </div>\n                \n                <div class=\"rsl-item-footer-links js-item-subdata-links with-snippets\">\n                    \n                    \n                    \n                                        <span>&nbsp;</span>\n                </div>\n\n                \n                <div id=\"periodicReleaseList01004107111\"></div>\n\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            <div class=\"rsl-item-action-links row\">\n                <div class=\"col-sm-6 rsl-item-action-read-panel\">\n                                            <div class=\"rsl-itemaction-link rsl-itemaction-read-link\">\n\n                        <a class=\"rsl-clear-link\" href=\"/ru/view/01004107111?redirect=http%3A%2F%2Fdlib.rsl.ru%2Frsl01004000000%2Frsl01004107000%2Frsl01004107111%2Frsl01004107111.pdf\" target=\"_blank\"><img class=\"rsl-read-link-access-icon\" src=\"https://search.rsl.ru/img/access-lock.svg\" alt=\"Документ охраняется авторским правом. Полный текст доступен в РГБ и виртуальных читальных залах.\" title=\"Документ охраняется авторским правом. Полный текст доступен в РГБ и виртуальных читальных залах.\">&nbsp;<span class=\"rsl-link\">Читать</span></a>\n                        </div>\n                    \n                    \n                    <div class=\"rsl-itemaction-link rsl-itemaction-description-link\">\n                        <a class=\"rsl-modal\" href=\"/ru/record/01004107111\" target=\"_blank\" data-toggle=\"modal\" data-target=\"#resultModal\" data-rid=\"01004107111\">Описание</a>                    </div>\n                </div>\n                <div class=\"col-sm-6 rsl-item-action-order-panel\">\n                                        \n                    <a href=\"#\" class=\"js-favorite-link favorite-link-search\" data-id=\"01004107111\" data-doctype=\"0\" data-permission=\"4\" data-url=\"http://dlib.rsl.ru/rsl01004000000/rsl01004107000/rsl01004107111/rsl01004107111.pdf\">\n                        <span class=\"rsl-favorite-add\"></span>\n                        <span class=\"rsl-favorite-text-add\">В избранное</span>\n                        <span class=\"rsl-favorite-text-in\" style=\"display: none;\">В избранном</span>\n                    </a>\n\n                                            <div class=\"rsl-eorder-dropdown-menu js-eorder-dropdown-menu\" data-id=\"01004107111\">\n                            <a class=\"rsl-eorder-dropdown-btn\" href=\"#\">Заказать</a>                            <div class=\"rsl-eorder-dropdown-content\">\n                                                                    <a class=\"js-eorder-request-link rsl-modal\" href=\"/ru/eorder/request?id=01004107111\" data-toggle=\"modal\" data-target=\"#newEorderModal\" data-rid=\"01004107111\">В читальный зал</a>                                                                                                                                            <a class=\"rsl-payment-copy-link js-payment-copy-link\" href=\"/ru/fragment-eorder/rsl01004107111\" target=\"_blank\" data-id=\"01004107111\">Копию фрагмента<br/><span class=\"rsl-payment-copy-long-time-text\">1-5 рабочих дней</span><span class=\"rsl-payment-copy-medium-time-text\">1 рабочий день</span><span class=\"rsl-payment-copy-short-time-text\">2 минуты</span></a>                                                                                                </div>\n                        </div>\n                                    </div>\n            </div>\n\n            <div class=\"clearfix\"></div>\n\n            \n        </div>\n    </div>\n\n</div>\n\n\n\n</div>\n</div>\n\n<div class=\"row\">\n    <div class=\"col-xs-12 col-sm-8\">\n        <div id=\"infinite-pagination\" class=\"zero-paddings bottom-pagination text-center\">\n            <div class=\"text-center\"><ul class=\"pagination\"><li class=\"disabled\"><a class=\"pagination-link\" href=\"javascript://\" data-page=\"1\">&laquo;</a></li><li class=\"active\"><a class=\"pagination-link\" href=\"javascript://\" data-page=\"1\">1</a></li><li><a class=\"pagination-link\" href=\"javascript://\" data-page=\"2\">2</a></li><li><a class=\"pagination-link\" href=\"javascript://\" data-page=\"3\">3</a></li><li><a class=\"pagination-link\" href=\"javascript://\" data-page=\"66\">&raquo;</a></li></ul></div>        </div>\n    </div>\n</div>\n"
+}

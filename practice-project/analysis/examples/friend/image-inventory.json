@@ -1,0 +1,234 @@
+[
+  {
+    "file": "image1.jpeg",
+    "width": 4032,
+    "height": 3024,
+    "anchors": [
+      41
+    ]
+  },
+  {
+    "file": "image2.jpeg",
+    "width": 4032,
+    "height": 3024,
+    "anchors": [
+      47
+    ]
+  },
+  {
+    "file": "image3.jpeg",
+    "width": 4032,
+    "height": 3024,
+    "anchors": [
+      54
+    ]
+  },
+  {
+    "file": "image4.jpeg",
+    "width": 4032,
+    "height": 3024,
+    "anchors": [
+      58
+    ]
+  },
+  {
+    "file": "image5.jpeg",
+    "width": 733,
+    "height": 432,
+    "anchors": [
+      61
+    ]
+  },
+  {
+    "file": "image6.jpeg",
+    "width": 1429,
+    "height": 1072,
+    "anchors": [
+      78
+    ]
+  },
+  {
+    "file": "image7.png",
+    "width": 359,
+    "height": 842,
+    "anchors": [
+      129
+    ]
+  },
+  {
+    "file": "image8.png",
+    "width": 522,
+    "height": 756,
+    "anchors": [
+      131
+    ]
+  },
+  {
+    "file": "image9.png",
+    "width": 12,
+    "height": 15,
+    "anchors": [
+      143
+    ]
+  },
+  {
+    "file": "image10.png",
+    "width": 9,
+    "height": 15,
+    "anchors": [
+      144
+    ]
+  },
+  {
+    "file": "image11.png",
+    "width": 383,
+    "height": 302,
+    "anchors": [
+      157
+    ]
+  },
+  {
+    "file": "image12.png",
+    "width": 337,
+    "height": 47,
+    "anchors": [
+      158
+    ]
+  },
+  {
+    "file": "image13.png",
+    "width": 155,
+    "height": 143,
+    "anchors": [
+      160
+    ]
+  },
+  {
+    "file": "image14.png",
+    "width": 155,
+    "height": 143,
+    "anchors": [
+      162
+    ]
+  },
+  {
+    "file": "image15.jpeg",
+    "width": 366,
+    "height": 600,
+    "anchors": [
+      197
+    ]
+  },
+  {
+    "file": "image16.jpeg",
+    "width": 377,
+    "height": 600,
+    "anchors": [
+      197
+    ]
+  },
+  {
+    "file": "image17.jpeg",
+    "width": 346,
+    "height": 342,
+    "anchors": [
+      211
+    ]
+  },
+  {
+    "file": "image18.png",
+    "width": 446,
+    "height": 214,
+    "anchors": [
+      214
+    ]
+  },
+  {
+    "file": "image19.png",
+    "width": 700,
+    "height": 277,
+    "anchors": [
+      223
+    ]
+  },
+  {
+    "file": "image20.png",
+    "width": 700,
+    "height": 200,
+    "anchors": [
+      226
+    ]
+  },
+  {
+    "file": "image21.png",
+    "width": 573,
+    "height": 402,
+    "anchors": [
+      232
+    ]
+  },
+  {
+    "file": "image22.png",
+    "width": 558,
+    "height": 464,
+    "anchors": [
+      235
+    ]
+  },
+  {
+    "file": "image23.png",
+    "width": 724,
+    "height": 523,
+    "anchors": [
+      240
+    ]
+  },
+  {
+    "file": "image24.png",
+    "width": 564,
+    "height": 697,
+    "anchors": [
+      286
+    ]
+  },
+  {
+    "file": "image25.jpeg",
+    "width": 4032,
+    "height": 3024,
+    "anchors": [
+      298
+    ]
+  },
+  {
+    "file": "image26.png",
+    "width": 3328,
+    "height": 4677,
+    "anchors": [
+      455
+    ]
+  },
+  {
+    "file": "image27.png",
+    "width": 3328,
+    "height": 4677,
+    "anchors": [
+      455
+    ]
+  },
+  {
+    "file": "image28.jpeg",
+    "width": 800,
+    "height": 600,
+    "anchors": [
+      461
+    ]
+  },
+  {
+    "file": "image29.jpeg",
+    "width": 1374,
+    "height": 1799,
+    "anchors": [
+      472
+    ]
+  }
+]

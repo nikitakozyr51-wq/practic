@@ -1,0 +1,24 @@
+[
+  {
+    "url": "https://tass.ru/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Safety-of-Life-at-Sea-(SOLAS),-1974.aspx",
+    "status": 200,
+    "received_bytes": 69335,
+    "final_url": "https://www.imo.org/en/about/conventions/pages/international-convention-for-the-safety-of-life-at-sea-(solas),-1974.aspx"
+  },
+  {
+    "url": "https://search.rsl.ru/",
+    "status": 200,
+    "received_bytes": 200000,
+    "final_url": "https://search.rsl.ru/"
+  },
+  {
+    "url": "https://www.skipper.no/",
+    "status": 200,
+    "received_bytes": 93146,
+    "final_url": "https://www.skipper.no/"
+  }
+]

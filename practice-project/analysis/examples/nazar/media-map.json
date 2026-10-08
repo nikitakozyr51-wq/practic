@@ -1,0 +1,92 @@
+[
+  {
+    "block": 140,
+    "kind": "paragraph",
+    "style": "List Paragraph",
+    "text": "",
+    "images": [
+      "/word/media/image2.jpeg"
+    ]
+  },
+  {
+    "block": 142,
+    "kind": "paragraph",
+    "style": "List Paragraph",
+    "text": "",
+    "images": [
+      "/word/media/image3.jpeg"
+    ]
+  },
+  {
+    "block": 150,
+    "kind": "paragraph",
+    "style": "List Paragraph",
+    "text": "",
+    "images": [
+      "/word/media/image4.jpeg"
+    ]
+  },
+  {
+    "block": 157,
+    "kind": "paragraph",
+    "style": "List Paragraph",
+    "text": "",
+    "images": [
+      "/word/media/image5.jpeg"
+    ]
+  },
+  {
+    "block": 161,
+    "kind": "paragraph",
+    "style": "List Paragraph",
+    "text": "",
+    "images": [
+      "/word/media/image6.jpeg"
+    ]
+  },
+  {
+    "block": 188,
+    "kind": "paragraph",
+    "style": "Normal",
+    "text": "",
+    "images": [
+      "/word/media/image7.jpeg"
+    ]
+  },
+  {
+    "block": 191,
+    "kind": "paragraph",
+    "style": "Normal",
+    "text": "",
+    "images": [
+      "/word/media/image8.jpeg"
+    ]
+  },
+  {
+    "block": 246,
+    "kind": "paragraph",
+    "style": "List Paragraph",
+    "text": "",
+    "images": [
+      "/word/media/image9.jpeg"
+    ]
+  },
+  {
+    "block": 355,
+    "kind": "paragraph",
+    "style": "List Paragraph",
+    "text": "",
+    "images": [
+      "/word/media/image10.jpeg"
+    ]
+  },
+  {
+    "block": 375,
+    "kind": "paragraph",
+    "style": "List Paragraph",
+    "text": "",
+    "images": [
+      "/word/media/image11.jpeg"
+    ]
+  }
+]
