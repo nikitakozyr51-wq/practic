@@ -1,7 +1,7 @@
 {
   "checker": "ars-acronym-check/1.0",
   "input": "practice-project/analysis/REPORT_CONTENT.md",
-  "input_sha256": "1725831151686ee0dcb3318c06fd3960793a4ba8bfbcb6e330bee1311211412e",
+  "input_sha256": "bfd0d3360f3301eae43b6783e4bcf4377af51103ba2c1d5a90488e1f1c3760d3",
   "status": "partial",
   "allowlist": {
     "default": 29,
@@ -220,7 +220,7 @@
       ],
       [
         474,
-        479
+        477
       ]
     ]
   },

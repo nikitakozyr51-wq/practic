@@ -3,6 +3,7 @@ from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
 from copy import deepcopy
 import re, json, hashlib
+from datetime import datetime, timezone
 from lxml import etree
 from docx.oxml.shape import CT_Inline
 from PIL import Image
@@ -56,7 +57,7 @@ for p in body.xpath('.//w:p', namespaces=NS):
     if 'Еремяна Назара Ашотовича' in txt:
         replace_span(p, 'Еремяна Назара Ашотовича', 'Козырева Никиты Алексеевича')
     if 'Еремян Н. А.' in txt:
-        replace_span(p, 'Еремян Н. А.', 'Козырев Н. А.')
+        replace_span(p, 'Еремян Н. А.', 'Козырев Н.А.')
 
 # Keep the complete title page, TOC layout, section, logos and footer parts.
 start = list(body).index(original_paragraphs[46])
@@ -86,6 +87,49 @@ def make_p(template_index, text, drop_numbering=False):
 
 def append(p):
     body.insert(list(body).index(sect), p)
+
+format_receipts=[]
+def format_report_p(p,role):
+    """Use the sample's dominant text settings with consistent paragraph layout."""
+    ppr=p.find(W+'pPr')
+    if ppr is None:
+        ppr=etree.Element(W+'pPr');p.insert(0,ppr)
+    if role=='body' or (role=='heading' and re.match(r'^\d+\.',text_of(p))):
+        # Some source paragraphs are bullet-list items. New continuous prose
+        # must not accidentally inherit a bullet before every paragraph.
+        for item in ppr.findall(W+'numPr'):ppr.remove(item)
+    def set_prop(tag,**attrs):
+        item=ppr.find(W+tag)
+        if item is None:
+            item=etree.SubElement(ppr,W+tag)
+        for key,value in attrs.items():item.set(W+key,str(value))
+        return item
+    ind=set_prop('ind',left=0,right=0,firstLine=709 if role in ('body','heading') else 0)
+    ind.attrib.pop(W+'hanging',None)
+    set_prop('jc',val='both' if role in ('body','heading') else ('left' if role=='reference' else 'center'))
+    set_prop('spacing',before=0,after=120 if role=='reference' else 0,line=240,lineRule='auto')
+    set_prop('widowControl',val=1)
+    if role in ('heading','appendix','bibliography','image'):
+        set_prop('keepNext',val=1)
+    if role in ('heading','appendix','bibliography','caption'):
+        set_prop('keepLines',val=1)
+    for run in p.findall(W+'r'):
+        if not run.findall(W+'t'):
+            continue
+        rpr=run.find(W+'rPr')
+        if rpr is None:
+            rpr=etree.Element(W+'rPr');run.insert(0,rpr)
+        for tag,attrs in [('rFonts',{'ascii':'Times New Roman','hAnsi':'Times New Roman','cs':'Times New Roman'}),
+                          ('sz',{'val':'24'}),('szCs',{'val':'24'}),('color',{'val':'000000'})]:
+            item=rpr.find(W+tag)
+            if item is None:item=etree.SubElement(rpr,W+tag)
+            for key,value in attrs.items():item.set(W+key,value)
+    format_receipts.append({'role':role,'text':text_of(p)})
+    return p
+
+def clean_heading(label):
+    label=label.strip().replace('оценкарайона','оценка района')
+    return re.sub(r'^(\d+(?:\.\d+)*\.?)(?=[А-ЯЁA-Z])',r'\1 ',label)
 
 main_templates = {1:46, 2:61, 3:72, 4:110, 5:124, 6:199, 7:220,
                   8:255, 9:348, 10:354, 11:374, 12:379, 13:390,
@@ -123,7 +167,7 @@ page_map = json.loads(page_map_path.read_text()) if page_map_path.exists() else 
 for n, old in enumerate(toc_nodes, 1):
     source_tokens = templates[15+n].xpath('.//w:r/*[self::w:t or self::w:tab]',namespaces=NS)
     original_text = ''.join((node.text or '') if node.tag==W+'t' else '\t' for node in source_tokens)
-    label = original_text.rsplit('\t',1)[0]
+    label = clean_heading(original_text.rsplit('\t',1)[0])
     new = make_p(15+n, '')
     r = new.find(W + 'r')
     for child in list(r):
@@ -145,7 +189,7 @@ for n, old in enumerate(toc_nodes, 1):
     etree.SubElement(page_run, W + 't').text = str(page_map.get(str(n), ''))
     old.getparent().replace(old, new)
 bib_toc = make_p(32, '')
-r = bib_toc.find(W + 'r'); r.find(W + 't').text = 'Использованные источники'
+r = bib_toc.find(W + 'r'); r.find(W + 't').text = 'Список использованной литературы'
 props=templates[32].xpath('.//w:r[w:t]/w:rPr',namespaces=NS)
 if props:
     r.insert(0,static_toc_props(props[0]))
@@ -190,7 +234,7 @@ def add_photo(number):
     cx = round(width_cm * EMU_CM)
     cy = round(cx * display_h / display_w)
     rid = 'rIdPhoto' + str(number)
-    name = 'maxim-photo-' + str(number) + '.jpeg'
+    name = 'equipment-figure-' + str(number) + '.jpeg'
     target = 'media/' + name
     relation = etree.SubElement(rels, '{'+NS['rel']+'}Relationship')
     relation.set('Id', rid)
@@ -209,9 +253,9 @@ def add_photo(number):
     elif orientation == 3:
         xf.set('rot','10800000')
     drawing = etree.SubElement(p.find(W+'r'),W+'drawing'); drawing.append(inline)
-    append(p)
+    append(format_report_p(p,'image'))
     cap = make_p(154,'Рис. '+str(number)+'. '+caption,drop_numbering=True)
-    append(cap)
+    append(format_report_p(cap,'caption'))
     photo_receipts.append({'number':number,'source':filename,'caption':caption,
                            'sha256':hashlib.sha256(data).hexdigest(),'width_cm':width_cm,
                            'orientation_exif':orientation,'bytes_unchanged':True})
@@ -237,9 +281,9 @@ for line in lines:
     if main_match:
         insert_photos_for_finished(pending); pending = None
         section = int(main_match.group(1)); active = True
-        label = text_of(templates[main_templates[section]])
+        label = clean_heading(text_of(templates[main_templates[section]]))
         p = make_p(main_templates[section],label)
-        append(p)
+        append(format_report_p(p,'heading'))
         heading_receipts.append({'number':section,'text':label,'template_paragraph':main_templates[section]})
     elif sub_match and active:
         insert_photos_for_finished(pending)
@@ -255,18 +299,20 @@ for line in lines:
             '5.2':'5.2 Приборы определения скорости и глубины.',
             '5.3':'5.3 Приборы определения места судна.',
             '5.4':'5.4 Приборы управления судном (ЭКНИС, САРП, РЛС, АИС, авторулевой).'}
-        label = known.get(pending,full)
-        append(make_p(idx,label))
-    elif line.startswith('## Использованные источники') and active:
+        label = clean_heading(known.get(pending,full))
+        append(format_report_p(make_p(idx,label),'heading'))
+    elif line.startswith('## Список использованной литературы') and active:
         insert_photos_for_finished(pending); pending = None
-        append(make_p(416,'Использованные источники'))
+        title=format_report_p(make_p(416,'Список использованной литературы'),'bibliography')
+        etree.SubElement(title.find(W+'pPr'),W+'pageBreakBefore').set(W+'val','1')
+        append(title)
         section = 18
     elif active:
         index = body_templates.get(section,417)
         p = make_p(index,re.sub(r'\*\*(.*?)\*\*',r'\1',line))
         if section == 18:
             p = make_p(417,line,drop_numbering=True)
-        append(p)
+        append(format_report_p(p,'reference' if section==18 else 'body'))
         immediate = None
         if line.startswith('Оптическая передача позволяет'):
             immediate = 1
@@ -291,35 +337,139 @@ assert 'Еремян' not in text_of(tree)
 assert 'PANTHERLIGHT' not in text_of(tree)
 assert '62 000 кВт' in text_of(tree)
 assert '6200' not in text_of(tree)
-# Append faithful rendered pages of the supplied assignment; these are document
-# facsimiles, not additional photographs of ship equipment or signed originals.
-assignment_receipts = []
-for i, source in enumerate(sorted((ANALYSIS/'assignment-pages').glob('assignment-page-*.png')),1):
-    title = make_p(416,'Приложение А. Задание на производственную практику' if i==1 else '')
-    ppr = title.find(W+'pPr')
-    page_break = etree.SubElement(ppr,W+'pageBreakBefore'); page_break.set(W+'val','1')
-    append(title)
-    data = source.read_bytes()
-    im = Image.open(source)
-    cx = round(16.5 * EMU_CM); cy = round(cx*im.height/im.width)
-    rid = 'rIdAssignment'+str(i)
-    target = 'media/assignment-page-'+str(i)+'.png'
-    rel = etree.SubElement(rels,'{'+NS['rel']+'}Relationship')
-    rel.set('Id',rid); rel.set('Type',NS['r']+'/image'); rel.set('Target',target)
-    package['word/'+target] = data
-    p = make_p(153,'',drop_numbering=True)
-    drawing = etree.SubElement(p.find(W+'r'),W+'drawing')
-    drawing.append(CT_Inline.new_pic_inline(200+i,rid,source.name,cx,cy))
-    append(p)
-    assignment_receipts.append({'page':i,'sha256':hashlib.sha256(data).hexdigest()})
-assert len(assignment_receipts)==2
+# Import the assignment as native Word paragraphs. Flatten its style inheritance
+# into direct properties so coinciding style IDs cannot change fonts or layout.
+assignment_source=ROOT/'originals'/'Gumrf_ProizvPraktikaSV_Zadanie (2).docx'
+with ZipFile(assignment_source) as z:
+    assignment_tree=etree.fromstring(z.read('word/document.xml'))
+    assignment_styles=etree.fromstring(z.read('word/styles.xml'))
+assignment_body=assignment_tree.find(W+'body')
+style_by_id={s.get(W+'styleId'):s for s in assignment_styles.findall(W+'style')}
+
+def style_chain(style_id):
+    chain=[];seen=set()
+    while style_id and style_id not in seen and style_id in style_by_id:
+        seen.add(style_id);s=style_by_id[style_id];chain.insert(0,s)
+        base=s.find(W+'basedOn');style_id=base.get(W+'val') if base is not None else None
+    return chain
+
+def merge_props(tag,*layers):
+    props=etree.Element(W+tag)
+    for layer in layers:
+        if layer is None:continue
+        for item in layer:
+            old=props.find(item.tag)
+            if old is None:
+                props.append(deepcopy(item));continue
+            if len(item) or len(old):
+                props.replace(old,deepcopy(item))
+            else:
+                old.attrib.update(item.attrib)
+    return props
+
+default_p=assignment_styles.find('./'+W+'docDefaults/'+W+'pPrDefault/'+W+'pPr')
+default_r=assignment_styles.find('./'+W+'docDefaults/'+W+'rPrDefault/'+W+'rPr')
+assignment_elements=[deepcopy(x) for x in assignment_body if x.tag!=W+'sectPr']
+assignment_drawing_index=200
+for element in assignment_elements:
+    for drawing in element.xpath('.//wp:docPr',namespaces=NS):
+        drawing.set('id',str(assignment_drawing_index))
+        assignment_drawing_index+=1
+source_assignment_paras=assignment_body.findall(W+'p')
+native_paras=[x for x in assignment_elements if x.tag==W+'p']
+assert len(native_paras)==len(source_assignment_paras)==82
+for element in assignment_elements:
+    paras=[element] if element.tag==W+'p' else element.findall('.//'+W+'p')
+    for p in paras:
+        direct_p=p.find(W+'pPr')
+        style=direct_p.find(W+'pStyle') if direct_p is not None else None
+        chain=style_chain(style.get(W+'val') if style is not None else 'a')
+        ppr=merge_props('pPr',default_p,*[s.find(W+'pPr') for s in chain],direct_p)
+        for item in ppr.findall(W+'pStyle')+ppr.findall(W+'numPr'):
+            ppr.remove(item)
+        if direct_p is not None:p.remove(direct_p)
+        p.insert(0,ppr)
+        paragraph_mark=ppr.find(W+'rPr')
+        for run in p.findall(W+'r'):
+            direct_r=run.find(W+'rPr')
+            char_style=direct_r.find(W+'rStyle') if direct_r is not None else None
+            chars=style_chain(char_style.get(W+'val')) if char_style is not None else []
+            rpr=merge_props('rPr',default_r,*[s.find(W+'rPr') for s in chain],paragraph_mark,
+                            *[s.find(W+'rPr') for s in chars],direct_r)
+            for item in rpr.findall(W+'rStyle'):rpr.remove(item)
+            if direct_r is not None:run.remove(direct_r)
+            run.insert(0,rpr)
+# These three labels are automatic numbering in the source. Spell out the same
+# visible labels without importing its numbering definitions into the report.
+for index,prefix in {16:'1. ',17:'1.1 ',18:'1.2 '}.items():
+    p=native_paras[index]
+    text=p.find('.//'+W+'t');text.text=prefix+(text.text or '')
+for original,copy in zip(source_assignment_paras,native_paras):
+    assert text_of(original) in text_of(copy)
+# Empty paragraphs in the supplied form become excessive vertical gaps when its
+# styles are flattened. Keep all wording and fields, with explicit single spacing.
+for p in [x for e in assignment_elements for x in ([e] if e.tag==W+'p' else e.findall('.//'+W+'p'))]:
+    ppr=p.find(W+'pPr')
+    spacing=ppr.find(W+'spacing')
+    if spacing is None:spacing=etree.SubElement(ppr,W+'spacing')
+    spacing.attrib.clear()
+    for key,value in {'before':'0','after':'0','line':'240','lineRule':'auto'}.items():spacing.set(W+key,value)
+    etree.SubElement(ppr,W+'widowControl').set(W+'val','1')
+# Set explicit right tab stops for the form's signature fields. The original
+# multiple default tabs wrap the teacher's surname after importing the form.
+def native_form_line(index,left,right=None,before=0,after=0):
+    p=native_paras[index];ppr=p.find(W+'pPr')
+    font=p.find('./'+W+'r/'+W+'rPr')
+    for child in list(p):
+        if child is not ppr:p.remove(child)
+    for tag in ['ind','tabs','jc']:
+        for child in ppr.findall(W+tag):ppr.remove(child)
+    ind=etree.SubElement(ppr,W+'ind')
+    for key in ['left','right','firstLine']:ind.set(W+key,'0')
+    etree.SubElement(ppr,W+'jc').set(W+'val','left')
+    tabs=etree.SubElement(ppr,W+'tabs')
+    stop=etree.SubElement(tabs,W+'tab');stop.set(W+'val','right');stop.set(W+'pos','9345')
+    spacing=ppr.find(W+'spacing');spacing.set(W+'before',str(before));spacing.set(W+'after',str(after))
+    run=etree.SubElement(p,W+'r')
+    if font is not None:run.append(deepcopy(font))
+    etree.SubElement(run,W+'t').text=left
+    if right is not None:
+        etree.SubElement(run,W+'tab')
+        etree.SubElement(run,W+'t').text=right
+native_form_line(71,text_of(native_paras[71]).strip(),before=240)
+native_form_line(72,'к.т.н., доц., спкм','Г.И. Безбородов',after=120)
+native_form_line(75,text_of(native_paras[75]).strip(),before=120)
+fields=re.findall(r'_{2,}',text_of(source_assignment_paras[76]))
+native_form_line(76,'подготовки',fields[-1])
+fields=re.findall(r'_{2,}',text_of(source_assignment_paras[80]))
+native_form_line(80,'Задание получил:',fields[0]+' /'+fields[1]+'/',before=240)
+native_form_line(81,re.sub(r'\s+',' ',text_of(native_paras[81])).strip(),before=120)
+etree.SubElement(native_paras[43].find(W+'pPr'),W+'pageBreakBefore').set(W+'val','1')
+assignment_elements=[e for e in assignment_elements if text_of(e).strip()]
+for original,copy in zip(source_assignment_paras,native_paras):
+    def form_text(p):
+        return ''.join('\t' if e.tag==W+'tab' else (e.text or '')
+                       for e in p.xpath('.//w:t|.//w:tab',namespaces=NS))
+    original_words=re.findall(r'[А-Яа-яЁёA-Za-z0-9]+',form_text(original))
+    copied_words=re.findall(r'[А-Яа-яЁёA-Za-z0-9]+',form_text(copy))
+    assert ' '.join(original_words) in ' '.join(copied_words),text_of(original)
+title=format_report_p(make_p(416,'Приложение А. Задание на производственную практику'),'appendix')
+etree.SubElement(title.find(W+'pPr'),W+'pageBreakBefore').set(W+'val','1')
+append(title)
+for element in assignment_elements:append(element)
+assignment_receipts={'source':assignment_source.name,'native_word_text':True,
+                     'source_paragraphs':82,
+                     'inserted_nonempty_paragraphs':sum(e.tag==W+'p' for e in assignment_elements),
+                     'all_source_wording_preserved':True,
+                     'blank_spacing_paragraphs_omitted':True,'explicit_single_spacing':True,
+                     'source_sha256':hashlib.sha256(assignment_source.read_bytes()).hexdigest()}
 certificate_files = sorted(p for p in (ROOT/'originals'/'certificate').glob('*')
                            if p.suffix.lower() in ('.jpg','.jpeg','.png'))
 certificate_receipts = []
 if certificate_files:
     assert len(certificate_files)==2, 'The supplied certificate has two pages.'
     for i,source in enumerate(certificate_files,1):
-        title = make_p(416,'Приложение Б. Справка о плавании' if i==1 else '')
+        title = format_report_p(make_p(416,'Приложение Б. Справка о плавании' if i==1 else ''),'appendix')
         ppr = title.find(W+'pPr')
         etree.SubElement(ppr,W+'pageBreakBefore').set(W+'val','1')
         append(title)
@@ -341,10 +491,27 @@ if certificate_files:
         if orientation in (3,6,8):
             inline.xpath('.//a:xfrm')[0].set('rot',{3:'10800000',6:'5400000',8:'16200000'}[orientation])
         etree.SubElement(p.find(W+'r'),W+'drawing').append(inline)
-        append(p)
+        append(format_report_p(p,'image'))
         certificate_receipts.append({'page':i,'source':source.name,'sha256':hashlib.sha256(data).hexdigest()})
 package['word/document.xml'] = etree.tostring(tree,xml_declaration=True,encoding='UTF-8',standalone=True)
 package['word/_rels/document.xml.rels'] = etree.tostring(rels,xml_declaration=True,encoding='UTF-8',standalone=True)
+# Do not inherit the template student's name and old dates in file properties.
+core=etree.fromstring(package['docProps/core.xml'])
+core_ns={'dc':'http://purl.org/dc/elements/1.1/','cp':'http://schemas.openxmlformats.org/package/2006/metadata/core-properties',
+         'dt':'http://purl.org/dc/terms/'}
+now=datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+for tag,value in [('dc:title','Отчёт о плавательной практике'),('dc:creator','Козырев Никита Алексеевич'),
+                  ('cp:lastModifiedBy','Codex'),('cp:revision','1'),('dt:created',now),('dt:modified',now)]:
+    node=core.find(tag,core_ns)
+    if node is not None:node.text=value
+package['docProps/core.xml']=etree.tostring(core,xml_declaration=True,encoding='UTF-8',standalone=True)
+app=etree.fromstring(package['docProps/app.xml'])
+appns='{http://schemas.openxmlformats.org/officeDocument/2006/extended-properties}'
+for tag,value in [('Pages',page_map.get('total_pages')),('Words',len(text_of(tree).split())),
+                  ('Paragraphs',len(body.findall(W+'p')))]:
+    node=app.find(appns+tag)
+    if node is not None and value is not None:node.text=str(value)
+package['docProps/app.xml']=etree.tostring(app,xml_declaration=True,encoding='UTF-8',standalone=True)
 # Explicitly add content-type defaults if needed by the inherited package.
 types = etree.fromstring(package['[Content_Types].xml'])
 ctns = 'http://schemas.openxmlformats.org/package/2006/content-types'
@@ -363,7 +530,7 @@ with ZipFile(out) as z:
             assert z.read(name) == original.read(name), name
 (ANALYSIS/'report-build-receipt.json').write_text(json.dumps({'source_template':SOURCE.name,
     'template_styles_theme_numbering_footers_identical':True,'headings':heading_receipts,
-    'photos':photo_receipts,'assignment_pages':assignment_receipts,
+    'photos':photo_receipts,'assignment':assignment_receipts,'paragraph_formats':format_receipts,
     'certificate_pages':certificate_receipts,
     'page_map':page_map,'output_bytes':out.stat().st_size},ensure_ascii=False,indent=2))
 print(json.dumps({'output':str(out),'photos':len(photo_receipts),'bytes':out.stat().st_size,'layout_parts_identical':True}))

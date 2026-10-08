@@ -1,5 +1,5 @@
 {
-  "pdf_pages": 29,
+  "pdf_pages": 30,
   "toc_page_numbers_verified_in_pdf_and_docx": true,
   "toc_text_black": true,
   "photos": [
@@ -32,10 +32,19 @@
       "page": 20
     }
   ],
+  "photos_centered_in_text_area": true,
+  "photo_center_tolerance_mm": 1,
+  "photo_center_max_deviation_mm": 0.688,
   "no_images_outside_pages": true,
-  "section5_pages": [
+  "no_unintended_bullet_markers": true,
+  "section5_pages_including_partial_last_page": [
     7,
-    18
+    19
   ],
-  "font_substitution": "Liberation Serif for Times New Roman"
+  "assignment_pages": [
+    29,
+    30
+  ],
+  "font_substitution": "Liberation Serif for Times New Roman",
+  "pdf_sha256": "e7c41e95b4f9a07db070244af6c6b4c8ebda65efac75ddceba22dd08108771b9"
 }

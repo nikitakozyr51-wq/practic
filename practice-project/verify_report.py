@@ -15,10 +15,11 @@ subs=re.findall(r'^### (\d+\.\d+)\.',content,re.M)
 assert main==list(range(1,18)),main
 expected=[f'{n}.{i}' for n,count in [(1,3),(2,4),(3,3),(4,4),(5,5),(6,3),(7,4),(8,7)] for i in range(1,count+1)]
 assert subs==expected,subs
-body,bib=content.split('## Использованные источники',1)
+body,bib=content.split('## Список использованной литературы',1)
 cites=set(re.findall(r'\[(\d+)\]',body))
 refs=set(re.findall(r'^(\d+)\.',bib,re.M))
-assert cites==refs=={'1','2','3','4'},(cites,refs)
+assert cites==refs=={'1','2','3'},(cites,refs)
+assert 'Шеньшин' not in content and '[4]' not in content
 assert '62 000 кВт' in body and '6200' not in body
 assert '7570' in body and '5200 кВт' in body and 'GTA M-9' in body
 assert len(re.findall(r'рисунке [1-7]',body))>=7
@@ -33,7 +34,7 @@ with ZipFile(report) as z,ZipFile(root/'originals'/'Nazar_Otchet_Praktika.docx')
     for name in ['word/styles.xml','word/theme/theme1.xml','word/numbering.xml','word/footer1.xml','word/footer2.xml']:
         assert z.read(name)==original.read(name),name
     for p in receipt['photos']:
-        data=z.read('word/media/maxim-photo-'+str(p['number'])+'.jpeg')
+        data=z.read('word/media/equipment-figure-'+str(p['number'])+'.jpeg')
         assert data==maxim.read('word/media/'+p['source']),p
         assert sha256(data).hexdigest()==p['sha256']
     ids=tree.xpath('.//wp:docPr/@id',namespaces=ns)
@@ -48,8 +49,32 @@ with ZipFile(report) as z,ZipFile(root/'originals'/'Nazar_Otchet_Praktika.docx')
     assert 'Козырева Никиты Алексеевича' in full and '[ФИО]' not in full
     assert sum(t.startswith('Рис. ') for t in texts)==7
     assert 'Приложение А. Задание на производственную практику' in full
+    assert 'Шеньшин' not in full and 'Максим' not in full and '[4]' not in full
+    assert receipt['assignment']['native_word_text']
+    assert receipt['assignment']['all_source_wording_preserved']
+    core=z.read('docProps/core.xml').decode()
+    assert 'Назар' not in core and 'Козырев Никита Алексеевич' in core
 
 doc=Document(report)
+first=next(i for i,p in enumerate(doc.paragraphs)
+           if p.text==receipt['paragraph_formats'][0]['text'])
+for record,p in zip(receipt['paragraph_formats'],doc.paragraphs[first:]):
+    assert p.text==record['text'],(record,p.text)
+    role=record['role']
+    assert p.paragraph_format.line_spacing==1,(role,p.text[:80])
+    if role in ('body','heading'):
+        assert str(p.alignment)=='JUSTIFY (3)',(role,p.text[:80])
+        assert abs(p.paragraph_format.first_line_indent.cm-1.25)<0.002
+    elif role in ('caption','image','appendix','bibliography'):
+        assert str(p.alignment)=='CENTER (1)',(role,p.text[:80])
+    if role=='body' or (role=='heading' and re.match(r'^\d+\.',p.text)):
+        assert p._p.find('w:pPr/w:numPr',p._p.nsmap) is None,p.text[:80]
+    if role in ('heading','image','bibliography','appendix'):
+        assert p.paragraph_format.keep_with_next is True,p.text[:80]
+    for run in p.runs:
+        if run.text:
+            assert run.font.name=='Times New Roman' and run.font.size.pt==12,p.text[:80]
+            assert str(run.font.color.rgb)=='000000',p.text[:80]
 page_map=json.loads((a/'report-page-map.json').read_text())
 for i,p in enumerate(doc.paragraphs[16:33],1):
     fields=p.text.rsplit('\t',1)
@@ -62,6 +87,6 @@ for level,title,prose in zip(split[1::3],split[2::3],split[3::3]):
     for i,p in enumerate(paragraphs,1):
         rows.append({'section':title,'paragraph':i,'text':p,'citations':re.findall(r'\[(\d+)\]',p),'review_scope':'Термины, единицы, физический смысл, согласованность; наличие оборудования и результаты наблюдений не верифицированы.'})
 (a/'thesis-register.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2))
-result={'main_sections':len(main),'subsections':len(subs),'assignment_leaf_topics':len(subs)+9,'body_paragraphs':len(rows),'source_photos':len(receipt['photos']),'assignment_facsimile_pages':len(receipt['assignment_pages']),'citations_and_references':sorted(cites),'orphans':0,'original_photo_bytes_preserved':True,'template_parts_and_section_settings_identical':True,'report_sha256':sha256(report.read_bytes()).hexdigest(),'report_bytes':report.stat().st_size}
+result={'main_sections':len(main),'subsections':len(subs),'assignment_leaf_topics':len(subs)+9,'body_paragraphs':len(rows),'source_photos':len(receipt['photos']),'source_assignment_paragraphs':receipt['assignment']['source_paragraphs'],'assignment_native_word_paragraphs':receipt['assignment']['inserted_nonempty_paragraphs'],'citations_and_references':sorted(cites),'orphans':0,'peer_report_removed_from_bibliography':True,'original_photo_bytes_preserved':True,'template_parts_and_section_settings_identical':True,'report_sha256':sha256(report.read_bytes()).hexdigest(),'report_bytes':report.stat().st_size}
 (a/'verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
 print(json.dumps(result,ensure_ascii=False))
