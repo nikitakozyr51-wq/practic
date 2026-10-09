@@ -1,0 +1,42 @@
+[
+  {
+    "name": "EML224-manual",
+    "url": "https://www.jotron.com/navigation-downloads/navigation-speed-logs/eml224-compact-electomagnetic-speed-log/DM-M001-SA-0702-Compact-EML-DL1-OpInMan.pdf",
+    "status": 200,
+    "pages": 68,
+    "bytes": 2868964,
+    "sha256": "a65544f82a0191f5630b478715a7cb95aec668fda531c073e52b2bb117984252"
+  },
+  {
+    "name": "EML224-brochure",
+    "url": "https://www.jotron.com/navigation-downloads/navigation-speed-logs/eml224-compact-electomagnetic-speed-log/EML224-Compact_Brochure_2019-04-10.pdf",
+    "status": 200,
+    "pages": 2,
+    "bytes": 910437,
+    "sha256": "a87abce5672f84d153e409128eddddf813b827ad8c41546e5aaabec02c179c78"
+  },
+  {
+    "name": "DGR360-manual",
+    "url": "https://www.jotron.com/navigation-downloads/repeaters-and-accessories/dgr360/DM-R003-SA-DGR360-OpInMan-Sw-2.18.pdf",
+    "status": 200,
+    "pages": 8,
+    "bytes": 356048,
+    "sha256": "82f0cb14e898628dc8fa4aa28b6eb7d7c1a8076e32905fb808885a18aefa20d7"
+  },
+  {
+    "name": "ESN100-manual",
+    "url": "https://www.jotron.com/navigation-downloads/navigation-echo-sounders/esn100/DM-G004-SB-2620-ESN100-OpInMan-20260507.pdf",
+    "status": 200,
+    "pages": 68,
+    "bytes": 5068438,
+    "sha256": "188d5f5b790966e6c3a290a802e2d9db4f8123a2d094b22b956c09cf9f0c2a5a"
+  },
+  {
+    "name": "TR8000-quick-guide",
+    "url": "https://www.jotron.com/Downloads/maritime/tron-ais-tr-8000-mkii/103836-TR8000-MkII-Quick-Guide-ENG_vC.pdf",
+    "status": 200,
+    "pages": 10,
+    "bytes": 779236,
+    "sha256": "b9eb6867331f5ebe5cdb3cea1e7e9e53f46a49307bfca28a0d97fe39a2c4ca7f"
+  }
+]

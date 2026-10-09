@@ -29,6 +29,13 @@ for key, title in [('bibliography', 'Список использованной �
                        if i > 1 and compact(title) in text)
 actual['total_pages'] = len(pdf)
 assert actual == expected, (actual, expected)
+section5_start=next(i for i,p in enumerate(receipt['paragraph_formats'])
+                    if p['text']==receipt['headings'][4]['text'])
+section6_start=next(i for i,p in enumerate(receipt['paragraph_formats'])
+                    if p['text']==receipt['headings'][5]['text'])
+section5_last=receipt['paragraph_formats'][section6_start-1]['text']
+section5_last_page=next(i+1 for i,text in enumerate(normalized)
+                       if compact(section5_last[-150:]) in text)
 
 # The visible TOC must contain the correct numbers and black text.
 toc = page_text[1]
@@ -51,14 +58,18 @@ for photo in receipt['photos']:
     assert len(matches) == 1, (caption, matches)
     page = pdf[matches[0]]
     images = page.get_image_info()
-    assert len(images) == 1, (caption, len(images))
-    bbox = fitz.Rect(images[0]['bbox'])
+    caption_rects = page.search_for(f"Рис. {photo['number']}.")
+    assert len(caption_rects)==1,(caption,caption_rects)
+    above=[fitz.Rect(item['bbox']) for item in images
+           if item['bbox'][3] <= caption_rects[0].y0+1]
+    assert above,(caption,images)
+    bbox = max(above,key=lambda box:box.y1)
     assert page.rect.contains(bbox), (caption, bbox)
     deviation_mm = abs((bbox.x0 + bbox.x1) / 2 - content_center) * 25.4 / 72
     assert deviation_mm < 1, (caption, bbox)
     center_deviations.append(deviation_mm)
-    caption_rects = page.search_for(f"Рис. {photo['number']}.")
     assert caption_rects and caption_rects[0].y0 >= bbox.y1 - 1, caption
+    assert caption_rects[0].y0-bbox.y1<35,(caption,bbox,caption_rects[0])
     photos.append({'number': photo['number'], 'page': matches[0] + 1})
 
 assert not any('•' in text for text in page_text)
@@ -72,7 +83,8 @@ result = {'pdf_pages': len(pdf), 'toc_page_numbers_verified_in_pdf_and_docx': Tr
           'photo_center_tolerance_mm': 1,
           'photo_center_max_deviation_mm': round(max(center_deviations), 3),
           'no_images_outside_pages': True, 'no_unintended_bullet_markers': True,
-          'section5_pages_including_partial_last_page': [actual['5'], actual['6']],
+          'section5_pages_including_partial_pages': [actual['5'], section5_last_page],
+          'section5_page_count': section5_last_page-actual['5']+1,
           'assignment_pages': [actual['assignment'], len(pdf)],
           'font_substitution': 'Liberation Serif for Times New Roman',
           'pdf_sha256': sha256(pdf_path.read_bytes()).hexdigest()}

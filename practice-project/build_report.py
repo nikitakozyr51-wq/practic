@@ -1,4 +1,4 @@
-"""Build the report using Nazar's original OOXML formatting and Maxim's photos."""
+"""Build the report with the accepted template and a verified figure manifest."""
 from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
 from copy import deepcopy
@@ -94,7 +94,7 @@ def format_report_p(p,role):
     ppr=p.find(W+'pPr')
     if ppr is None:
         ppr=etree.Element(W+'pPr');p.insert(0,ppr)
-    if role=='body' or (role=='heading' and re.match(r'^\d+\.',text_of(p))):
+    if role in ('body','device_heading') or (role=='heading' and re.match(r'^\d+\.',text_of(p))):
         # Some source paragraphs are bullet-list items. New continuous prose
         # must not accidentally inherit a bullet before every paragraph.
         for item in ppr.findall(W+'numPr'):ppr.remove(item)
@@ -104,14 +104,14 @@ def format_report_p(p,role):
             item=etree.SubElement(ppr,W+tag)
         for key,value in attrs.items():item.set(W+key,str(value))
         return item
-    ind=set_prop('ind',left=0,right=0,firstLine=709 if role in ('body','heading') else 0)
+    ind=set_prop('ind',left=0,right=0,firstLine=709 if role in ('body','heading','device_heading') else 0)
     ind.attrib.pop(W+'hanging',None)
-    set_prop('jc',val='both' if role in ('body','heading') else ('left' if role=='reference' else 'center'))
+    set_prop('jc',val='both' if role in ('body','heading','device_heading') else ('left' if role=='reference' else 'center'))
     set_prop('spacing',before=0,after=120 if role=='reference' else 0,line=240,lineRule='auto')
     set_prop('widowControl',val=1)
-    if role in ('heading','appendix','bibliography','image'):
+    if role in ('heading','device_heading','appendix','bibliography','image'):
         set_prop('keepNext',val=1)
-    if role in ('heading','appendix','bibliography','caption'):
+    if role in ('heading','device_heading','appendix','bibliography','caption'):
         set_prop('keepLines',val=1)
     for run in p.findall(W+'r'):
         if not run.findall(W+'t'):
@@ -124,6 +124,10 @@ def format_report_p(p,role):
             item=rpr.find(W+tag)
             if item is None:item=etree.SubElement(rpr,W+tag)
             for key,value in attrs.items():item.set(W+key,value)
+        if role=='device_heading':
+            bold=rpr.find(W+'b')
+            if bold is None:bold=etree.SubElement(rpr,W+'b')
+            bold.set(W+'val','1')
     format_receipts.append({'role':role,'text':text_of(p)})
     return p
 
@@ -212,21 +216,19 @@ for name in list(package):
     if name.startswith('word/media/') and name != 'word/media/image1.png':
         del package[name]
 
-photos = {
-    1: ('image3.jpeg','Оптическая система магнитного компаса',10.2),
-    2: ('image4.jpeg','Приёмники ГНСС Transas T-701 и JRC; репитеры скорости и глубины',10.2),
-    3: ('image2.jpeg','Радар Sperry Marine VisionMaster FT',10.2),
-    4: ('image5.jpeg','Панель управления авторулевым Yokogawa PT500',16.0),
-    5: ('image1.jpeg','Штурвал на рулевой стойке Raytheon Anschütz ComPilot 20',10.2),
-    6: ('image6.jpeg','Консоль ГМССБ',16.0),
-    7: ('image25.jpeg','Рабочее место на ходовом мостике',16.0),
-}
+figure_manifest=json.loads((ANALYSIS/'report-figures.json').read_text())
+photos={figure['number']:figure for figure in figure_manifest}
+assert sorted(photos)==list(range(1,len(figure_manifest)+1))
 photo_receipts = []
 
 def add_photo(number):
-    filename, caption, width_cm = photos[number]
-    source = ANALYSIS / 'examples' / 'friend' / filename
+    figure=photos[number]
+    caption, width_cm = figure['caption'],figure['width_cm']
+    source = ROOT / figure['source_path']
     data = source.read_bytes()
+    digest=hashlib.sha256(data).hexdigest()
+    if figure['source_kind']=='manufacturer':
+        assert digest==figure['source_sha256'],source
     im = Image.open(source)
     orientation = im.getexif().get(274, 1)
     raw_w, raw_h = im.size
@@ -256,8 +258,8 @@ def add_photo(number):
     append(format_report_p(p,'image'))
     cap = make_p(154,'Рис. '+str(number)+'. '+caption,drop_numbering=True)
     append(format_report_p(cap,'caption'))
-    photo_receipts.append({'number':number,'source':filename,'caption':caption,
-                           'sha256':hashlib.sha256(data).hexdigest(),'width_cm':width_cm,
+    photo_receipts.append({**figure,'source':source.name,
+                           'sha256':digest,
                            'orientation_exif':orientation,'bytes_unchanged':True})
 
 lines = (ANALYSIS/'REPORT_CONTENT.md').read_text().splitlines()
@@ -267,26 +269,20 @@ pending = None
 added_photos = set()
 heading_receipts = []
 
-def insert_photos_for_finished(sub):
-    mapping = {'5.1':[1], '5.3':[2], '5.4':[3,4,5,6], '6.1':[7]}
-    for n in mapping.get(sub,[]):
-        if n not in added_photos:
-            add_photo(n); added_photos.add(n)
-
 for line in lines:
     if not line.strip():
         continue
     main_match = re.match(r'^## (\d+)\.',line)
     sub_match = re.match(r'^### (\d+\.\d+)\.',line)
+    figure_match=re.fullmatch(r'<!-- figure:(\d+) -->',line)
     if main_match:
-        insert_photos_for_finished(pending); pending = None
+        pending = None
         section = int(main_match.group(1)); active = True
         label = clean_heading(text_of(templates[main_templates[section]]))
         p = make_p(main_templates[section],label)
         append(format_report_p(p,'heading'))
         heading_receipts.append({'number':section,'text':label,'template_paragraph':main_templates[section]})
     elif sub_match and active:
-        insert_photos_for_finished(pending)
         pending = sub_match.group(1)
         idx = sub_templates[pending]
         # Keep the accepted subheading wording and layout, separate from prose.
@@ -302,36 +298,25 @@ for line in lines:
         label = clean_heading(known.get(pending,full))
         append(format_report_p(make_p(idx,label),'heading'))
     elif line.startswith('## Список использованной литературы') and active:
-        insert_photos_for_finished(pending); pending = None
+        pending = None
         title=format_report_p(make_p(416,'Список использованной литературы'),'bibliography')
         etree.SubElement(title.find(W+'pPr'),W+'pageBreakBefore').set(W+'val','1')
         append(title)
         section = 18
+    elif line.startswith('#### ') and active:
+        append(format_report_p(make_p(body_templates[section],line[5:],drop_numbering=True),'device_heading'))
+    elif figure_match and active:
+        number=int(figure_match.group(1))
+        assert number not in added_photos,number
+        add_photo(number);added_photos.add(number)
     elif active:
         index = body_templates.get(section,417)
         p = make_p(index,re.sub(r'\*\*(.*?)\*\*',r'\1',line))
         if section == 18:
             p = make_p(417,line,drop_numbering=True)
         append(format_report_p(p,'reference' if section==18 else 'body'))
-        immediate = None
-        if line.startswith('Оптическая передача позволяет'):
-            immediate = 1
-        elif line.startswith('На рисунке 2 показаны'):
-            immediate = 2
-        elif line.startswith('На рисунке 3 показан'):
-            immediate = 3
-        elif line.startswith('Панель Yokogawa PT500 показана'):
-            immediate = 4
-        elif 'Рабочее место мостика показано на рисунке 7.' in line:
-            immediate = 7
-        elif line.startswith('Рулевое управление обеспечивает'):
-            immediate = 5
-        elif line.startswith('Радиооборудование связано'):
-            immediate = 6
-        if immediate is not None and immediate not in added_photos:
-            add_photo(immediate); added_photos.add(immediate)
 
-assert added_photos == set(range(1,8)), added_photos
+assert added_photos == set(photos), added_photos
 assert len(heading_receipts) == 17
 assert 'Еремян' not in text_of(tree)
 assert 'PANTHERLIGHT' not in text_of(tree)

@@ -18,11 +18,13 @@ assert subs==expected,subs
 body,bib=content.split('## Список использованной литературы',1)
 cites=set(re.findall(r'\[(\d+)\]',body))
 refs=set(re.findall(r'^(\d+)\.',bib,re.M))
-assert cites==refs=={'1','2','3'},(cites,refs)
-assert 'Шеньшин' not in content and '[4]' not in content
+assert cites==refs=={str(i) for i in range(1,8)},(cites,refs)
+assert 'Шеньшин' not in content
 assert '62 000 кВт' in body and '6200' not in body
 assert '7570' in body and '5200 кВт' in body and 'GTA M-9' in body
-assert len(re.findall(r'рисунке [1-7]',body))>=7
+figures=json.loads((a/'report-figures.json').read_text())
+assert {int(n) for n in re.findall(r'рисунке (\d+)',body)}=={p['number'] for p in figures}
+assert [int(n) for n in re.findall(r'<!-- figure:(\d+) -->',body)]==[p['number'] for p in figures]
 report=a/'report.docx'
 ns={'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main','r':'http://schemas.openxmlformats.org/officeDocument/2006/relationships','a':'http://schemas.openxmlformats.org/drawingml/2006/main','wp':'http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing'}
 receipt=json.loads((a/'report-build-receipt.json').read_text())
@@ -35,7 +37,12 @@ with ZipFile(report) as z,ZipFile(root/'originals'/'Nazar_Otchet_Praktika.docx')
         assert z.read(name)==original.read(name),name
     for p in receipt['photos']:
         data=z.read('word/media/equipment-figure-'+str(p['number'])+'.jpeg')
-        assert data==maxim.read('word/media/'+p['source']),p
+        if p['source_kind']=='provided_docx':
+            assert data==maxim.read('word/media/'+p['original_media']),p
+        elif p['source_kind']=='manufacturer':
+            assert data==(root/p['source_path']).read_bytes(),p
+            assert sha256(data).hexdigest()==p['source_sha256'],p
+        else:raise AssertionError(p)
         assert sha256(data).hexdigest()==p['sha256']
     ids=tree.xpath('.//wp:docPr/@id',namespaces=ns)
     assert len(ids)==len(set(ids)),ids
@@ -47,9 +54,10 @@ with ZipFile(report) as z,ZipFile(root/'originals'/'Nazar_Otchet_Praktika.docx')
     full=' '.join(texts)
     assert 'PANTHERLIGHT' not in full and 'Еремян' not in full
     assert 'Козырева Никиты Алексеевича' in full and '[ФИО]' not in full
-    assert sum(t.startswith('Рис. ') for t in texts)==7
+    assert sum(t.startswith('Рис. ') for t in texts)==len(figures)
     assert 'Приложение А. Задание на производственную практику' in full
-    assert 'Шеньшин' not in full and 'Максим' not in full and '[4]' not in full
+    assert 'Шеньшин' not in full and 'Максим' not in full
+    assert '<!-- figure:' not in full and '####' not in full
     assert receipt['assignment']['native_word_text']
     assert receipt['assignment']['all_source_wording_preserved']
     core=z.read('docProps/core.xml').decode()
@@ -62,28 +70,30 @@ for record,p in zip(receipt['paragraph_formats'],doc.paragraphs[first:]):
     assert p.text==record['text'],(record,p.text)
     role=record['role']
     assert p.paragraph_format.line_spacing==1,(role,p.text[:80])
-    if role in ('body','heading'):
+    if role in ('body','heading','device_heading'):
         assert str(p.alignment)=='JUSTIFY (3)',(role,p.text[:80])
         assert abs(p.paragraph_format.first_line_indent.cm-1.25)<0.002
     elif role in ('caption','image','appendix','bibliography'):
         assert str(p.alignment)=='CENTER (1)',(role,p.text[:80])
-    if role=='body' or (role=='heading' and re.match(r'^\d+\.',p.text)):
+    if role in ('body','device_heading') or (role=='heading' and re.match(r'^\d+\.',p.text)):
         assert p._p.find('w:pPr/w:numPr',p._p.nsmap) is None,p.text[:80]
-    if role in ('heading','image','bibliography','appendix'):
+    if role in ('heading','device_heading','image','bibliography','appendix'):
         assert p.paragraph_format.keep_with_next is True,p.text[:80]
     for run in p.runs:
         if run.text:
             assert run.font.name=='Times New Roman' and run.font.size.pt==12,p.text[:80]
             assert str(run.font.color.rgb)=='000000',p.text[:80]
+            if role=='device_heading':assert run.bold is True,p.text
 page_map=json.loads((a/'report-page-map.json').read_text())
 for i,p in enumerate(doc.paragraphs[16:33],1):
     fields=p.text.rsplit('\t',1)
     assert len(fields)==2 and fields[1]==str(page_map[str(i)]),(i,p.text)
     assert not re.search(r'\d+$',fields[0]),('old page number in heading',p.text)
 rows=[]
-split=re.split(r'^(#{2,3}) ([^\n]+)\n',body,flags=re.M)
+split=re.split(r'^(#{2,4}) ([^\n]+)\n',body,flags=re.M)
 for level,title,prose in zip(split[1::3],split[2::3],split[3::3]):
-    paragraphs=[p.strip() for p in prose.strip().split('\n\n') if p.strip()]
+    paragraphs=[p.strip() for p in prose.strip().split('\n\n')
+                if p.strip() and not p.strip().startswith('<!-- figure:')]
     for i,p in enumerate(paragraphs,1):
         rows.append({'section':title,'paragraph':i,'text':p,'citations':re.findall(r'\[(\d+)\]',p),'review_scope':'Термины, единицы, физический смысл, согласованность; наличие оборудования и результаты наблюдений не верифицированы.'})
 (a/'thesis-register.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2))

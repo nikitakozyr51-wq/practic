@@ -1,0 +1,50 @@
+[
+  {
+    "name": "eml224",
+    "url": "https://www.jotron.com/products/maritime-navigation/navigation-speed-logs/skipper-eml224-compact/_/image/e8c748e6-0fae-4903-a0df-4e1af49ecae4:b81593d8a34e7b39507672eabb31c600b512b9fc/width-1200/EML224_001.jpg",
+    "page_url": "https://www.jotron.com/products/maritime-navigation/navigation-speed-logs/skipper-eml224-compact",
+    "alt": "System parts of SKIPPER EML224 Compact (a single or dual axis speed log)",
+    "sha256": "198cacf856ae391ea2a01f377a4646dd753f94187f4c5024d2da14d9f4b8196e",
+    "bytes": 56097,
+    "pixels": [
+      1200,
+      789
+    ]
+  },
+  {
+    "name": "esn100",
+    "url": "https://www.jotron.com/products/maritime-navigation/navigation-echo-sounders/skipper-esn100-imo-wheelmarked-echo-sounder/_/image/59a3971c-e264-4d53-899b-8df76676242b:17646601d259f004eda36c2ee4cba9de4fa112fd/width-1200/Esn100_002.jpg",
+    "page_url": "https://www.jotron.com/products/maritime-navigation/navigation-echo-sounders/skipper-esn100-imo-wheelmarked-echo-sounder",
+    "alt": "ESN100 is a navigation echo sounder with a black box and a 9\" touch display.",
+    "sha256": "02d550d9de56006fe39e0ccc955fd06e84d99314b1a9881cf73471a22fc2d4f2",
+    "bytes": 63430,
+    "pixels": [
+      1200,
+      793
+    ]
+  },
+  {
+    "name": "dgr360",
+    "url": "https://www.jotron.com/products/maritime-navigation/repeaters/skipper-dgr360-digital-gyro-repeater/_/image/31ad0828-f74f-46f9-9621-1565dc46f05a:b605b39f5312cfb8a4f7ee65edb745859a76b010/width-1200/DGR360-SA_001_front.jpg",
+    "page_url": "https://www.jotron.com/products/maritime-navigation/repeaters/skipper-dgr360-digital-gyro-repeater",
+    "alt": "SKIPPER DGR 360 digital gyro repeater with heading display and directional turn indicators (front).",
+    "sha256": "61943d3b6411553cd2ee0f179a2fffeb010687476e03623b3f2e3c202fe92d18",
+    "bytes": 68546,
+    "pixels": [
+      1200,
+      801
+    ]
+  },
+  {
+    "name": "tr8000",
+    "url": "https://www.jotron.com/products/maritime-communication/ais/tron-ais-tr-8000-mkii-class-a-complete-with-gps-antenna/_/image/208e6ed7-936b-4532-ae4e-9fd565193223:179c81011ebe3415c981d9863c4f220765117c69/width-1200/Picture-Large-Tron-AIS-TR-8000-MkII-Class-A.jpg",
+    "page_url": "https://www.jotron.com/products/maritime-communication/ais/tron-ais-tr-8000-mkii-class-a-complete-with-gps-antenna",
+    "alt": "Tron AIS TR-8000 MkII Class A with AIS display.",
+    "bytes": 123536,
+    "sha256": "820e5cebb1911525393f2cf7754b99d6fbfb1e9fea7bf12cc692be53e53913cf",
+    "pixels": [
+      1200,
+      794
+    ]
+  }
+]
