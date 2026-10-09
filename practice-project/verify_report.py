@@ -18,11 +18,13 @@ assert subs==expected,subs
 body,bib=content.split('## Список использованной литературы',1)
 cites=set(re.findall(r'\[(\d+)\]',body))
 refs=set(re.findall(r'^(\d+)\.',bib,re.M))
-assert cites==refs=={str(i) for i in range(1,8)},(cites,refs)
+assert cites==refs=={str(i) for i in range(1,5)},(cites,refs)
 assert 'Шеньшин' not in content
+assert not any(name in content for name in ('DGR360','EML224','ESN100','TR-8000'))
 assert '62 000 кВт' in body and '6200' not in body
 assert '7570' in body and '5200 кВт' in body and 'GTA M-9' in body
 figures=json.loads((a/'report-figures.json').read_text())
+assert all(p['source_kind']=='provided_docx' for p in figures)
 assert {int(n) for n in re.findall(r'рисунке (\d+)',body)}=={p['number'] for p in figures}
 assert [int(n) for n in re.findall(r'<!-- figure:(\d+) -->',body)]==[p['number'] for p in figures]
 report=a/'report.docx'

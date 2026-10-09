@@ -2,23 +2,20 @@
   "main_sections": 17,
   "subsections": 33,
   "assignment_leaf_topics": 42,
-  "body_paragraphs": 193,
-  "source_photos": 11,
+  "body_paragraphs": 124,
+  "source_photos": 7,
   "source_assignment_paragraphs": 82,
   "assignment_native_word_paragraphs": 66,
   "citations_and_references": [
     "1",
     "2",
     "3",
-    "4",
-    "5",
-    "6",
-    "7"
+    "4"
   ],
   "orphans": 0,
   "peer_report_removed_from_bibliography": true,
   "original_photo_bytes_preserved": true,
   "template_parts_and_section_settings_identical": true,
-  "report_sha256": "e4cb8e8d2fd166fb7e17f6f84a8228c7caf4d710c940ace00801f7eefdfa708c",
-  "report_bytes": 13202928
+  "report_sha256": "83c5b26940d066a3ed793bc45b299c8b9e9451cc115029ec31412df8e7c02caa",
+  "report_bytes": 12888429
 }

@@ -1,7 +1,7 @@
 {
   "checker": "ars-acronym-check/1.0",
   "input": "practice-project/analysis/REPORT_CONTENT.md",
-  "input_sha256": "e158b6cf18b45d8a302398fd9baeb0fec75d01cb615b2c095a3adab3c4935719",
+  "input_sha256": "917e5517662dc50e17a52b400502e9b008ce48da05bc04ff2fa720e8bde972b7",
   "status": "partial",
   "allowlist": {
     "default": 29,
@@ -96,199 +96,131 @@
       ],
       [
         136,
-        138
+        152
       ],
       [
-        140,
-        154
+        154,
+        162
       ],
       [
-        156,
-        168
+        164,
+        172
       ],
       [
-        170,
-        178
+        174,
+        192
       ],
       [
-        180,
-        186
+        194,
+        200
       ],
       [
-        188,
-        188
+        202,
+        202
       ],
       [
-        190,
-        206
+        204,
+        210
       ],
       [
-        208,
+        212,
         216
       ],
       [
         218,
-        238
+        222
       ],
       [
-        240,
-        240
+        224,
+        224
       ],
       [
-        242,
-        258
+        226,
+        233
       ],
       [
-        260,
-        266
+        235,
+        239
       ],
       [
-        268,
-        268
+        241,
+        246
       ],
       [
-        270,
-        284
+        248,
+        252
       ],
       [
-        286,
-        294
+        254,
+        254
       ],
       [
-        296,
-        306
+        256,
+        262
       ],
       [
-        308,
-        322
+        264,
+        267
       ],
       [
-        324,
-        336
+        269,
+        272
       ],
       [
-        338,
-        348
+        274,
+        277
       ],
       [
-        350,
-        356
+        279,
+        285
       ],
       [
-        358,
-        368
+        287,
+        292
       ],
       [
-        370,
+        294,
+        298
+      ],
+      [
+        300,
+        307
+      ],
+      [
+        309,
+        323
+      ],
+      [
+        325,
+        331
+      ],
+      [
+        333,
+        339
+      ],
+      [
+        341,
+        349
+      ],
+      [
+        351,
+        357
+      ],
+      [
+        359,
+        369
+      ],
+      [
+        371,
         382
       ],
       [
         384,
-        384
-      ],
-      [
-        386,
         392
       ],
       [
         394,
         398
-      ],
-      [
-        400,
-        404
-      ],
-      [
-        406,
-        406
-      ],
-      [
-        408,
-        415
-      ],
-      [
-        417,
-        421
-      ],
-      [
-        423,
-        428
-      ],
-      [
-        430,
-        434
-      ],
-      [
-        436,
-        436
-      ],
-      [
-        438,
-        444
-      ],
-      [
-        446,
-        449
-      ],
-      [
-        451,
-        454
-      ],
-      [
-        456,
-        459
-      ],
-      [
-        461,
-        467
-      ],
-      [
-        469,
-        474
-      ],
-      [
-        476,
-        480
-      ],
-      [
-        482,
-        489
-      ],
-      [
-        491,
-        503
-      ],
-      [
-        505,
-        511
-      ],
-      [
-        513,
-        519
-      ],
-      [
-        521,
-        529
-      ],
-      [
-        531,
-        537
-      ],
-      [
-        539,
-        549
-      ],
-      [
-        551,
-        562
-      ],
-      [
-        564,
-        572
-      ],
-      [
-        574,
-        581
       ]
     ]
   },
@@ -302,7 +234,31 @@
     },
     {
       "scope": "body",
-      "line": 577,
+      "line": 155,
+      "acronym": "SOG",
+      "reason": "unread_definition_form"
+    },
+    {
+      "scope": "body",
+      "line": 155,
+      "acronym": "STW",
+      "reason": "unread_definition_form"
+    },
+    {
+      "scope": "body",
+      "line": 179,
+      "acronym": "CPA",
+      "reason": "unread_definition_form"
+    },
+    {
+      "scope": "body",
+      "line": 179,
+      "acronym": "TCPA",
+      "reason": "unread_definition_form"
+    },
+    {
+      "scope": "body",
+      "line": 397,
       "acronym": "MARPOL",
       "reason": "unconfirmed_definition"
     }
@@ -334,191 +290,23 @@
     },
     {
       "scope": "body",
-      "line": 171,
+      "line": 139,
       "rule": "undefined",
-      "acronym": "DGR360",
-      "expansion": null,
-      "occurrences": 3
-    },
-    {
-      "scope": "body",
-      "line": 195,
-      "rule": "undefined",
-      "acronym": "EML224",
-      "expansion": null,
-      "occurrences": 5
-    },
-    {
-      "scope": "body",
-      "line": 199,
-      "rule": "undefined",
-      "acronym": "DL1",
-      "expansion": null,
-      "occurrences": 5
-    },
-    {
-      "scope": "body",
-      "line": 199,
-      "rule": "undefined",
-      "acronym": "MENU",
+      "acronym": "KN",
       "expansion": null,
       "occurrences": 1
     },
     {
       "scope": "body",
-      "line": 199,
+      "line": 147,
       "rule": "undefined",
-      "acronym": "SET",
-      "expansion": null,
-      "occurrences": 1
-    },
-    {
-      "scope": "body",
-      "line": 223,
-      "rule": "undefined",
-      "acronym": "ESN100",
-      "expansion": null,
-      "occurrences": 5
-    },
-    {
-      "scope": "body",
-      "line": 245,
-      "rule": "undefined",
-      "acronym": "FOR",
+      "acronym": "ANGLE",
       "expansion": null,
       "occurrences": 2
     },
     {
       "scope": "body",
-      "line": 245,
-      "rule": "undefined",
-      "acronym": "JRC",
-      "expansion": null,
-      "occurrences": 4
-    },
-    {
-      "scope": "body",
-      "line": 245,
-      "rule": "undefined",
-      "acronym": "LOG",
-      "expansion": null,
-      "occurrences": 1
-    },
-    {
-      "scope": "body",
-      "line": 245,
-      "rule": "undefined",
-      "acronym": "SPEED",
-      "expansion": null,
-      "occurrences": 1
-    },
-    {
-      "scope": "body",
-      "line": 249,
-      "rule": "undefined",
-      "acronym": "DGPS",
-      "expansion": null,
-      "occurrences": 2
-    },
-    {
-      "scope": "body",
-      "line": 249,
-      "rule": "undefined",
-      "acronym": "NCZ",
-      "expansion": null,
-      "occurrences": 1
-    },
-    {
-      "scope": "body",
-      "line": 249,
-      "rule": "undefined",
-      "acronym": "SAILOR",
-      "expansion": null,
-      "occurrences": 3
-    },
-    {
-      "scope": "body",
-      "line": 273,
-      "rule": "undefined",
-      "acronym": "FT",
-      "expansion": null,
-      "occurrences": 1
-    },
-    {
-      "scope": "body",
-      "line": 289,
-      "rule": "undefined",
-      "acronym": "CPA",
-      "expansion": null,
-      "occurrences": 2
-    },
-    {
-      "scope": "body",
-      "line": 289,
-      "rule": "undefined",
-      "acronym": "TCPA",
-      "expansion": null,
-      "occurrences": 1
-    },
-    {
-      "scope": "body",
-      "line": 311,
-      "rule": "undefined",
-      "acronym": "AIS",
-      "expansion": null,
-      "occurrences": 3
-    },
-    {
-      "scope": "body",
-      "line": 311,
-      "rule": "undefined",
-      "acronym": "MkII",
-      "expansion": null,
-      "occurrences": 3
-    },
-    {
-      "scope": "body",
-      "line": 311,
-      "rule": "undefined",
-      "acronym": "TR",
-      "expansion": null,
-      "occurrences": 3
-    },
-    {
-      "scope": "body",
-      "line": 327,
-      "rule": "undefined",
-      "acronym": "AUX",
-      "expansion": null,
-      "occurrences": 1
-    },
-    {
-      "scope": "body",
-      "line": 327,
-      "rule": "undefined",
-      "acronym": "GYRO",
-      "expansion": null,
-      "occurrences": 2
-    },
-    {
-      "scope": "body",
-      "line": 327,
-      "rule": "undefined",
-      "acronym": "LIMIT",
-      "expansion": null,
-      "occurrences": 1
-    },
-    {
-      "scope": "body",
-      "line": 327,
-      "rule": "undefined",
-      "acronym": "PT500",
-      "expansion": null,
-      "occurrences": 1
-    },
-    {
-      "scope": "body",
-      "line": 327,
+      "line": 147,
       "rule": "undefined",
       "acronym": "RUDDER",
       "expansion": null,
@@ -526,63 +314,95 @@
     },
     {
       "scope": "body",
-      "line": 339,
+      "line": 157,
       "rule": "undefined",
-      "acronym": "ANGLE",
+      "acronym": "DL850",
       "expansion": null,
       "occurrences": 1
     },
     {
       "scope": "body",
-      "line": 351,
+      "line": 161,
       "rule": "undefined",
-      "acronym": "VDR",
+      "acronym": "FOR",
+      "expansion": null,
+      "occurrences": 2
+    },
+    {
+      "scope": "body",
+      "line": 161,
+      "rule": "undefined",
+      "acronym": "LOG",
       "expansion": null,
       "occurrences": 1
     },
     {
       "scope": "body",
-      "line": 359,
+      "line": 161,
       "rule": "undefined",
-      "acronym": "HF",
-      "expansion": null,
-      "occurrences": 2
-    },
-    {
-      "scope": "body",
-      "line": 359,
-      "rule": "undefined",
-      "acronym": "INM",
-      "expansion": null,
-      "occurrences": 2
-    },
-    {
-      "scope": "body",
-      "line": 359,
-      "rule": "undefined",
-      "acronym": "MF",
-      "expansion": null,
-      "occurrences": 2
-    },
-    {
-      "scope": "body",
-      "line": 359,
-      "rule": "undefined",
-      "acronym": "UNIT",
+      "acronym": "SPEED",
       "expansion": null,
       "occurrences": 1
     },
     {
       "scope": "body",
-      "line": 367,
+      "line": 167,
+      "rule": "undefined",
+      "acronym": "JRC",
+      "expansion": null,
+      "occurrences": 2
+    },
+    {
+      "scope": "body",
+      "line": 167,
+      "rule": "undefined",
+      "acronym": "NCZ",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 167,
+      "rule": "undefined",
+      "acronym": "SAILOR",
+      "expansion": null,
+      "occurrences": 2
+    },
+    {
+      "scope": "body",
+      "line": 175,
+      "rule": "undefined",
+      "acronym": "FT",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 183,
+      "rule": "undefined",
+      "acronym": "SAAB",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 185,
+      "rule": "undefined",
+      "acronym": "PT500",
+      "expansion": null,
+      "occurrences": 1
+    },
+    {
+      "scope": "body",
+      "line": 314,
       "rule": "undefined",
       "acronym": "IV",
       "expansion": null,
-      "occurrences": 2
+      "occurrences": 1
     },
     {
       "scope": "body",
-      "line": 544,
+      "line": 364,
       "rule": "undefined",
       "acronym": "LSA",
       "expansion": null,
@@ -590,33 +410,9 @@
     },
     {
       "scope": "body",
-      "line": 578,
+      "line": 398,
       "rule": "undefined",
       "acronym": "AS",
-      "expansion": null,
-      "occurrences": 4
-    },
-    {
-      "scope": "body",
-      "line": 578,
-      "rule": "undefined",
-      "acronym": "DM",
-      "expansion": null,
-      "occurrences": 3
-    },
-    {
-      "scope": "body",
-      "line": 578,
-      "rule": "undefined",
-      "acronym": "SA",
-      "expansion": null,
-      "occurrences": 2
-    },
-    {
-      "scope": "body",
-      "line": 580,
-      "rule": "undefined",
-      "acronym": "SB",
       "expansion": null,
       "occurrences": 1
     }

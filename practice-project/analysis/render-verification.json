@@ -1,51 +1,35 @@
 {
-  "pdf_pages": 34,
+  "pdf_pages": 23,
   "toc_page_numbers_verified_in_pdf_and_docx": true,
   "toc_text_black": true,
   "photos": [
     {
       "number": 1,
-      "page": 8
+      "page": 7
     },
     {
       "number": 2,
-      "page": 10
+      "page": 8
     },
     {
       "number": 3,
-      "page": 11
+      "page": 9
     },
     {
       "number": 4,
-      "page": 13
+      "page": 10
     },
     {
       "number": 5,
-      "page": 15
+      "page": 11
     },
     {
       "number": 6,
-      "page": 17
+      "page": 12
     },
     {
       "number": 7,
-      "page": 19
-    },
-    {
-      "number": 8,
-      "page": 20
-    },
-    {
-      "number": 9,
-      "page": 21
-    },
-    {
-      "number": 10,
-      "page": 22
-    },
-    {
-      "number": 11,
-      "page": 24
+      "page": 17
     }
   ],
   "photos_centered_in_text_area": true,
@@ -55,13 +39,13 @@
   "no_unintended_bullet_markers": true,
   "section5_pages_including_partial_pages": [
     7,
+    11
+  ],
+  "section5_page_count": 5,
+  "assignment_pages": [
+    22,
     23
   ],
-  "section5_page_count": 17,
-  "assignment_pages": [
-    33,
-    34
-  ],
   "font_substitution": "Liberation Serif for Times New Roman",
-  "pdf_sha256": "87776ae6d9332a3d2eb062dcc2ac1c9ea5d0a4e8d4dec0a245bb0de2f32fb060"
+  "pdf_sha256": "d330bf6a3c92d83dddffbbedc07da54d08092aee13972a60044cb1b2107109f6"
 }

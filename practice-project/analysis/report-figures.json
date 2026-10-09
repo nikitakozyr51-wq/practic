@@ -9,70 +9,6 @@
   },
   {
     "number": 2,
-    "source_kind": "manufacturer",
-    "source_path": "analysis/media-supplement/dgr360.jpeg",
-    "source_url": "https://www.jotron.com/products/maritime-navigation/repeaters/skipper-dgr360-digital-gyro-repeater",
-    "download_url": "https://www.jotron.com/products/maritime-navigation/repeaters/skipper-dgr360-digital-gyro-repeater/_/image/31ad0828-f74f-46f9-9621-1565dc46f05a:b605b39f5312cfb8a4f7ee65edb745859a76b010/width-1200/DGR360-SA_001_front.jpg",
-    "source_sha256": "61943d3b6411553cd2ee0f179a2fffeb010687476e03623b3f2e3c202fe92d18",
-    "caption": "Цифровой репитер курса SKIPPER DGR360 [4]",
-    "width_cm": 16
-  },
-  {
-    "number": 3,
-    "source_kind": "manufacturer",
-    "source_path": "analysis/media-supplement/eml224.jpeg",
-    "source_url": "https://www.jotron.com/products/maritime-navigation/navigation-speed-logs/skipper-eml224-compact",
-    "download_url": "https://www.jotron.com/products/maritime-navigation/navigation-speed-logs/skipper-eml224-compact/_/image/e8c748e6-0fae-4903-a0df-4e1af49ecae4:b81593d8a34e7b39507672eabb31c600b512b9fc/width-1200/EML224_001.jpg",
-    "source_sha256": "198cacf856ae391ea2a01f377a4646dd753f94187f4c5024d2da14d9f4b8196e",
-    "caption": "Электромагнитный лаг SKIPPER EML224: датчик, индикатор и электронный блок [5]",
-    "width_cm": 16
-  },
-  {
-    "number": 4,
-    "source_kind": "manufacturer",
-    "source_path": "analysis/media-supplement/esn100.jpeg",
-    "source_url": "https://www.jotron.com/products/maritime-navigation/navigation-echo-sounders/skipper-esn100-imo-wheelmarked-echo-sounder",
-    "download_url": "https://www.jotron.com/products/maritime-navigation/navigation-echo-sounders/skipper-esn100-imo-wheelmarked-echo-sounder/_/image/59a3971c-e264-4d53-899b-8df76676242b:17646601d259f004eda36c2ee4cba9de4fa112fd/width-1200/Esn100_002.jpg",
-    "source_sha256": "02d550d9de56006fe39e0ccc955fd06e84d99314b1a9881cf73471a22fc2d4f2",
-    "caption": "Комплект эхолота SKIPPER ESN100 [6]",
-    "width_cm": 16
-  },
-  {
-    "number": 5,
-    "source_kind": "provided_docx",
-    "source_path": "analysis/examples/friend/image4.jpeg",
-    "original_media": "image4.jpeg",
-    "caption": "Приёмники ГНСС Transas T-701 и JRC; репитеры глубины и скорости; панель Mini-C и переключатель источников",
-    "width_cm": 10.2
-  },
-  {
-    "number": 6,
-    "source_kind": "provided_docx",
-    "source_path": "analysis/examples/friend/image2.jpeg",
-    "original_media": "image2.jpeg",
-    "caption": "Радар Sperry Marine VisionMaster FT",
-    "width_cm": 10.2
-  },
-  {
-    "number": 7,
-    "source_kind": "manufacturer",
-    "source_path": "analysis/media-supplement/tr8000.jpeg",
-    "source_url": "https://www.jotron.com/products/maritime-communication/ais/tron-ais-tr-8000-mkii-class-a-complete-with-gps-antenna",
-    "download_url": "https://www.jotron.com/products/maritime-communication/ais/tron-ais-tr-8000-mkii-class-a-complete-with-gps-antenna/_/image/208e6ed7-936b-4532-ae4e-9fd565193223:179c81011ebe3415c981d9863c4f220765117c69/width-1200/Picture-Large-Tron-AIS-TR-8000-MkII-Class-A.jpg",
-    "source_sha256": "820e5cebb1911525393f2cf7754b99d6fbfb1e9fea7bf12cc692be53e53913cf",
-    "caption": "АИС Jotron Tron AIS TR-8000 MkII: дисплей и транспондер [7]",
-    "width_cm": 16
-  },
-  {
-    "number": 8,
-    "source_kind": "provided_docx",
-    "source_path": "analysis/examples/friend/image5.jpeg",
-    "original_media": "image5.jpeg",
-    "caption": "Панель управления авторулевым Yokogawa PT500",
-    "width_cm": 16
-  },
-  {
-    "number": 9,
     "source_kind": "provided_docx",
     "source_path": "analysis/examples/friend/image1.jpeg",
     "original_media": "image1.jpeg",
@@ -80,19 +16,43 @@
     "width_cm": 10.2
   },
   {
-    "number": 10,
+    "number": 3,
     "source_kind": "provided_docx",
-    "source_path": "analysis/examples/friend/image6.jpeg",
-    "original_media": "image6.jpeg",
-    "caption": "Консоль ГМССБ: терминалы SAILOR 6006 Inmarsat-C, принтеры и блок управления ПВ/КВ-радиостанцией",
+    "source_path": "analysis/examples/friend/image4.jpeg",
+    "original_media": "image4.jpeg",
+    "caption": "Приёмники ГНСС Transas T-701 и JRC; репитеры глубины и скорости; панель Mini-C и переключатель источников",
+    "width_cm": 10.2
+  },
+  {
+    "number": 4,
+    "source_kind": "provided_docx",
+    "source_path": "analysis/examples/friend/image2.jpeg",
+    "original_media": "image2.jpeg",
+    "caption": "Радар Sperry Marine VisionMaster FT",
+    "width_cm": 10.2
+  },
+  {
+    "number": 5,
+    "source_kind": "provided_docx",
+    "source_path": "analysis/examples/friend/image5.jpeg",
+    "original_media": "image5.jpeg",
+    "caption": "Панель управления авторулевым Yokogawa PT500",
     "width_cm": 16
   },
   {
-    "number": 11,
+    "number": 6,
     "source_kind": "provided_docx",
     "source_path": "analysis/examples/friend/image25.jpeg",
     "original_media": "image25.jpeg",
     "caption": "Рабочее место на ходовом мостике",
+    "width_cm": 16
+  },
+  {
+    "number": 7,
+    "source_kind": "provided_docx",
+    "source_path": "analysis/examples/friend/image6.jpeg",
+    "original_media": "image6.jpeg",
+    "caption": "Консоль ГМССБ: терминалы SAILOR 6006 Inmarsat-C, принтеры и блок управления ПВ/КВ-радиостанцией",
     "width_cm": 16
   }
 ]
