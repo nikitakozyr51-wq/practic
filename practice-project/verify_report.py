@@ -9,6 +9,7 @@ from docx import Document
 root=Path(__file__).resolve().parent
 a=root/'analysis'
 s=(a/'REPORT_CONTENT.md').read_text()
+assert not any(char in s for char in ('\u2014','\u2015')), 'Long dashes in report source'
 content=s[s.index('## 1.'):]
 main=[int(x) for x in re.findall(r'^## (\d+)\.',content,re.M)]
 subs=re.findall(r'^### (\d+\.\d+)\.',content,re.M)
@@ -54,6 +55,7 @@ with ZipFile(report) as z,ZipFile(root/'originals'/'Nazar_Otchet_Praktika.docx')
         assert 'word/'+by_id[rid] in z.namelist(),rid
     texts=tree.xpath('.//w:t/text()',namespaces=ns)
     full=' '.join(texts)
+    assert not any(char in full for char in ('\u2014','\u2015')), 'Long dashes in Word'
     assert 'PANTHERLIGHT' not in full and 'Еремян' not in full
     assert 'Козырева Никиты Алексеевича' in full and '[ФИО]' not in full
     assert sum(t.startswith('Рис. ') for t in texts)==len(figures)

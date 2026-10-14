@@ -1,7 +1,7 @@
 {
   "checker": "ars-acronym-check/1.0",
   "input": "practice-project/analysis/REPORT_CONTENT.md",
-  "input_sha256": "917e5517662dc50e17a52b400502e9b008ce48da05bc04ff2fa720e8bde972b7",
+  "input_sha256": "b03605d06df0b34c9583790fad3ebeb0bb102eb48d69c9198274fc7c11b101ef",
   "status": "partial",
   "allowlist": {
     "default": 29,
@@ -230,18 +230,6 @@
       "scope": "body",
       "line": 115,
       "acronym": "GPS",
-      "reason": "unread_definition_form"
-    },
-    {
-      "scope": "body",
-      "line": 155,
-      "acronym": "SOG",
-      "reason": "unread_definition_form"
-    },
-    {
-      "scope": "body",
-      "line": 155,
-      "acronym": "STW",
       "reason": "unread_definition_form"
     },
     {

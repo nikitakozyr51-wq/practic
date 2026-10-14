@@ -1,0 +1,30 @@
+### Acronym check (advisory; no reply needed)
+Coverage: body (partial)
+Not in this input: English abstract, Chinese abstract.
+Not checked:
+- Body, line 115: GPS (a definition form this check does not read)
+- Body, line 179: CPA (a definition form this check does not read)
+- Body, line 179: TCPA (a definition form this check does not read)
+- Body, line 397: MARPOL (the initials before its parentheses do not spell it)
+
+| Scope | Line | Rule | Acronym | Uses |
+|---|---|---|---|---|
+| Body | 13 | Not defined | CADET | 2 |
+| Body | 13 | Not defined | DECK | 2 |
+| Body | 19 | Not defined | GTA | 2 |
+| Body | 139 | Not defined | KN | 1 |
+| Body | 147 | Not defined | ANGLE | 2 |
+| Body | 147 | Not defined | RUDDER | 2 |
+| Body | 157 | Not defined | DL850 | 1 |
+| Body | 161 | Not defined | FOR | 2 |
+| Body | 161 | Not defined | LOG | 1 |
+| Body | 161 | Not defined | SPEED | 1 |
+| Body | 167 | Not defined | JRC | 2 |
+| Body | 167 | Not defined | NCZ | 1 |
+| Body | 167 | Not defined | SAILOR | 2 |
+| Body | 175 | Not defined | FT | 1 |
+| Body | 183 | Not defined | SAAB | 1 |
+| Body | 185 | Not defined | PT500 | 1 |
+| Body | 314 | Not defined | IV | 1 |
+| Body | 364 | Not defined | LSA | 1 |
+| Body | 398 | Not defined | AS | 1 |

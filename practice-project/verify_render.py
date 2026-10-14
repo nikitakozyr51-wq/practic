@@ -16,6 +16,7 @@ pdf = fitz.open(pdf_path)
 word = Document(analysis / 'report.docx')
 compact = lambda text: re.sub(r'\W', '', text)
 page_text = [page.get_text() for page in pdf]
+assert not any(char in text for text in page_text for char in ('\u2014', '\u2015')), 'Long dashes in PDF'
 normalized = [compact(text) for text in page_text]
 actual = {}
 for heading in receipt['headings']:
@@ -79,7 +80,7 @@ for page in pdf:
         assert page.rect.contains(fitz.Rect(image['bbox']))
 
 result = {'pdf_pages': len(pdf), 'toc_page_numbers_verified_in_pdf_and_docx': True,
-          'toc_text_black': True, 'photos': photos, 'photos_centered_in_text_area': True,
+          'toc_text_black': True, 'no_long_dashes': True, 'photos': photos, 'photos_centered_in_text_area': True,
           'photo_center_tolerance_mm': 1,
           'photo_center_max_deviation_mm': round(max(center_deviations), 3),
           'no_images_outside_pages': True, 'no_unintended_bullet_markers': True,

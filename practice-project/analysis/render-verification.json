@@ -2,6 +2,7 @@
   "pdf_pages": 23,
   "toc_page_numbers_verified_in_pdf_and_docx": true,
   "toc_text_black": true,
+  "no_long_dashes": true,
   "photos": [
     {
       "number": 1,
@@ -47,5 +48,5 @@
     23
   ],
   "font_substitution": "Liberation Serif for Times New Roman",
-  "pdf_sha256": "d330bf6a3c92d83dddffbbedc07da54d08092aee13972a60044cb1b2107109f6"
+  "pdf_sha256": "51c22fc216172932b41d3d4884179b6acebd01458ed99ff7ee196ad5ef0bb1c7"
 }
